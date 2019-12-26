@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+
+</head>
+<body>
+  <div class="bgimg">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#"><img src="logo.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+              
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                
+              </div>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+          
+          </ul>
+            <button class="btn btn-outline-success my-2 my-sm-0">Donate</button>
+        </div>
+      </nav>
+  
+    </div>
+
+
+    <section class="container services   about--part1 text-center">
+      <h1> EXPERTISE </h1>
+      <div class="row rowsetting">
+        <div class="col-lg-6 col-md-6 col-12 about--part2">
+          <img src="dis.jpg" alt="" class="img-fluid aboutimg "> 
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 about--part3">
+          <h2 class="heading">Disaster Management</h2>
+          <a href="#" class="btn btn-outline-primary mt-5">Know More</a>
+        </div>
+        </div>
+        <div class="row rowsetting">
+          <div class="col-lg-6 col-md-6 col-12 about--part2">
+            <h2 class="heading">Disaster Management</h2>
+            <a href="#" class="btn btn-outline-primary mt-5">Know More</a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 about--part3">
+            <img src="dis.jpg" alt="" class="img-fluid aboutimg"> 
+          </div>
+          </div>
+          
+       
+    </section>
+
+    <!-- GALLERY -->
+    <section class="container gallery  gallery--part1 text-center">
+      <h1> GALLERY </h1>
+        <div class="tz-gallery">
+          <div class="row rowsetting">
+            <div class="col-md-4">
+              <div class="card">
+                <a class="Lightbox" href="a.jpg">
+                <img src="a.jpg" alt="" class="card-img-top"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a class="Lightbox" href="a.jpg">
+                <img src="a.jpg" alt="" class="card-img-top"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a class="Lightbox" href="a.jpg">
+                <img src="a.jpg" alt="" class="card-img-top"></a>
+              </div>
+            </div>
+            <div class="row mt-3">
+            <div class="col-md-4">
+              <div class="card">
+                <a class="Lightbox" href="a.jpg">
+                <img src="a.jpg" alt="" class="card-img-top"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a class="Lightbox" href="a.jpg">
+                <img src="a.jpg" alt="" class="card-img-top"></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <a class="Lightbox" href="a.jpg">
+                <img src="a.jpg" alt="" class="card-img-top"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+    </section>
+    <script>
+      $(document).ready(function(){
+          $('.about--part1').waypoint(function(direction){
+              $('.about--part1').addClass('animated fadeInUp')
+          },{
+              offset:'700px'
+          });
+   
+      
+          $('.about--part2').waypoint(function(direction){
+              $('.about--part2').addClass('animated fadeInLeft')
+          },{
+              offset:'700px'
+          });
+          $('.about--part3').waypoint(function(direction){
+              $('.about--part3').addClass('animated fadeInRight')
+          },{
+              offset:'700px'
+          });
+          $('.gallery--part1').waypoint(function(direction){
+              $('.gallery--part1').addClass('animated fadeInUp')
+          },{
+              offset:'450px'
+          });
+       });
+   </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+         <script>
+           baguetteBox.run('.tz-gallery');
+         </script>
+</body>
+
+
+</html>

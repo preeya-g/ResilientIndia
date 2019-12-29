@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script> 
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            height: 9000px;
+        }
+        #container{
+            left:0;
+            top:0;
+            width: 400%;
+            position: fixed;
+            height: 100vh;
+            display: flex;
+
+        }
+
+        #container .section{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container .section .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container .section .content .text{
+            padding-right: 50px;
+        }
+        #container .section .content .text h1{
+            margin:0;
+            padding: 0;
+            font-size: 1.5em;
+        }
+        #container .section .content .text .btn{
+            margin-top: 15%;
+        }
+
+        #container .section .content img{
+            max-width: 300px;
+        }
+        #container .back1{
+            background-color:#e6eddd;
+            
+            padding-left: 25px;
+        }
+        #container .back2{
+            background-color:#ede6e7;
+            
+            padding-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+        </div>
+    </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div></div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        $(window).scroll(function(){
+            var scroll= $(window).scrollTop(),
+            dh= $(document).height(),
+            wh= $(window).height();
+            value=(scroll/(dh-wh))*100;
+            $('#container').css('left', -value *3 + '%');
+        })
+    </script>
+</body>
+</html>

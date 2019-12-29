@@ -87,3 +87,52 @@ width: 200px;
 height: 100px;
 border-radius: 25%;
 }
+
+
+
+/*footer*/
+.footer_style {
+    background: #1A1C28;
+    color: white;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #4bcffa;
+  }
+
+  .d-flex div {
+    text-align: center;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+  }
+
+  .d-flex div:last-child {
+    border-right: none;
+  }
+
+  @media(max-width: 768px) {
+    li {
+      list-style: none;
+    }
+
+    .d-flex span {
+      display: none;
+    }
+  }
+
+  
+
+
+li{
+list-style: none;
+float: left;
+margin-left:10px ;
+
+}

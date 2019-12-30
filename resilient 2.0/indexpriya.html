@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="indexpriya.css">
+
+    <script>
+        $(document).ready(function(){
+      $(".mera_exp").hover(function(){
+          $(".meraclass").html("Explore what and how we do the things.");
+        $(".meraclass").toggle();
+      });
+      
+      $(".mera_gallery").hover(function(){
+          $(".meraclass").html("Happy people, Happy faces ahead.");
+        $(".meraclass").toggle();
+      });
+      
+      $(".mera_contact").hover(function(){
+          $(".meraclass").html("Don't be a stranger, know us !");
+        $(".meraclass").toggle();
+      });
+      
+      
+      
+      });
+        </script>
+
+        <style>
+          #container{
+            left:0;
+            top:0;
+            width: 400%;
+                position: fixed;
+            height: 100vh;
+            display: flex;
+margin-top: 200px;
+        }
+
+        #container .section{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container .section .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container .section .content .text{
+            padding-right: 50px;
+        }
+        #container .section .content .text h1{
+            margin:0;
+            padding: 0;
+            font-size: 1.5em;
+        }
+        #container .section .content .text .btn{
+            margin-top: 15%;
+        }
+
+        #container .section .content img{
+            max-width: 500px;
+        }
+        #container .back1 , .back2{
+            background-color:transparent;
+            
+            padding-left: 25px;
+        }
+        .content .text{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimg">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                </ul>
+                <button class="btn btn-outline-success my-2 my-sm-0">Donate</button>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+        <!--priyaaaaaaaaaaaaaaaaaaaaaaaa-->
+        <center> <h1> <div class="discover" style="margin-top: 30px; margin-bottom: -10px;"> DISCOVER </div> </h1></center>
+        <div class="falogocontainer">
+            <div class="item">Our Expertise</div>
+            <div class="item">Our Gallery</div>
+            <div class="item">About Us</div>
+
+        </div>
+
+        <div class="falogocontainer">
+       <a href="#exp"> <i class="fa fa-thumb-tack fa-5x fa-fw mera_exp" aria-hidden="true"></i> </a>
+       <a href="#gallery"> <i class="fa fa-camera-retro fa-5x fa-fw mera_gallery" aria-hidden="true"></i> </a>
+       <a href="#contact">   <i class="fa fa-comments fa-5x fa-fw mera_contact" aria-hidden="true"></i> </a>
+        </div>
+        <div class="meraclass" style="display: none;"></div>
+
+
+        <a href="#aisehi"><div class="arrow"></div>
+</a>
+
+
+<div class="childrenparallax">
+
+</div>
+
+
+
+<div class="expertisehead">,<center> <h1>EXPERTISE </h1> </center></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="container">
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+    </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div></div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+            <div class="content">
+                <div class="text">
+                    <h1>Disaster Management</h1>
+                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                </div>
+                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--priyaaaaaaaaaaaaaaaaaaaaaaa-->
+    <script>
+        $(document).ready(function () {
+            $('.about--part1').waypoint(function (direction) {
+                $('.about--part1').addClass('animated fadeInUp')
+            }, {
+                offset: '50%'
+            });
+
+
+            $('.about--part2').waypoint(function (direction) {
+                $('.about--part2').addClass('animated fadeInLeft')
+            }, {
+                offset: '50%'
+            });
+            $('.about--part3').waypoint(function (direction) {
+                $('.about--part3').addClass('animated fadeInRight')
+            }, {
+                offset: '700px'
+            });
+            $('.gallery--part1').waypoint(function (direction) {
+                $('.gallery--part1').addClass('animated fadeInUp')
+            }, {
+                offset: '450px'
+            });
+        });
+       </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+<script>
+    $(window).scroll(function(){
+        var scroll= $(window).scrollTop(),
+        dh= $(document).height(),
+        wh= $(window).height();
+        value=(scroll/(dh-wh))*100;
+        $('#container').css('left', -value *3 + '%');
+    });
+</script>
+
+</body>
+
+
+</html>

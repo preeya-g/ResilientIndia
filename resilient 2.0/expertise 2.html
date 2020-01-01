@@ -165,12 +165,13 @@
     </div>
     <script>
         $(window).scroll(function(){
+            if($(window).scrollTop()>1000){
             var scroll= $(window).scrollTop(),
             dh= $(document).height(),
             wh= $(window).height();
             value=(scroll/(dh-wh))*100;
             $('#container').css('left', -value *3 + '%');
-        })
+        }})
     </script>
 </body>
 </html>

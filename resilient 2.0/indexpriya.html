@@ -26,39 +26,44 @@
     <link rel="stylesheet" href="indexpriya.css">
 
     <script>
-        $(document).ready(function(){
-      $(".mera_exp").hover(function(){
-          $(".meraclass").html("Explore what and how we do the things.");
-        $(".meraclass").toggle();
-      });
-      
-      $(".mera_gallery").hover(function(){
-          $(".meraclass").html("Happy people, Happy faces ahead.");
-        $(".meraclass").toggle();
-      });
-      
-      $(".mera_contact").hover(function(){
-          $(".meraclass").html("Don't be a stranger, know us !");
-        $(".meraclass").toggle();
-      });
-      
-      
-      
-      });
-        </script>
+        $(document).ready(function () {
+            $(".mera_exp").hover(function () {
+                $(".meraclass").html("Explore what and how we do the things.");
+                $(".meraclass").toggle();
+            });
 
-        <style>
-          #container{
-            left:0;
-            top:0;
+            $(".mera_gallery").hover(function () {
+                $(".meraclass").html("Happy people, Happy faces ahead.");
+                $(".meraclass").toggle();
+            });
+
+            $(".mera_contact").hover(function () {
+                $(".meraclass").html("Don't be a stranger, know us !");
+                $(".meraclass").toggle();
+            });
+
+
+
+        });
+    </script>
+
+    <style>
+        #container {
+
+            left: 0;
+            top: 0;
             width: 400%;
-                position: fixed;
+            position: relative;
             height: 100vh;
             display: flex;
-margin-top: 200px;
         }
 
-        #container .section{
+
+        .bgkacolor {
+            background-color: teal;
+        }
+
+        #container .section {
             position: relative;
             width: 100%;
             height: 100%;
@@ -68,32 +73,39 @@ margin-top: 200px;
             justify-content: center;
             align-items: center;
         }
-        #container .section .content{
+
+        #container .section .content {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        #container .section .content .text{
+
+        #container .section .content .text {
             padding-right: 50px;
         }
-        #container .section .content .text h1{
-            margin:0;
+
+        #container .section .content .text h1 {
+            margin: 0;
             padding: 0;
             font-size: 1.5em;
         }
-        #container .section .content .text .btn{
+
+        #container .section .content .text .btn {
             margin-top: 15%;
         }
 
-        #container .section .content img{
+        #container .section .content img {
             max-width: 500px;
         }
-        #container .back1 , .back2{
-            background-color:transparent;
-            
+
+        #container .back1,
+        .back2 {
+            background-color: transparent;
+
             padding-left: 25px;
         }
-        .content .text{
+
+        .content .text {
             color: black;
         }
     </style>
@@ -152,289 +164,283 @@ margin-top: 200px;
 
 
 
-        <!--priyaaaaaaaaaaaaaaaaaaaaaaaa-->
-        <center> <h1> <div class="discover" style="margin-top: 30px; margin-bottom: -10px;"> DISCOVER </div> </h1></center>
-        <div class="falogocontainer">
-            <div class="item">Our Expertise</div>
-            <div class="item">Our Gallery</div>
-            <div class="item">About Us</div>
+    <!--priyaaaaaaaaaaaaaaaaaaaaaaaa-->
+    <center>
+        <h1>
+            <div class="discover" style="margin-top: 30px; margin-bottom: -10px;"> DISCOVER </div>
+        </h1>
+    </center>
+    <div class="falogocontainer">
+        <div class="item">Our Expertise</div>
+        <div class="item">Our Gallery</div>
+        <div class="item">About Us</div>
 
-        </div>
+    </div>
 
-        <div class="falogocontainer">
-       <a href="#exp"> <i class="fa fa-thumb-tack fa-5x fa-fw mera_exp" aria-hidden="true"></i> </a>
-       <a href="#gallery"> <i class="fa fa-camera-retro fa-5x fa-fw mera_gallery" aria-hidden="true"></i> </a>
-       <a href="#contact">   <i class="fa fa-comments fa-5x fa-fw mera_contact" aria-hidden="true"></i> </a>
-        </div>
-        <div class="meraclass" style="display: none;"></div>
-
-
-        <a href="#aisehi"><div class="arrow"></div>
-</a>
-
-
-<div class="childrenparallax">
-
-</div>
+    <div class="falogocontainer">
+        <a href="#exp"> <i class="fa fa-thumb-tack fa-5x fa-fw mera_exp" aria-hidden="true"></i> </a>
+        <a href="#gallery"> <i class="fa fa-camera-retro fa-5x fa-fw mera_gallery" aria-hidden="true"></i> </a>
+        <a href="#contact"> <i class="fa fa-comments fa-5x fa-fw mera_contact" aria-hidden="true"></i> </a>
+    </div>
+    <div class="meraclass" style="display: none;"></div>
 
 
+    <a href="#aisehi">
+        <div class="arrow"></div>
+    </a>
 
-<!--<div class="expertisehead">,<center> <h1>EXPERTISE </h1> </center></div>-->
 
+    <div class="childrenparallax">
 
-
+    </div>
 
 
 
 
 
 
+    <!--expertise-->
 
+    <center>
+        <h1 id="exp" class="display-4">EXPERTISE</h1>
+    </center>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--<div id="container">
+    <div id="container">
         <div class="section">
             <div class="back1">
 
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
                 </div>
-                <img src="assets/dis.jpg" alt="">
+            </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+                <div class="content">
+
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back1">
+
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="back2">
+
+                <div class="content">
+                    <div class="text">
+                        <h1>Disaster Management</h1>
+                        <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
+                    </div>
+                    <img src="assets/dis.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
-        <div class="section">
-            <div class="back2">
-
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div>
-        </div>
-        </div>
-        <div class="section">
-            <div class="back1">
-
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div>
-        </div>
-        </div>
-        <div class="section">
-            <div class="back2">
-
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div>
-        </div>
-        </div>
-        <div class="section">
-            <div class="back1">
-
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div>
-        </div>
-        </div>
-        <div class="section">
-            <div class="back2">
-
-            <div class="content">
-
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="back1">
-
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div></div>
-        </div>
-        <div class="section">
-            <div class="back2">
-
-            <div class="content">
-                <div class="text">
-                    <h1>Disaster Management</h1>
-                    <button type="button" class="btn btn-outline-primary btn-sm">Know More</button>
-                </div>
-                <img src="assets/dis.jpg" alt="">
-            </div>
-        </div>
-        </div>
-    </div>-->
-   
 
 
 
 
+    <!--expertise-->
+
+<!--gallery-->
 
 
+<center>
+    <h1 id="contact" class="display-4">Gallery</h1>
+</center>
 
 
+    <!--contact-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!--priyaaaaaaaaaaaaaaaaaaaaaaa-->
+    <center>
+        <h1 id="contact" class="display-4">Contact Details</h1>
+    </center>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.about--part1').waypoint(function (direction) {
-                $('.about--part1').addClass('animated fadeInUp')
-            }, {
-                offset: '50%'
-            });
-
-
-            $('.about--part2').waypoint(function (direction) {
-                $('.about--part2').addClass('animated fadeInLeft')
-            }, {
-                offset: '50%'
-            });
-            $('.about--part3').waypoint(function (direction) {
-                $('.about--part3').addClass('animated fadeInRight')
-            }, {
-                offset: '700px'
-            });
-            $('.gallery--part1').waypoint(function (direction) {
-                $('.gallery--part1').addClass('animated fadeInUp')
-            }, {
-                offset: '450px'
-            });
-        });
-       </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
-    <script>
-        baguetteBox.run('.tz-gallery');
+        AOS.init();
     </script>
 
 
-<script>
-    $(window).scroll(function(){
-        var scroll= $(window).scrollTop(),
-        dh= $(document).height(),
-        wh= $(window).height();
-        value=(scroll/(dh-wh))*100;
-        $('#container').css('left', -value *3 + '%');
-    });
-</script>
 
-
-
-
-
-
-
-
-
-<!--aishhhhhh-->
-
-
-<center><h1 class="display-4">Contact Details</h1></center>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-
-
-
-<div class="d-flex flex-row  mb-3 justify-content-center" style="margin-top:60px; color:black;">
-    <div class="p-2 bd-highlight">
-        <div data-aos="zoom-in-right" class="card shadow">
-            <div class="card-body">
-                <ul class="list-group list-group-flush">
-                    <li  data-aos="fade-left" class="list-group-item"><i class="material-icons w3-xlarge animated ">business</i>  Resilient India</li>
-                    <li  data-aos="fade-right" class="list-group-item"><i class="material-icons w3-xlarge animated pulse infinite" style="padding-top:10px;">mail_outline</i> resilient.india@outlook.com </li>
-                    <li  data-aos="fade-left" class="list-group-item"><i class="material-icons w3-xlarge">language</i> www.resilientindia.co.in </li>
-                    <li  data-aos="fade-right" class="list-group-item"><i class="material-icons w3-xlarge animated slideInUP infinite">navigation</i> 305, Simlim Square, Near D.B. Marg Police Station,<br> Lamington Road, Grant Road (E), Mumbai – 400007 </li>
-                    <li class="list-group-item"><i class="material-icons w3-xlarge animated pulse infinite">call</i> +91 9823179464, +91 9665599900 </li>
-                </ul>
+    <div class="d-flex flex-row  mb-3 justify-content-space-evenly"
+        style="margin-top:60px; color:black; margin-left: 50px;">
+        <div class="p-2 bd-highlight">
+            <div data-aos="zoom-in-right" class="card shadow">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li data-aos="fade-left" class="list-group-item"><i
+                                class="material-icons w3-xlarge animated ">business</i> Resilient India</li>
+                        <li data-aos="fade-right" class="list-group-item"><i
+                                class="material-icons w3-xlarge animated pulse infinite"
+                                style="padding-top:10px;">mail_outline</i> resilient.india@outlook.com </li>
+                        <li data-aos="fade-left" class="list-group-item"><i
+                                class="material-icons w3-xlarge">language</i> www.resilientindia.co.in </li>
+                        <li data-aos="fade-right" class="list-group-item"><i
+                                class="material-icons w3-xlarge animated slideInUP infinite">navigation</i> 305, Simlim
+                            Square, Near D.B. Marg Police Station,<br> Lamington Road, Grant Road (E), Mumbai – 400007
+                        </li>
+                        <li class="list-group-item"><i class="material-icons w3-xlarge animated pulse infinite">call</i>
+                            +91 9823179464, +91 9665599900 </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-    </div>
-    <div class="p-2 bd-highlight">
-        
-    </div>
-    
-  </div>
+        </div>
+        <div class="p-2 bd-highlight" style="background-color: black; width: 400px; margin-left: 150px;">
+
+        </div>
+        <- map </div> <!--contact-->
+
+
+            <!--footer-->
+
+
+            <footer class="footer_style">
+                <main class="container-fluid">
+                    <div class="row p-3">
+                        <div class="col-md-2 col-12 offset-md-1">
+                            <h4>Resilient India</h4>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                            <p class="text-capitalize"> &#169 Powered BySIRTC, Sandip Foundation, Nashik</p>
+                        </div>
+
+                        <div class="col-md-4 col-12 col-sm-6 col-xs-12">
+                            <ul>
+                                <li> <a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i
+                                            class="fa fa-facebook fa-2x " aria-hidden="true"></i></a></li>
+                                <li> <a href="https://www.instagram.com/indiaresilient/"><i
+                                            class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></li>
+                                <li> <a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x "
+                                            aria-hidden="true"></i></a></li>
+                                <li> <a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i
+                                            class=" fa fa-youtube-play fa-2x " aria-hidden="true"></i></a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </main>
+            </footer>
 
 
 
+            <!--footer-->
 
 
+            <!--scripts-->
+
+            <script>
+                $(document).ready(function () {
+                    $('.about--part1').waypoint(function (direction) {
+                        $('.about--part1').addClass('animated fadeInUp')
+                    }, {
+                        offset: '50%'
+                    });
 
 
+                    $('.about--part2').waypoint(function (direction) {
+                        $('.about--part2').addClass('animated fadeInLeft')
+                    }, {
+                        offset: '50%'
+                    });
+                    $('.about--part3').waypoint(function (direction) {
+                        $('.about--part3').addClass('animated fadeInRight')
+                    }, {
+                        offset: '700px'
+                    });
+                    $('.gallery--part1').waypoint(function (direction) {
+                        $('.gallery--part1').addClass('animated fadeInUp')
+                    }, {
+                        offset: '450px'
+                    });
+                });
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+            <script>
+                baguetteBox.run('.tz-gallery');
+            </script>
 
 
+            <script>
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 1287) {
+                        var scroll = $(window).scrollTop(),
+                            dh = $(document).height(),
+                            wh = $(window).height();
 
-
+                        value = (scroll / (dh - wh)) * 100;
+                        $('#container').css('left', -value * 3 + '%');
+                    }
+                });
+            </script>
 
 
 

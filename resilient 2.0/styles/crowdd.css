@@ -1,5 +1,9 @@
+html{
+    overflow-x: initial !important;
+}
 body{
     background-image:linear-gradient(#0a4c54,black);
+    overflow-y:auto;
 }
 *{
     color:white;

@@ -42,3 +42,38 @@ hr{
 .class-images img{
     margin-left: 20px;
 }
+
+
+@media screen and (max-width: 473px) {
+body{
+    font-size: 20px;
+}
+
+.animated h1{
+    font-size: 30px;
+}
+
+.typewriter h4{
+    font-size: 15px;
+}
+
+.animated.lightSpeedIn{
+    font-size: 15px;
+}
+
+.display-4.animated.fadeInDown{
+    font-size: 20px;
+}
+.class-images{
+    margin-top: -10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.class-images img{  
+    height: 100px;
+    width: 300px;
+
+    margin-bottom: 10px;
+}
+}

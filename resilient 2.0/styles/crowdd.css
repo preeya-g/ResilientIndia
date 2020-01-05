@@ -26,3 +26,19 @@ hr{
     transform: scale(1.25) !important; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(74, 238, 169, 0.19) !important;
 }
+
+.class-images{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.class-images img:hover{
+    
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.class-images img{
+    margin-left: 20px;
+}

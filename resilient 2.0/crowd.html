@@ -8,6 +8,7 @@
       <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
       <link rel="stylesheet" href="./styles/about.css">
     </head>
@@ -22,6 +23,10 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
         
     <div class="head">
@@ -65,7 +70,7 @@
         <center><div class="container">
             <div class="row">
               <div class="col">
-                <div class="card text-white bg-dark mb-3 animated fadeInLeft"  style="max-width: 18rem;">
+                <div data-aos="fade-up-right" data-aos-duration="1000" class="card text-white bg-dark mb-3"  style="max-width: 18rem;">
                     <div class="card-header">Method 1</div>
                     <div class="card-body">
                       <p class="card-text">Hazard , Vulnerability , Risk , Assessment of event </p>
@@ -73,7 +78,7 @@
                   </div>
               </div>
               <div class="col">
-                <div class="card text-white bg-dark mb-3 animated fadeInDown delay-1s" style="max-width: 18rem;">
+                <div data-aos="zoom-in-up" data-aos-duration="1000" class="card text-white bg-dark mb-3 " style="max-width: 18rem;">
                     <div class="card-header">Method 2</div>
                     <div class="card-body">
                       <p class="card-text">Identify the hazards that may be associated event and what level of risk they represent.  </p>
@@ -81,7 +86,7 @@
                   </div>
               </div>
               <div class="col">
-                <div class="card text-white bg-dark mb-3 animated fadeInRight delay-2s" style="max-width: 18rem;">
+                <div data-aos="fade-down-left" data-aos-duration="1000" class="card text-white bg-dark mb-3 " style="max-width: 18rem;">
                     <div class="card-header">Method 3</div>
                     <div class="card-body">
                       <center><p class="card-text">Prioritize the hazards based on the level of risk they represent </p></center>
@@ -97,7 +102,7 @@
           <center><div class="container">
             <div class="row">
               <div class="col">
-                <div class="card text-white bg-dark mb-3 animated fadeInLeft delay-3s" style="max-width: 18rem;">
+                <div data-aos="fade-down-left" class="card text-white bg-dark mb-3 " style="max-width: 18rem;">
                     <div class="card-header">Method 4</div>
                     <div class="card-body">
                       <p class="card-text">Focus efforts on the highest priority risks first. Impart training to all involved on the basis of the assessment.   </p>
@@ -105,7 +110,7 @@
                   </div>
               </div>
               <div class="col">
-                <div class="card text-white bg-dark mb-3 animated fadeInUp delay-4s" style="max-width: 18rem;">
+                <div data-aos="zoom-in-up" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                     <div class="card-header">Method 5</div>
                     <div class="card-body">
                       <p class="card-text">Develop mitigation plans to eliminate or reduce the level of risk for each element as much as possible.   </p>
@@ -113,7 +118,7 @@
                   </div>
               </div>
               <div class="col">
-                <div class="card text-white bg-dark mb-3 animated fadeInRight delay-5s" style="max-width: 18rem;">
+                <div data-aos="fade-down-right" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                     <div class="card-header">Method 6</div>
                     <div class="card-body">
                       <center><p class="card-text">Determine if the level of risk remaining is acceptable or if additional mitigation efforts are required. </p></center>

@@ -197,6 +197,20 @@ body {
 }
 
 @media screen and (max-width: 473px) {
+  
+  body{
+      font-size: 20px;
+  }
+  
+  .animated h1{
+      font-size: 30px;
+  }
+  
+  .typewriter h4{
+      font-size: 15px;
+  }
+  
+  
   .background .typewriter h4 {
     font-size: use 10px;
   }

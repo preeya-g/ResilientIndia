@@ -62,22 +62,49 @@
 
 
         $(document).ready(function () {
-            $(".expleft .road").click(function () {
-                $(".expcenter").html("<img src='assets/index/1.jfif'>");
-                $(".expcenter").toggle();
+            $(".expleft .road").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/1.jfif' class='bandimages'> <br>Road safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
             });
 
-            $(".mera_gallery").hover(function () {
-                $(".meraclass").html("Happy people, Happy faces ahead.");
-                $(".meraclass").toggle();
+            $(".expleft .school").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/schoolsafety.jpeg' class='bandimages'> <br>School safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
+
             });
 
-            $(".mera_contact").hover(function () {
-                $(".meraclass").html("Don't be a stranger, know us !");
-                $(".meraclass").toggle();
+            $(".expleft .sec").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/safe.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
             });
 
 
+
+            $(".expleft .crime").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/cyber.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
+            });
+
+
+
+
+            $(".expright .disaster").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/disaster.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
+            });
+            $(".expright .risk").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/risk.jfif' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
+            });
+            $(".expright .crowd").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/crowd.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
+            });
+
+            $(".expright .prevent").hover(function () {
+                $(".expcenter").html("<div><img src='assets/index/crime.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").show();
+            });
 
         });
 
@@ -274,9 +301,9 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 <div class="expleft">
     <ul>
         <li class="road">ROAD SAFETY</li>
-        <li>SCHOOL SAFETY PROGRAM</li>
-        <li>SAFETY & SECURITY MANAGEMENT</li>
-        <li>CYBER CRIME</li>
+        <li class="school">SCHOOL SAFETY PROGRAM</li>
+        <li class="sec">SAFETY & SECURITY MANAGEMENT</li>
+        <li class="crime">CYBER CRIME</li>
     </ul>
 </div>
     <div class="expcenter" style="display: none;"></div>
@@ -284,10 +311,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 
 <div class="expright">
     <ul>
-        <li>DISASTER MANAGEMENT</li>
-        <li>RISK ANALYSIS</li>
-        <li>CROWD MANAGEMENT</li>
-        <li>CRIME PREVENTION</li>
+        <li class="disaster">DISASTER MANAGEMENT</li>
+        <li class="risk">RISK ANALYSIS</li>
+        <li class="crowd">CROWD MANAGEMENT</li>
+        <li class="prevent">CRIME PREVENTION</li>
     </ul>
 
     </div>

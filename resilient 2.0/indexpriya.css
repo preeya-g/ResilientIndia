@@ -234,6 +234,20 @@ content: "";
 background: no-repeat center center;
 background-size: 100% 100%;
 }
+
+.dashed {
+  border-style: dashed;
+  padding: 30px;
+  color: black;
+}
+
+
+ .bandimages{
+  border-radius: 50%;     
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 black;
+  width: 200px;
+  height: 200px;
+ }
 .navbar-brand img {
     position: absolute;
     margin-top: -25px;

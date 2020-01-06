@@ -55,9 +55,42 @@
 
 
         });
+
+
+
+
+
+
+        $(document).ready(function () {
+            $(".expleft .road").click(function () {
+                $(".expcenter").html("<img src='assets/index/1.jfif'>");
+                $(".expcenter").toggle();
+            });
+
+            $(".mera_gallery").hover(function () {
+                $(".meraclass").html("Happy people, Happy faces ahead.");
+                $(".meraclass").toggle();
+            });
+
+            $(".mera_contact").hover(function () {
+                $(".meraclass").html("Don't be a stranger, know us !");
+                $(".meraclass").toggle();
+            });
+
+
+
+        });
+
+
+
     </script>
 
     <style>
+
+ 
+
+
+
         #container {
 
             left: 0;
@@ -219,8 +252,31 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 
 
 <div class="expertiseitems">
-
     
+<div class="expleft">
+    <ul>
+        <li class="road">ROAD SAFETY</li>
+        <li>SCHOOL SAFETY PROGRAM</li>
+        <li>SAFETY & SECURITY MANAGEMENT</li>
+        <li>CYBER CRIME</li>
+    </ul>
+</div>
+    <div class="expcenter" style="display: none;"></div>
+
+
+<div class="expright">
+    <ul>
+        <li>DISASTER MANAGEMENT</li>
+        <li>RISK ANALYSIS</li>
+        <li>CROWD MANAGEMENT</li>
+        <li>CRIME PREVENTION</li>
+    </ul>
+
+    </div>
+
+
+
+
 </div>
 
 

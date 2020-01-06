@@ -208,6 +208,23 @@ padding: 16px 17px;
 }
 
 
+
+
+.expertiseitems ul{
+  list-style-type: none;
+
+}
+
+.expertiseitems{
+  line-height: 100px;
+  font-size: 1em;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 70px;
+}
+
+.expleft  {
+}
 .navbar-toggler-icon {
 display: inline-block;
 width: 1.5em;

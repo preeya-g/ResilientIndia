@@ -11,14 +11,13 @@
 
       <link rel="stylesheet" href="./styles/about.css">
       <style>
+        #ms:hover{
+          -webkit-transform: scale(1.05);
+        }
           .parallax {
             
             background-image: url("assets/donate/bg1.jpg");
-
-            
             height: 400px; 
-
-            
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -46,39 +45,43 @@
               </div>
           </div>
       </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                          <script>
+                              AOS.init();
+                          </script>
         
       <div class="parallax"></div>
 
-          <div class="jumbotron-fluid" >
-            <center><div class="container">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-right" class="container">
                 
               <h1 class="display-4" >BANK NAME</h1>
               <p class="lead" >STATE BANK OF INDIA</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid" >
-            <center><div class="container">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-left" class="container">
                 <hr class="my-4">
               <h1 class="display-4">ACCOUNT NAME</h1>
               <p class="lead">RESILIENT INDIA</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid">
-            <center><div class="container">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-right" class="container">
                 <hr class="my-4">
               <h1 class="display-4" >ACCOUNT NUMBER</h1>
               <p class="lead" >36044866405</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid">
-            <center><div class="container">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-left" class="container">
                 <hr class="my-4">
               <h1 class="display-4" >BRANCH</h1>
               <p class="lead" >14443-INDIRA NAGAR NASHIK</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid">
-            <center><div class="container">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-right" class="container">
                 <hr class="my-4">
               <h1 class="display-4" >IFSC CODE</h1>
               <p class="lead" >SBIN0014443</p>

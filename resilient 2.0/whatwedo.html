@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
+
+
+
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -23,12 +27,30 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+
+    <link rel="stylesheet" href="styles/other.css">
+
+  <link rel="stylesheet" href="styles/about.css">
+
+  <!--footer link-->
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/footer.css">
+
+
+
+<!--footer link-->
+
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
     <style>
        
 
         .pt11 li {
            list-style: decimal;
-            font-size: 1.5em;
+           font-size: 15px;
             font-weight: 200;
             color: white;
             padding-top: 15px;
@@ -38,7 +60,7 @@
             
         }
        .pt11 li ol li{
-          font-size: 20px;
+          font-size: 15px;
           list-style:lower-alpha;
           margin-left:50px ;
          
@@ -49,6 +71,7 @@
             background-size: cover;
             margin: 0;
             font-family: 'Josefin Sans', sans-serif;
+            font-size: 15px;
 
         }
 
@@ -74,9 +97,57 @@
 </head>
 
 <body>
-     <center>
-        <h1 class="display-4" style="color:white">WHAT WE DO</h1>
-      </center>
+     
+  <nav class="navbar">
+    <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">TESTIMONIALS</a></li>
+        <li><a href="#">CLIENTS</a></li>
+
+        <div class="dropdown">
+          <li class="dropbtn"><a href="">PROJECTS</a> </li>
+          <div class="dropdown-content">
+            <a href="#">Current Projects</a>
+            <a href="#">Successful Projects</a>
+          </div>
+        </div>
+        <li><a href="#">JOIN US</a></li>
+        <li><a href="#"><button type="submit" class="outline white-blue">Donate</button></a></li>
+
+
+      </ul>
+    </div>
+  </nav>
+  
+  
+
+
+
+
+
+  <div class="head">
+    <div class="background">
+        <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
+        <div class="animated fadeInLeft">
+            <h1>WHAT WE DO</h1>
+        </div>
+        <div class="typewriter">
+            <h4> Our Works </h4>
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class="kcontent">
       
       
@@ -153,6 +224,35 @@
         
         
 </div>
+
+
+
+
+  <div class="footer">
+    <div class="contain">
+    <div class="col">
+      <h1>Resilient India</h1>
+      
+    </div>
+    <div class="col">
+      <h1> &#169 Powered by RAIT </h1>
+      
+    </div>
+    
+    
+    <div class="col social">
+      <ul>
+        <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  <div class="clearfix"></div>
+  </div>
+  </div>
+
+  
     <script>
         $(document).ready(function () {
             $('.about--part1').waypoint(function (direction) {

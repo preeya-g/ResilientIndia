@@ -524,7 +524,8 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 -->
 <div class="portfolio about--part1">
     <div class="container text-center">
-      
+        <div class="tz-gallery">
+
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
                 <div class="card">
@@ -568,6 +569,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
                     <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </div>
@@ -719,28 +721,12 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
             </script>
 
 
-            <script>
-                $(window).scroll(function () {
-                    if ($(window).scrollTop() > 1287) {
-                        var scroll = $(window).scrollTop(),
-                            dh = $(document).height(),
-                            wh = $(window).height();
-
-                        value = (scroll / (dh - wh)) * 100;
-                        $('#container').css('left', -value * 3 + '%');
-                    }
-                });
-            </script>
 
 
 
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
-<script>
-  baguetteBox.run('.tz-gallery');
-</script>
 
 
 

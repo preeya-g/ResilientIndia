@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -26,9 +29,11 @@
 
 
     <link rel="stylesheet" href="indexpriya.css">
+    <link rel="stylesheet" href="styles/ytstyle.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
-<!--to be removed
+    <!--to be removed
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 -->
@@ -63,25 +68,33 @@
 
         $(document).ready(function () {
             $(".expleft .road").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/1.jfif' class='bandimages'> <br>Road safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/road.png' class='bandimages'> <br>Road safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
 
             $(".expleft .school").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/schoolsafety.jpeg' class='bandimages'> <br>School safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/schoolsafety2.png' class='bandimages'> <br>School safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
 
             });
 
             $(".expleft .sec").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/safe.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/safe2.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
 
 
 
             $(".expleft .crime").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/cyber.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/cyber2.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
 
@@ -89,32 +102,37 @@
 
 
             $(".expright .disaster").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/disaster.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/disaster2.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
             $(".expright .risk").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/risk.jfif' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/risk2.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
             $(".expright .crowd").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/crowd.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/crowd2.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
 
             $(".expright .prevent").hover(function () {
-                $(".expcenter").html("<div><img src='assets/index/crime.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>");
+                $(".expcenter").html(
+                    "<div><img src='assets/index/crime2.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    );
                 $(".expcenter").show();
             });
 
         });
-
-
-
     </script>
 
     <style>
-        #aishh{
-            width:100%;
+        #aishh {
+            width: 100%;
             position: relative;
             opacity: 1;
             -webkit-opacity: 0.5;
@@ -124,7 +142,7 @@
             -moz-transition: 0.5s ease;
         }
 
-        #aishh:hover{
+        #aishh:hover {
             width: 110%;
             opacity: 1;
             -webkit-opacity: 1;
@@ -132,7 +150,7 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 gray;
         }
 
-        #xyzz:hover{
+        #xyzz:hover {
             -webkit-transform: scale(1.04);
         }
 
@@ -197,12 +215,13 @@
             color: black;
         }
 
-        .navbar-toggler{
-  border-color: rgb(255,255,255);
-}
-.navbar-toggler-icon {
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+        .navbar-toggler {
+            border-color: rgb(255, 255, 255);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
     </style>
 </head>
 
@@ -217,9 +236,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
@@ -233,7 +250,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                           Projects
+                            Projects
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Current Projects</a>
@@ -243,7 +260,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Join Us</a>
@@ -296,37 +313,37 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
     </center>
 
 
-<div class="expertiseitems">
-    
-<div class="expleft">
-    <ul>
-        <li class="road">ROAD SAFETY</li>
-        <li class="school">SCHOOL SAFETY PROGRAM</li>
-        <li class="sec">SAFETY & SECURITY MANAGEMENT</li>
-        <li class="crime">CYBER CRIME</li>
-    </ul>
-</div>
-    <div class="expcenter" style="display: none;"></div>
+    <div class="expertiseitems">
+
+        <div class="expleft">
+            <ul>
+                <li class="road">ROAD SAFETY</li>
+                <li class="school">SCHOOL SAFETY PROGRAM</li>
+                <li class="sec">SAFETY & SECURITY MANAGEMENT</li>
+                <li class="crime">CYBER CRIME</li>
+            </ul>
+        </div>
+        <div class="expcenter" style="display: none;"></div>
 
 
-<div class="expright">
-    <ul>
-        <li class="disaster">DISASTER MANAGEMENT</li>
-        <li class="risk">RISK ANALYSIS</li>
-        <li class="crowd">CROWD MANAGEMENT</li>
-        <li class="prevent">CRIME PREVENTION</li>
-    </ul>
+        <div class="expright">
+            <ul>
+                <li class="disaster">DISASTER MANAGEMENT</li>
+                <li class="risk">RISK ANALYSIS</li>
+                <li class="crowd">CROWD MANAGEMENT</li>
+                <li class="prevent">CRIME PREVENTION</li>
+            </ul>
+
+        </div>
+
+
+
 
     </div>
 
 
 
 
-</div>
-
-
-    
-    
     <!--expertise
 
     <center>
@@ -567,14 +584,78 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 
     <!--expertise-->
 
-<!--gallery-->
+    <!--gallery-->
 
 
-<center>
-    <h1 id="contact" class="display-4">Gallery</h1>
-</center>
+    <center>
+        <h1 id="gallery" class="display-4">Gallery</h1>
+    </center>
 
-<!-- GALLERY 
+
+
+
+
+
+
+
+
+    <div class="sectiontitle">
+        <h2>YouTube Links</h2>
+        <span class="headerLine"></span>
+    </div>
+
+
+    <div id="projectFacts" class="sectionClass">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-11 col-md-10 col-centered">
+
+                    <div id="carousel" class="carousel slide" data-type="multi" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="carousel-col">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-col">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+
+
+
+
+                <!-- GALLERY 
 <section class="gallery  gallery--part1">
     <div class="container">
     <div class="tz-gallery">
@@ -623,72 +704,80 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 </div>
   </section>
 -->
-<div class="portfolio about--part1">
-    <div class="container text-center">
-        <div class="tz-gallery">
 
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
-                <div class="card">
-                    <img src="assets/dis.jpg" alt="" class="card-img img-fluid">
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
 
-  
-    <!--contact-->
-
-    <center>
-        <h1 id="contact" class="display-4">Contact Details</h1>
-    </center>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+                <div class="sectiontitle">
+                    <h2>Photos</h2>
+                    <span class="headerLine" style="width:70px"></span>
+                </div>
 
 
 
-    <!--<div class="d-flex flex-row  mb-3 justify-content-space-evenly"
+                <div class="portfolio about--part1">
+                    <div class="container text-center">
+
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block">
+                                <div class="card">
+                                    <img src="assets/crowdmanage/img3.png" alt="" class="card-img img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--contact-->
+
+                <center>
+                    <h1 id="contact" class="display-4">Contact Details</h1>
+                </center>
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                </script>
+
+
+
+                <!--<div class="d-flex flex-row  mb-3 justify-content-space-evenly"
         style=" color:black; margin-left: 50px;">
         <div class="p-2 bd-highlight">
             <div data-aos="zoom-in-right" class="card shadow">
@@ -715,119 +804,146 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
             <img src="assets/map.png" class="img-fluid" alt="map">
         </div>
         <- map </div> -->
-        
-        <section class="container mt-50px">
-            <div class="row justify-content-center">
-                <div class=" col-md-6">
-                    <div data-aos="zoom-in-right" data-aos-duration="1000" class="card shadow" style="color:black">
-                        <div class="card-body" >
-                            <ul class="list-group list-group-flush" >
-                                <li data-aos="fade-left" class="list-group-item" id="xyzz"><i
-                                        class="material-icons w3-xlarge animated ">business</i> Resilient India</li>
-                                <li data-aos="fade-right" class="list-group-item" id="xyzz"><i
-                                        class="material-icons w3-xlarge animated pulse infinite">mail_outline</i> <a href="mailto:resilient.india@outlook.com" style="color:black">resilient.india@outlook.com</a> </li>
-                                <li data-aos="fade-left" class="list-group-item" id="xyzz"><i
-                                        class="material-icons w3-xlarge">language</i> www.resilientindia.co.in </li>
-                                <li data-aos="fade-right" class="list-group-item" id="xyzz"><i
-                                        class="material-icons w3-xlarge animated slideInUP infinite">navigation</i> <a style="color:black;" href="https://www.google.com/maps/place/D+B+Marg+Police+Station/@18.9607754,72.8148782,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7cefa8350e16b:0xf69e7e952104f23e!8m2!3d18.9607754!4d72.8170669" target="_blank">305, Simlim
-                                    Square, Near D.B. Marg Police Station,<br> Lamington Road, Grant Road (E), Mumbai – 400007</a>
-                                </li>
-                                <li data-aos="fade-left" class="list-group-item" id="xyzz"><i class="material-icons w3-xlarge animated pulse infinite">call</i>
-                                    +91 9823179464, +91 9665599900 </li>
-                            </ul>
+
+                <section class="container mt-50px">
+                    <div class="row justify-content-center">
+                        <div class=" col-md-6">
+                            <div data-aos="zoom-in-right" data-aos-duration="1000" class="card shadow"
+                                style="color:black">
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li data-aos="fade-left" class="list-group-item" id="xyzz"><i
+                                                class="material-icons w3-xlarge animated ">business</i> Resilient India
+                                        </li>
+                                        <li data-aos="fade-right" class="list-group-item" id="xyzz"><i
+                                                class="material-icons w3-xlarge animated pulse infinite">mail_outline</i>
+                                            <a href="mailto:resilient.india@outlook.com"
+                                                style="color:black">resilient.india@outlook.com</a> </li>
+                                        <li data-aos="fade-left" class="list-group-item" id="xyzz"><i
+                                                class="material-icons w3-xlarge">language</i> www.resilientindia.co.in
+                                        </li>
+                                        <li data-aos="fade-right" class="list-group-item" id="xyzz"><i
+                                                class="material-icons w3-xlarge animated slideInUP infinite">navigation</i>
+                                            <a style="color:black;"
+                                                href="https://www.google.com/maps/place/D+B+Marg+Police+Station/@18.9607754,72.8148782,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7cefa8350e16b:0xf69e7e952104f23e!8m2!3d18.9607754!4d72.8170669"
+                                                target="_blank">305, Simlim
+                                                Square, Near D.B. Marg Police Station,<br> Lamington Road, Grant Road
+                                                (E), Mumbai – 400007</a>
+                                        </li>
+                                        <li data-aos="fade-left" class="list-group-item" id="xyzz"><i
+                                                class="material-icons w3-xlarge animated pulse infinite">call</i>
+                                            +91 9823179464, +91 9665599900 </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="card" id="aishh">
+                                <a href="https://www.google.com/maps/place/D+B+Marg+Police+Station/@18.9607754,72.8148782,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7cefa8350e16b:0xf69e7e952104f23e!8m2!3d18.9607754!4d72.8170669"
+                                    target="_blank">
+                                    <img src="assets/map.png" alt="" class="card-img-top"></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div data-aos="zoom-in"  data-aos-duration="1000" class="card" id="aishh">
-                        <a href="https://www.google.com/maps/place/D+B+Marg+Police+Station/@18.9607754,72.8148782,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7cefa8350e16b:0xf69e7e952104f23e!8m2!3d18.9607754!4d72.8170669" target="_blank">
-                        <img src="assets/map.png" alt="" class="card-img-top"></a>
-                      </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        <!--contact-->
+                </section>
 
 
-            <!--footer-->
-<br><br>
+                <!--contact-->
 
-            <footer class="footer_style">
-                <main class="container-fluid">
-                    <div class="row p-3">
-                        <div class="col-md-2 col-12 offset-md-1">
-                            <h4>Resilient India</h4>
+
+                <!--footer-->
+                <br><br>
+
+                <footer class="footer_style">
+                    <main class="container-fluid">
+                        <div class="row p-3">
+                            <div class="col-md-2 col-12 offset-md-1">
+                                <h4>Resilient India</h4>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                                <p class="text-capitalize"> &#169 Powered BySIRTC, Sandip Foundation, Nashik</p>
+                            </div>
+
+                            <div class="col-md-4 col-12 col-sm-6 col-xs-12">
+                                <ul>
+                                    <li> <a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i
+                                                class="fa fa-facebook fa-2x " aria-hidden="true"></i></a></li>
+                                    <li> <a href="https://www.instagram.com/indiaresilient/"><i
+                                                class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></li>
+                                    <li> <a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x "
+                                                aria-hidden="true"></i></a></li>
+                                    <li> <a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i
+                                                class=" fa fa-youtube-play fa-2x " aria-hidden="true"></i></a></li>
+
+                                </ul>
+
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-12 col-sm-12">
-                            <p class="text-capitalize"> &#169 Powered BySIRTC, Sandip Foundation, Nashik</p>
-                        </div>
-
-                        <div class="col-md-4 col-12 col-sm-6 col-xs-12">
-                            <ul>
-                                <li> <a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i
-                                            class="fa fa-facebook fa-2x " aria-hidden="true"></i></a></li>
-                                <li> <a href="https://www.instagram.com/indiaresilient/"><i
-                                            class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></li>
-                                <li> <a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x "
-                                            aria-hidden="true"></i></a></li>
-                                <li> <a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i
-                                            class=" fa fa-youtube-play fa-2x " aria-hidden="true"></i></a></li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </main>
-            </footer>
+                    </main>
+                </footer>
 
 
 
-            <!--footer-->
+                <!--footer-->
 
 
-            <!--scripts-->
+                <!--scripts-->
 
-            <script>
-                $(document).ready(function () {
-                    $('.about--part1').waypoint(function (direction) {
-                        $('.about--part1').addClass('animated fadeInUp')
-                    }, {
-                        offset: '50%'
+                <script>
+                    $(document).ready(function () {
+                        $('.about--part1').waypoint(function (direction) {
+                            $('.about--part1').addClass('animated fadeInUp')
+                        }, {
+                            offset: '50%'
+                        });
+
+
+                        $('.about--part2').waypoint(function (direction) {
+                            $('.about--part2').addClass('animated fadeInLeft')
+                        }, {
+                            offset: '50%'
+                        });
+                        $('.about--part3').waypoint(function (direction) {
+                            $('.about--part3').addClass('animated fadeInRight')
+                        }, {
+                            offset: '700px'
+                        });
+                        $('.gallery--part1').waypoint(function (direction) {
+                            $('.gallery--part1').addClass('animated fadeInUp')
+                        }, {
+                            offset: '450px'
+                        });
                     });
+                </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+                <script>
+                    baguetteBox.run('.tz-gallery');
+                </script>
 
 
-                    $('.about--part2').waypoint(function (direction) {
-                        $('.about--part2').addClass('animated fadeInLeft')
-                    }, {
-                        offset: '50%'
+                <script>
+                    $(window).scroll(function () {
+                        if ($(window).scrollTop() > 1287) {
+                            var scroll = $(window).scrollTop(),
+                                dh = $(document).height(),
+                                wh = $(window).height();
+
+                            value = (scroll / (dh - wh)) * 100;
+                            $('#container').css('left', -value * 3 + '%');
+                        }
                     });
-                    $('.about--part3').waypoint(function (direction) {
-                        $('.about--part3').addClass('animated fadeInRight')
-                    }, {
-                        offset: '700px'
-                    });
-                    $('.gallery--part1').waypoint(function (direction) {
-                        $('.gallery--part1').addClass('animated fadeInUp')
-                    }, {
-                        offset: '450px'
-                    });
-                });
-            </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
-            <script>
-                baguetteBox.run('.tz-gallery');
-            </script>
+                </script>
 
 
 
 
 
 
-
-
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+                <script>
+                    baguetteBox.run('.tz-gallery');
+                </script>
 
 
 

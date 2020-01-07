@@ -254,6 +254,11 @@ body {
 
 }
 
+
+.expertiseitems a{
+  text-decoration: none;
+
+}
 .expleft li:hover {
   font-size: 1.25em;
   transition: 0.5s ease-out;

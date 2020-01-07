@@ -11,6 +11,27 @@
 
       <link rel="stylesheet" href="./styles/about.css">
       <style>
+        #ms:hover{
+          -webkit-transform: scale(1.05);
+        }
+        hr.new{
+           
+           border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(255, 255, 255,0 ), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    width: 50%;
+}
+          
+.parallax {
+            
+            background-image: url("assets/donate/bg1.jpg");
+            height: 400px; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+    
       @media screen and (max-width: 473px) {
         .typewriter h4{
       font-size: 10px;
@@ -22,49 +43,54 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <div class="head">
-          <div class="background">
+          <div class="background" style="height:200px;">
               <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
               <div class="animated fadeInLeft">
                   <h1>DONATE US</h1>
               </div>
               <div class="typewriter">
-                  <h4>giving is the greatest act of grace</h4>
+                  <h4>Giving Is The Greatest Act Of Grace.</h4>
               </div>
           </div>
       </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                          <script>
+                              AOS.init();
+                          </script>
         
-    
-          <div class="jumbotron-fluid" >
-            <center><div class="container">
-                <hr class="my-4">
+      <div class="parallax"></div>
+
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-right" class="container">
+                
               <h1 class="display-4" >BANK NAME</h1>
               <p class="lead" >STATE BANK OF INDIA</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid" >
-            <center><div class="container">
-                <hr class="my-4">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-left" class="container">
+                <hr class="new my-4">
               <h1 class="display-4">ACCOUNT NAME</h1>
               <p class="lead">RESILIENT INDIA</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid">
-            <center><div class="container">
-                <hr class="my-4">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-right" class="container">
+                <hr class="new my-4">
               <h1 class="display-4" >ACCOUNT NUMBER</h1>
               <p class="lead" >36044866405</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid">
-            <center><div class="container">
-                <hr class="my-4">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-left" class="container">
+                <hr class="new my-4">
               <h1 class="display-4" >BRANCH</h1>
               <p class="lead" >14443-INDIRA NAGAR NASHIK</p>
             </div></center>
           </div><br>
-          <div class="jumbotron-fluid">
-            <center><div class="container">
-                <hr class="my-4">
+          <div class="jumbotron-fluid" id="ms">
+            <center><div data-aos="zoom-in-right" class="container">
+                <hr class="new my-4">
               <h1 class="display-4" >IFSC CODE</h1>
               <p class="lead" >SBIN0014443</p>
             </div></center>

@@ -85,13 +85,28 @@ flex-direction: column;
     max-width: 50%;
   }
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 610px) {
   .column {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+}*/
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 600px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }
+}
+
+@media screen and (min-width: 377px) {
+  .column {
+    -ms-flex: 32%;
+    flex: 32%;
+    max-width: 32%;
   }
 }
 @media screen and (max-width: 376px) {

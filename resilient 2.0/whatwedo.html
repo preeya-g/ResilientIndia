@@ -1,286 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-
-
-
-
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-
-
-    <link rel="stylesheet" href="styles/other.css">
-
-  <link rel="stylesheet" href="styles/about.css">
-
-  <!--footer link-->
-  <link rel="stylesheet" href="styles/footer.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles/footer.css">
-
-
-
-<!--footer link-->
-
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-
     <style>
+
+    .container-what{
+        margin: 7%;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .rightinfo,.leftinfo{
+        font-size: 1rem;
+        margin-left: 0%;
        
+     
 
-        .pt11 li {
-           list-style: decimal;
-           font-size: 15px;
-            font-weight: 200;
-            color: white;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            padding-right: 15px;
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            
-        }
-       .pt11 li ol li{
-          font-size: 15px;
-          list-style:lower-alpha;
-          margin-left:50px ;
-         
-       }
+    }
+    .rightinfo li,   .leftinfo li{
+        list-style: none;
+        margin-left: 10%;
+      
+       
+    }
+    .info li{
+        list-style:none;
+        font-size: 20px;
+    }
+    .info{
+      
+       padding: 30px;
+       border-radius: 10px;
+       box-shadow: 0px 0px 15px 0px #000;
+      
+	
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #2be7af, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
 
-        body {
-            background-image: linear-gradient(#0a4c54, black);
-            background-size: cover;
-            margin: 0;
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 15px;
 
-        }
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
-        @media only screen and (max-width: 800px) {
-          
-            .pt11 li {
-                font-size: 1.5em;
-            }
-        }
-        .kcontent{
-            margin: 5px 10px 5px 30px;
-        }
+    }
+   
+ 
 
-        hr.new{
-            
-         border: 0;
-    height: 1px;
-    background: #fff;
-    background-image: linear-gradient(to right,#333 , #ccc, #333);
+.container-what .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.parallax {
+  /* The image used */
+  background-image: url('assets/img2.png');
+  overflow: hidden;
 
-        }
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.risk{
+    font-size: 14px;
+}
+
+
+
     </style>
 </head>
-
 <body>
-     
-  <nav class="navbar">
-    <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">TESTIMONIALS</a></li>
-        <li><a href="#">CLIENTS</a></li>
+    <div class="container-what">
+<div class="row">
 
-        <div class="dropdown">
-          <li class="dropbtn"><a href="">PROJECTS</a> </li>
-          <div class="dropdown-content">
-            <a href="#">Current Projects</a>
-            <a href="#">Successful Projects</a>
-          </div>
-        </div>
-        <li><a href="#">JOIN US</a></li>
-        <li><a href="#"><button type="submit" class="outline white-blue">Donate</button></a></li>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-10 mb-5 leftside ">
+        <div data-aos="fade-right">
 
+        <img src="assets/img2.png" alt="" class="card-img img-fluid limg">
+    </div></div>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-10 rightside">
+        <div class="rightinfo">
+            <div data-aos="fade-left">
+                <li>Awareness generation for Disaster Preparedness.
+    </li>
+        <li>Education and Training on Disaster Management
+    </li>
+        <li>Mitigation and Contingency Planning
+    </li>
+        <li>Training for Govt Schools & Private Schools regarding Disaster Management.
 
-      </ul>
-    </div>
-  </nav>
-  
-  
+    </li>
+    
+        <li>Training for Govt Officers, Police Officers & Police Personnel on Disaster Management.
+    </li>
+    
+        <li>Formation of Disaster Management Committees and Teams
+    </li>
+        <li>Development of Disaster Management Plans and Conduct of mock drills
+    </li>
+    <li>Awareness campaign and providing guidance on Preparedness of the community and all the stakeholders against the following Disasters:
 
-
-
-
-
-  <div class="head">
-    <div class="background">
-        <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
-        <div class="animated fadeInLeft">
-            <h1>WHAT WE DO</h1>
-        </div>
-        <div class="typewriter">
-            <h4> Our Works </h4>
-        </div>
+  <ul> <li>Geological related Disasters.</li>
+      <li>  Medical Related Disasters.</li>
+       <li> Terrorist related Disasters.</li>
+       <li> Water and climatic Related disasters</li>
+       <li> Chemical, environmental, industrial related Disasters. Disaster related to pollution, deforestation and wild life.</li>
+       <li> Accident related disasters   </li></ul> </li>
+</div>
     </div>
 </div>
+</div>
+<div class="parallax mb-5"></div>
+<!--
+
+-->
 
 
+<div class="row">
 
 
-<div class="kcontent">
-      
-      
+    <div class="col-lg-6 col-md-6 col-sm-12 col-10 leftside ">
+        <div class="leftinfo">
+        <div data-aos="fade-down">
+            <li>Risk Analysis
 
-            <div class="pt11 about--part2 ">
-                   <li>Awareness generation for Disaster Preparedness.            </li><hr class="new my-4">
-                   <li>Awareness campaign and providing guidance on Preparedness of the community and 
-                  all the stakeholders against the following Disasters:<br>
-            <ol> <li>Geological related Disasters.</li>
-                     <li>Medical Related Disasters.</li>
-                     <li> Terrorist related Disasters.</li>
-                     <li> Water and climatic Related disasters with special emphasis to cyclones, drought, famines, floods and drainage problems, cloud burst, heat/cold waves, sea coast erosion, thunder and lightning strike and Tsunami.</li>
-                     <li> Biological related Disasters on cattle epidemics, food poisoning and pest attacks.</li>
-                     <li> Chemical, environmental, industrial related Disasters. Disaster related to pollution, deforestation and wild life.</li>
-                     <li>  Accident related disasters include structural collapses, explosion, urban and village fires, electrical fires, festival related accidents and rail/road accidents.</li>
-                  </ol> 
-            </li>      <hr class="new my-4">
-                 <li>Education and Training on Disaster Management
-            </li>  <hr class="new my-4">
-                  <li>Mitigation and Contingency Planning
-            </li>  <hr class="new my-4">
-                <li>Training for Govt Schools & Private Schools regarding Disaster Management.
-            </li>  <hr class="new my-4">
-                 <li>Training for Govt Officers, Police Officers & Police Personnel on Disaster Management.
-            </li>  <hr class="new my-4">
-                <li>Crime Prevention
-            </li>  <hr class="new my-4">
-                 <li>Formation of village level Task Force
-            </li>  <hr class="new my-4">
-                  <li>Formation of Disaster Management Committees and Teams
-            </li>  <hr class="new my-4">
-                 <li>Development of Disaster Management Plans and Conduct of mock drills
-            </li>  <hr class="new my-4">
-                  <li>Crowd Management and Traffic Management in mass scale gatherings and public events
-            </li>  <hr class="new my-4">
-                <li>Vulnerability assessment and coordination with Government and Non Government agencies
-            </li>  <hr class="new my-4">
-                 <li>Hazard Mapping
-            </li>  <hr class="new my-4">
-                 <li>Comprehensive Disaster Risk Management Framework
-            </li>  <hr class="new my-4">
-                 <li>Financial Strategies for Managing Economic Impacts of Disasters
-            </li>  <hr class="new my-4">
-                  <li>Earthquake Risk Reduction
-            </li>   <hr class="new my-4">
-                <li>Drought mitigation strategies
-            </li>  <hr class="new my-4">
-                 <li>Gender aspects of Disaster Recovery and Reconstruction
-            </li>  <hr class="new my-4">
-                 <li>Risk Analysis
-            </li>  <hr class="new my-4">
-                 <li>Risk Sensitive Land Use Planning
-            </li>  <hr class="new my-4">
-                <li>Damage and Reconstruction Needs Assessment
-            </li>  <hr class="new my-4">
+            </li>
+                <li>Education and Training on Disaster Management
+            </li>
+                <li>Risk Sensitive Land Use Planning
+        
+            </li>
                 <li>Community based Disaster Risk Management
-            </li>  <hr class="new my-4">
-                <li>Community induced early warnings and preparedness
-            </li>  <hr class="new my-4">
-                <li>Safe Cities
-            </li>  <hr class="new my-4">
-                 <li>Climate Change and Disaster Risk
-            </li>  <hr class="new my-4">
-                <li>Urban Resilience and Sustainable Land use Planning.
-            </li>  <hr class="new my-4">
-                <li>Water Resources Management
-            </li>  <hr class="new my-4">
-                 <li>Environmental Law and Policy
-            </li>  <hr class="new my-4">
-                <li>Conducting activities and imparting training in all the current and future sectors in which NSDC (National Skill Development Corporation) and SSDC (State Skill Development Corporation)
-                    provides services for.</li>  <hr class="new my-4">
-     
-            </div>
         
         
+            </li>
+            
+                <li>Climate Change and Disaster Risk
+        
+            </li>
+            
+                <li>Earthquake Risk Reduction
+        
+            </li>
+        
+        </div>
+    </div></div>
+    <div class="col-lg-5 col-md-12 col-sm-12 col-10 rightside">
+        <div class="rightinfo">
+            <div data-aos="fade-up">        <img src="assets/img1.png" alt="" class="card-img img-fluid">
+
+               
+</div>
+    </div>
+</div>
 </div>
 
+<div class="row mt-5">
 
+    <!--div class="col-lg-5 col-md-12 col-sm-12 col-10 mb-5 leftside ">
+        <div data-aos="fade-down">
 
+        <img src="image/1.png" alt="" class="card-img img-fluid">
+    </div></div>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-10 rightside">
+        <div class="rightinfo">
+            <div data-aos="fade-up">-->
+                <div data-aos="zoom-in">  <div class="info">
+                    <li>Urban Resilience and Sustainable Land use Planning.
 
-  <div class="footer">
-    <div class="contain">
-    <div class="col">
-      <h1>Resilient India</h1>
-      
-    </div>
-    <div class="col">
-      <h1> &#169 Powered by RAIT </h1>
-      
-    </div>
+    </li>
+      <li>Water Resources Management
+
+    </li>
+      <li>Environmental Law and Policy
+
+    </li>
+       <li>Conducting activities and imparting training in all the current and future sectors in which NSDC (National Skill Development Corporation) and SSDC (State Skill Development Corporation) provides services for.
+
+    </li>
     
+      <li>Safe Cities
+
+    </li>
     
-    <div class="col social">
-      <ul>
-        <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
-      </ul>
+     <li>Formation of Disaster Management Committees and Teams
+    </li>
+   </div>
+</div>
+</div>
+<div class="row mt-5">
+    <div class="col-lg-4 col-md-4  col-sm-10 col-10 ">
+        <div data-aos="fade-up">     <div class="card">
+        <img src="assets/img1.png" alt="" class="card-img img-fluid">
+    </div> </div></div>
+    <div class="col-lg-4 col-md-4  col-sm-10 col-10">
+        <div data-aos="fade-up">     <div class="card">
+     <img src="assets/img1.png" alt="" class="card-img img-fluid">
+ </div> </div></div>
+ <div class="col-lg-4 col-md-4  col-sm-10 col-10">
+    <div data-aos="fade-up">   <div class="card">
+     <img src="assets/img2.png" alt="" class="card-img img-fluid">
+ </div> </div></div>
+ </div>
     </div>
-  <div class="clearfix"></div>
-  </div>
-  </div>
 
-  
-    <script>
-        $(document).ready(function () {
-            $('.about--part1').waypoint(function (direction) {
-                $('.about--part1').addClass('animated ')
-            }, {
-                offset: '50%'
-            });
-
-
-            $('.about--part2').waypoint(function (direction) {
-                $('.about--part2').addClass('animated slideInRight')
-            }, {
-                offset: '50%'
-            });
-            $('.about--part3').waypoint(function (direction) {
-                $('.about--part3').addClass('animated fadeInRight')
-            }, {
-                offset: '700px'
-            });
-            $('.gallery--part1').waypoint(function (direction) {
-                $('.gallery--part1').addClass('animated fadeInUp')
-            }, {
-                offset: '450px'
-            });
-        });
-    </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration: 400,});
+</script>
 </body>
-
 </html>

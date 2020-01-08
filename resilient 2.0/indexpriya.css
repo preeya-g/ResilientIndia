@@ -194,8 +194,31 @@ body {
 
 
 /* NAVBAR */
+.dropdown-menu{
+  height: 80px;
+  margin-top: -5px;
+  border: none;
+   
+
+}
 .dropdown:hover>.dropdown-menu {
   display: block;
+}
+.dropdown:hover  .dropdown-menu{
+	visibility: visible;
+    animation: load 0.5s both; 
+	
+}
+
+@keyframes load{
+  0%{
+       transform: translateY(25px);
+       opacity: 0;
+}
+  100%{
+       opacity: .9;
+       transform: translateY(0px);
+}
 }
 
 .nav-link {
@@ -360,7 +383,7 @@ body {
   }
 }
 
-
+/*---------------------------Gallery--------------------------*/
 
 .portfolio {
   width: 100%;

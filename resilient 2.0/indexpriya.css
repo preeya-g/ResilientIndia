@@ -203,11 +203,17 @@ body {
 }
 .dropdown:hover>.dropdown-menu {
   display: block;
+
 }
 .dropdown:hover  .dropdown-menu{
 	visibility: visible;
     animation: load 0.5s both; 
+
 	
+}
+.dropdown-menu:hover{
+  color: #87edbf;
+
 }
 
 @keyframes load{
@@ -244,9 +250,9 @@ body {
 
 /*#084b66*/
 .nav-item:hover>.nav-link {
-  color: pink;
+  color: #3FE0D0;
 }
-
+/*#3FE0D0*/
 .nav-link {
   padding: 16px 17px;
 }

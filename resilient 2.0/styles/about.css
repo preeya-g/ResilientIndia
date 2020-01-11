@@ -208,7 +208,14 @@ body {
 }
 
 
+.profileflex{
+  display: flex;
+}
 
+
+
+.profiletext{
+}
 .sub-head{
 margin-top: -10px;
 border-bottom: 4.5px solid tomato;

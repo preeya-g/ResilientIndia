@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <style>
-
+      body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
+  background-image: linear-gradient(#0a4c54, black);
+  color: white;
+}
     .container-what{
         margin: 7%;
         padding: 0;
@@ -20,21 +27,42 @@
 
     }
     .rightinfo,.leftinfo{
-        font-size: 1rem;
+        
         margin-left: 0%;
        
      
 
     }
-    .rightinfo li,   .leftinfo li{
-        list-style: none;
-        margin-left: 10%;
-      
+    .rightinfo li, .leftinfo li {
+    list-style: circle;
        
+        font-size: 22px;
+        line-height: 2;
+    
     }
+
+    .rightinfo li{
+        margin-left: 10%;
+    }
+    .leftinfo{
+        box-shadow: 0px 0px 15px 0px #30e3d7;
+        padding: 15px;
+        
+    }
+    
+    .leftinfo li{
+       /*display: flex;
+       justify-content: center;*/
+       margin-left: 5%;
+      }
+    
+ 
     .info li{
-        list-style:none;
+        list-style-type:circle;
         font-size: 20px;
+     
+
+
     }
     .info{
       
@@ -44,7 +72,7 @@
       
 	
 	color: #fff;
-	background: linear-gradient(-45deg, #ee7752, #2be7af, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #2be7af, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -62,17 +90,17 @@
 	}
 }
 
-    }
+    
    
  
 
 .container-what .img-fluid{
     max-width: 100%;
-    height: auto;
+   
 }
 .parallax {
   /* The image used */
-  background-image: url('assets/img2.png');
+  background-image: url('assets/1.png');
   overflow: hidden;
 
   /* Set a specific height */
@@ -89,7 +117,20 @@
     font-size: 14px;
 }
 
+.imagerow .card{
+    border: none;
+}
+.limg{
+    width: 100%;
+    height: 500px;
+}
 
+
+hr.new {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255,255, 255, 0));
+}
 
     </style>
 </head>
@@ -97,39 +138,34 @@
     <div class="container-what">
 <div class="row">
 
-    <div class="col-lg-6 col-md-6 col-sm-12 col-10 mb-5 leftside ">
+    <div class="col-lg-5 col-md-5 col-sm-12 col-10 mb-5 leftside ">
         <div data-aos="fade-right">
 
-        <img src="assets/img2.png" alt="" class="card-img img-fluid limg">
+        <img src="assets/1.png" alt="" class="card-img img-fluid limg">
     </div></div>
-    <div class="col-lg-6 col-md-12 col-sm-12 col-10 rightside">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-10 rightside">
         <div class="rightinfo">
             <div data-aos="fade-left">
-                <li>Awareness generation for Disaster Preparedness.
-    </li>
-        <li>Education and Training on Disaster Management
-    </li>
-        <li>Mitigation and Contingency Planning
-    </li>
-        <li>Training for Govt Schools & Private Schools regarding Disaster Management.
+                <li>Risk Analysis
 
-    </li>
-    
-        <li>Training for Govt Officers, Police Officers & Police Personnel on Disaster Management.
-    </li>
-    
-        <li>Formation of Disaster Management Committees and Teams
-    </li>
-        <li>Development of Disaster Management Plans and Conduct of mock drills
-    </li>
-    <li>Awareness campaign and providing guidance on Preparedness of the community and all the stakeholders against the following Disasters:
-
-  <ul> <li>Geological related Disasters.</li>
-      <li>  Medical Related Disasters.</li>
-       <li> Terrorist related Disasters.</li>
-       <li> Water and climatic Related disasters</li>
-       <li> Chemical, environmental, industrial related Disasters. Disaster related to pollution, deforestation and wild life.</li>
-       <li> Accident related disasters   </li></ul> </li>
+                </li>
+                    <li>Education and Training on Disaster Management
+                </li>
+                    <li>Risk Sensitive Land Use Planning
+            
+                </li>
+                    <li>Community based Disaster Risk Management
+            
+            
+                </li>
+                
+                    <li>Climate Change and Disaster Risk
+            
+                </li>
+                
+                    <li>Earthquake Risk Reduction
+            
+                </li>    
 </div>
     </div>
 </div>
@@ -143,40 +179,42 @@
 <div class="row">
 
 
-    <div class="col-lg-6 col-md-6 col-sm-12 col-10 leftside ">
-        <div class="leftinfo">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-10 leftside ">
         <div data-aos="fade-down">
-            <li>Risk Analysis
-
+        <div class="leftinfo">
+        
+            <li>Awareness generation for Disaster Preparedness.
             </li>
                 <li>Education and Training on Disaster Management
             </li>
-                <li>Risk Sensitive Land Use Planning
-        
-            </li>
-                <li>Community based Disaster Risk Management
-        
+             
+                <li>Training for Govt Schools & Private Schools regarding Disaster Management.
         
             </li>
             
-                <li>Climate Change and Disaster Risk
-        
+                <li>Training for Govt Officers, Police Officers & Police Personnel on Disaster Management.
             </li>
             
-                <li>Earthquake Risk Reduction
-        
+                <li>Formation of Disaster Management Committees and Teams
             </li>
+                <li>Development of Disaster Management Plans and Conduct of mock drills
+            </li>
+            <li>Awareness campaign and providing guidance on Preparedness of the community and all the stakeholders against the following Disasters:</li>
+        
+          <li>Geological,Medical, Terrorist, Water and climatic,Chemical, environmental, industrial ,pollution, deforestation and wild life,Accident related Disasters.</li>
+              
+          
         
         </div>
-    </div></div>
-    <div class="col-lg-5 col-md-12 col-sm-12 col-10 rightside">
+    </div></div><!--
+    <div class="col-lg-5 col-md-5 col-sm-12 col-10 rightside">
         <div class="rightinfo">
-            <div data-aos="fade-up">        <img src="assets/img1.png" alt="" class="card-img img-fluid">
+            <div data-aos="fade-up">        <img src="image/1.png" alt="" class="card-img img-fluid">
 
                
 </div>
     </div>
-</div>
+</div>-->
 </div>
 
 <div class="row mt-5">
@@ -207,23 +245,23 @@
 
     </li>
     
-     <li>Formation of Disaster Management Committees and Teams
+     <li>Mitigation and Contingency Planning
     </li>
    </div>
 </div>
 </div>
-<div class="row mt-5">
-    <div class="col-lg-4 col-md-4  col-sm-10 col-10 ">
+<div class="row mt-5 imagerow">
+    <div class="col-lg-4 col-md-4  col-sm-12 col-10 ">
         <div data-aos="fade-up">     <div class="card">
-        <img src="assets/img1.png" alt="" class="card-img img-fluid">
+        <img src="assets/1.png" alt="" class="card-img img-fluid">
     </div> </div></div>
-    <div class="col-lg-4 col-md-4  col-sm-10 col-10">
+    <div class="col-lg-4 col-md-4  col-sm-12 col-10">
         <div data-aos="fade-up">     <div class="card">
-     <img src="assets/img1.png" alt="" class="card-img img-fluid">
+     <img src="assets/1.png" alt="" class="card-img img-fluid">
  </div> </div></div>
- <div class="col-lg-4 col-md-4  col-sm-10 col-10">
+ <div class="col-lg-4 col-md-4  col-sm-12 col-10">
     <div data-aos="fade-up">   <div class="card">
-     <img src="assets/img2.png" alt="" class="card-img img-fluid">
+     <img src="assets/1.png" alt="" class="card-img img-fluid">
  </div> </div></div>
  </div>
     </div>

@@ -259,6 +259,17 @@ body {
 
 
 
+.pdfs{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  
+}
+.pdfs img{
+  width: 100px;
+  height: 100px;
+
+}
 
 .expertiseitems ul {
   list-style-type: none;

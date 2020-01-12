@@ -189,11 +189,31 @@ margin-top: 20px;    }
   margin-bottom: 60px;
 }
 
+
 .flip-card{
-  size: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.point{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+img{
+  width: 100px !important;
+  height: 100px !important;
 }
 .pointnext{
-  margin: auto;
+  margin: auto 20px ;
+  
   font-size: 10px;
 }
+
+.flip-card-back{
+  font-size: 5px !important;
+}
+
+
+
   }

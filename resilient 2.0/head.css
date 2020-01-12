@@ -1,0 +1,128 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
+    background-image: linear-gradient(#0a4c54, black);
+    color: cornsilk;
+  }
+
+  
+  
+.head .background {
+    overflow: hidden;
+    width: 100%;
+    background: black;
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* The typing effect */
+    /* The typewriter cursor effect */
+  }
+  
+  .head .background .text {
+    color: white;
+    font-size: 50px;
+  }
+  
+  .head .background .typewriter h4 {
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+            animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+    color: white;
+  }
+  
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @-webkit-keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+  .head .background h1 {
+    color: white;
+  }
+  
+
+
+  
+@media screen and (max-width: 473px) {
+  
+    body{
+        font-size: 20px;
+    }
+    
+    .animated h1{
+        font-size: 30px;
+    }
+    
+    .typewriter h4{
+        font-size: 15px;
+    }
+    
+    
+    .background .typewriter h4 {
+      font-size: use 10px;
+    }
+}  

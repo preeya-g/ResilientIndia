@@ -214,8 +214,6 @@ body {
 
 
 
-.profiletext{
-}
 .sub-head{
 margin-top: -10px;
 border-bottom: 4.5px solid tomato;
@@ -265,6 +263,11 @@ margin-right: 50px;
     font-size: 20px;
   }
 }
+
+
+
+
+
 
 h1 {
   text-align: center;

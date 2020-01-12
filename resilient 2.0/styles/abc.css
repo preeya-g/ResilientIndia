@@ -1,0 +1,71 @@
+
+.flexcols{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+  }
+  
+  .flex1{
+    background-color: white;
+    flex: 1;
+  }
+  
+  .flex2{
+    background-color: rgb(221, 216, 216);
+    flex: 1;
+  
+  }
+  
+  
+  
+  .flex3{
+    background-color: white;
+    flex: 1;
+  
+    
+  }
+
+  
+
+  
+.sub-head{
+    margin-top: -10px;
+    border-bottom: 4.5px solid tomato;
+    margin-right: 50px;
+    }
+    
+    #coll{
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+
+
+
+    
+.team {
+    margin-top: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+
+
+    
+h1 {
+    text-align: center;
+  }
+  
+
+    

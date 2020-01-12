@@ -1,12 +1,41 @@
-.bgimg {
-  background-image: url('assets/index/plant.jpg');
+/*.bgimg {
+  background-image: url('assets/index/img6.png');
   background-size: 100% 100%;
   background-attachment: fixed;
-
+  background-repeat: no-repeat;
   height: 100vh;
-
+  
 
 }
+*/
+
+
+.bgimg{
+   /* Set a specific height */
+   min-height: 100vh;
+   background-image: url('assets/index/img6.png');
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+
+
+@media(max-width: 768px) {
+
+.bgimg{
+  height: 50% !important;
+}
+
+}
+
+
+
+
+
 
 html {
   scroll-behavior: smooth;

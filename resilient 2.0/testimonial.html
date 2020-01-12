@@ -5,17 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Testimonials</title>
-  <link rel="stylesheet" href="styles/other.css">
-
-  <link rel="stylesheet" href="styles/about.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-
-
 <style>
   body{
     margin: 0;
@@ -27,129 +24,101 @@
    
     margin:20px 5px 10px 5px;
 
-  }
 
-.everything{
-  margin: 200px;
+  }
+  .container-test{
+    margin: 5%;
+  }
+.container-test .card{
+  border: none;
+  overflow: hidden;
+}
+.container-test .card img{
+  border-radius: 0%;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+  border:none;
+
 }
 
 
-
+.inner:hover img{
+  transform:scale(1.1);
+}
 </style>
 </head>
-
-
-
 <body>
+  <div class="container-test">
+    <div class="tz-gallery">
 
-  
-  
-  <nav class="navbar">
-    <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-      <ul>
-        <li><a href="indexpriya.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="testimonial.html">TESTIMONIALS</a></li>
-        <li><a href="clients.html">CLIENTS</a></li>
-
-        <div class="dropdown">
-          <li class="dropbtn"><a href="">PROJECTS</a> </li>
-          <div class="dropdown-content">
-            <a href="currentprojects.html">Current Projects</a>
-            <a href="successproj.html">Successful Projects</a>
-          </div>
-        </div>
-        <li><a href="#">JOIN US</a></li>
-        <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
-
-
-      </ul>
-    </div>
-  </nav>
-  
-  
-
-
-
-
-
-  <div class="head">
-    <div class="background">
-        <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
-        <div class="animated fadeInLeft">
-            <h1>TESTIMONIAL</h1>
-        </div>
-        <div class="typewriter">
-            <h4> Moment To Cherish.</h4>
-        </div>
-    </div>
-</div>
--->
-
-<div class="everything">
-
-  <div data-aos="fade-up">
-
-   <div class="row rowsett">
-     <div class="col-lg-12">
-
-       <div class="card">
-         <img src="assets/testimonial/test.png" alt="" class="img-fluid">
-       </div>
-     </div>
-   </div></div>
-   <div class="row rowsett">
-
-    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-      <div data-aos="fade-up">
-
-      <div class="card">
-        <img src="assets/testimonial/test1.PNG" alt="" class="img-fluid">
-      </div></div></div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-        <div data-aos="fade-up">
-
-      <div class="card">
-        <img src="assets/testimonial/test2.PNG" alt="" class="img-fluid">
-      </div></div>
-    </div>
-  </div>
   <div class="row rowsett">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-      <div data-aos="fade-up">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="card">
+      <div class="inner">
 
-      <div class="card">
-        <img src="assets/testimonial/test3.PNG" alt="" class="img-fluid">
-      </div></div></div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-        <div data-aos="fade-up">
-
-      <div class="card">
-        <img src="assets/testimonial/test4.PNG" alt="" class="img-fluid">
+        <a class="Lightbox" href="assets/testimonial/test4.png">
+          <img src="assets/testimonial/test4.png" alt="" class="card-img img-fluid"></a>	
         </div>
-      </div>
     </div>
   </div>
-  <div class="row rowsett">
-
-    <div class="col-md-12">
-      <div data-aos="fade-up">
-
-      <div class="card">
-        <img src="assets/testimonial/test5.PNG" alt="" class="img-fluid mr-2">
-      </div>
-    </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="card">
+      <div class="inner">
+        <a class="Lightbox" href="assets/testimonial/test2.png">
+          <img src="assets/testimonial/test2.png" alt="" class="card-img img-fluid"></a>
+    </div></div>
   </div>
-</div>
-</div>
+ </div>
+ <div class="row rowsett">
+  <div class="col-lg-10 col-md-10 col-sm-12 col-12">
+    
+    <div class="card">
       
+        <a class="Lightbox" href="assets/testimonial/test.png">
+          <img src="assets/testimonial/test.png" alt="" class="card-img img-fluid"></a>
+ 
+  </div></div>
+
+  
+</div>
+  <div class="row rowsett">
+
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="card">
+      <div class="inner">
+        <a class="Lightbox" href="assets/testimonial/test3.png">
+      <img src="assets/testimonial/test3.png" alt="" class="card-img img-fluid"></a>
+    </div>
+  </div></div>
+
+  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+    <div class="card">
+      <div class="inner">
+        <a class="Lightbox" href="assets/testimonial/test1.png">
+      <img src="assets/testimonial/test1.png" alt="" class="card-img img-fluid"></a>
+    </div>
+  </div></div> </div>
+  <br>
+  <div class="row rowsett">
+
+  <div class="col-lg-9 col-md-9 col-sm-10 col-12">
+    <div class="card">
+      <div class="inner">
+        <a class="Lightbox" href="assets/testimonial/test5.png">
+         <img src="assets/testimonial/test5.png" alt="" class="card-img img-fluid"></a>
+    </div>
+  </div></div></div>
+ </div></div>
+
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+ <script>
+     baguetteBox.run('.tz-gallery');
+ </script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>   
           AOS.init(); 
@@ -164,3 +133,4 @@
        </script>
 </body>
 </html>
+

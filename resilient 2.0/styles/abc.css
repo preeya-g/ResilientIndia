@@ -1,60 +1,60 @@
 
 .flexcols{
-    display: flex;
-    justify-content: space-evenly;
-    color: black;
-  }
-  
-  .flex1{
-    background-color: white;
-    flex: 1;
-  }
-  
-  .flex2{
-    background-color: rgb(221, 216, 216);
-    flex: 1;
-  
-  }
-  
-  
-  
-  .flex3{
-    background-color: white;
-    flex: 1;
-  
-    
-  }
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.flex1{
+  background-color: white;
+  flex: 1;
+}
+
+.flex2{
+  background-color: rgb(221, 216, 216);
+  flex: 1;
+
+}
+
+
+
+.flex3{
+  background-color: white;
+  flex: 1;
 
   
+}
 
-  
+
+
+
 .sub-head{
-    margin-top: -10px;
-    border-bottom: 4.5px solid tomato;
-    margin-right: 50px;
-    }
-    
-    #coll{
-      flex-grow: 1;
-      padding: 20px;
-    }
-
-
-
-
-    
-.team {
-    margin-top: 100px;
+  margin-top: -10px;
+  border-bottom: 4.5px solid tomato;
+  margin-right: 50px;
   }
+  
+  #coll{
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+
+
+
+  
+.team {
+  margin-top: 100px;
+}
 
 
 .main{
-  display: flex;
-  overflow: hidden;
-  margin: 50px;
-  margin-bottom: 150px;
+display: flex;
+overflow: hidden;
+margin: 50px;
+margin-bottom: 150px;
 }
-  
+
 .pointnext{
 margin-left: 50px;
 margin-top: 30px;
@@ -62,42 +62,42 @@ font-size: 20px;}
 
 
 .flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+background-color: transparent;
+width: 300px;
+height: 300px;
+perspective: 1000px;
 }
 
 .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+transform: rotateY(180deg);
 }
 
 .flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+background-color: #bbb;
+color: black;
 }
 
 .flip-card-back {
-  background-color: black;
-  color: white;
-  transform: rotateY(180deg);
+background-color: black;
+color: white;
+transform: rotateY(180deg);
 }
 
 
@@ -105,48 +105,48 @@ font-size: 20px;}
 
 
 .join{
-  margin-top: 60px;
+margin-top: 60px;
 }
 
 
-    
+  
 h1 {
-    text-align: center;
-  }
+  text-align: center;
+}
+
+
   
 
-    
 
 
-
-  .button {
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .button5 {
-    margin-left: 150px;
-    background-color: white;
-    color: black;
-    border: 2px solid white;
-    border-radius: 10px;
+  margin-left: 150px;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .button5:hover {
-    background-color: Transparent;
-    color: white;
+  background-color: Transparent;
+  color: white;
 }
 
 
@@ -154,66 +154,66 @@ h1 {
 
 
 
-  /*
-  media*/
+/*
+media*/
 
 
-  @media screen and (max-width: 473px) {
+@media screen and (max-width: 473px) {
 
 body{
-  font-size: 10px !important;
+font-size: 10px !important;
 }
-    .flexcols{
-      flex-direction: column;
-    }
-
-
-    .typewriter h4{
-      font-size: 7px;
+  .flexcols{
+    flex-direction: column;
   }
+
+
+  .typewriter h4{
+    font-size: 7px;
+}
 
 
 
 .join{
-  margin-top: 30px;
+margin-top: 30px;
 }
-    .button5{
+  .button5{
 margin: 0 auto;
 margin-top: 20px;    }
 
 
 
 .main{
-  flex-direction: column;
-  margin: auto;
-  margin-bottom: 60px;
+flex-direction: column;
+margin: auto;
+margin-bottom: 60px;
 }
 
 
 .flip-card{
-  width: 100px;
-  height: 100px;
+width: 100px;
+height: 100px;
 }
 
 
 .point{
-  margin: 0 auto;
-  margin-bottom: 20px;
+margin: 0 auto;
+margin-bottom: 20px;
 }
 img{
-  width: 100px !important;
-  height: 100px !important;
+width: 100px !important;
+height: 100px !important;
 }
 .pointnext{
-  margin: auto 20px ;
-  
-  font-size: 10px;
+margin: auto 20px ;
+
+font-size: 10px;
 }
 
 .flip-card-back{
-  font-size: 5px !important;
+font-size: 5px !important;
 }
 
 
 
-  }
+}

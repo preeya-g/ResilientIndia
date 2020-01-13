@@ -13,7 +13,7 @@
 
 
 <link rel="stylesheet" href="styles/other.css">
-
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <link rel="stylesheet" href="styles/about.css">
 
 <link rel="stylesheet" href="styles/footer.css">
@@ -122,36 +122,41 @@ flex-direction: column;
 
 
        
-  <nav class="navbar">
-    <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">TESTIMONIALS</a></li>
-        <li><a href="#">CLIENTS</a></li>
 
-        <div class="dropdown">
-          <li class="dropbtn"><a href="">PROJECTS</a> </li>
-          <div class="dropdown-content">
-            <a href="#">Current Projects</a>
-            <a href="#">Successful Projects</a>
+  
+ 
+        <nav class="navbar">
+          <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="indexpriya.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="testimonial.html">TESTIMONIALS</a></li>
+              <li><a href="clients.html">CLIENTS</a></li>
+  
+              <div class="dropdown">
+                <li class="dropbtn"><a href="">PROJECTS</a> </li>
+                <div class="dropdown-content">
+                  <a href="currentprojects.html">Current Projects</a>
+                  <a href="successproj.html">Successful Projects</a>
+                </div>
+              </div>
+              <li><a href="joinus.html">JOIN US</a></li>
+              <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+  
+  
+            </ul>
           </div>
-        </div>
-        <li><a href="#">JOIN US</a></li>
-        <li><a href="#"><button type="submit" class="outline white-blue">Donate</button></a></li>
-
-
-      </ul>
-    </div>
-  </nav>
-  
-  
+        </nav>
+    
+        
+        
+        
 
 
 
@@ -265,5 +270,22 @@ flex-direction: column;
                           <script>
                               AOS.init();
                           </script>
+                          
+        <script>
+          $(window).on('scroll',function(){
+     if($(window).scrollTop()){
+       $('nav').addClass('black');
+     }
+     else{
+       $('nav').removeClass('black');
+     }
+   }) 
+       const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+ navbarLinks.classList.toggle('active')
+})
+     </script>
 </body>
 </html>

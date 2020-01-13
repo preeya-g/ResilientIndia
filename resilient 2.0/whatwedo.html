@@ -10,8 +10,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <link rel="stylesheet" href="styles/other.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="styles/whatwedo.css">
+    <link rel="stylesheet" href="./styles/about.css">
+
     <style> 
      .container-what .parallax {
         /* The image used */
@@ -30,6 +33,51 @@
       </style>
 </head>
 <body>
+  
+
+      <nav class="navbar">
+        <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="indexpriya.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="testimonial.html">TESTIMONIALS</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
+
+            <div class="dropdown">
+              <li class="dropbtn"><a href="">PROJECTS</a> </li>
+              <div class="dropdown-content">
+                <a href="currentprojects.html">Current Projects</a>
+                <a href="successproj.html">Successful Projects</a>
+              </div>
+            </div>
+            <li><a href="joinus.html">JOIN US</a></li>
+            <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+
+
+          </ul>
+        </div>
+      </nav>
+  
+      
+      <div class="head">
+        <div class="background">
+            <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
+            <div class="animated fadeInLeft">
+                <h1>SUCCESSFULL PROJECTS</h1>
+            </div>
+            <div class="typewriter">
+                <h4>What We Have Achieved So Far. </h4>
+            </div>
+        </div>
+    </div>
+      
+      
     <div class="container-what">
 
                
@@ -164,5 +212,21 @@
 <script>
   AOS.init({duration: 400,});
 </script>
+     <script>
+        $(window).on('scroll',function(){
+   if($(window).scrollTop()){
+     $('nav').addClass('black');
+   }
+   else{
+     $('nav').removeClass('black');
+   }
+ }) 
+     const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+navbarLinks.classList.toggle('active')
+})
+   </script>
 </body>
 </html>

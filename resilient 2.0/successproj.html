@@ -25,7 +25,7 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="styles/other.css">
 
@@ -320,6 +320,23 @@
             });
         });
     </script>
+
+<script>
+    $(window).on('scroll',function(){
+if($(window).scrollTop()){
+ $('nav').addClass('black');
+}
+else{
+ $('nav').removeClass('black');
+}
+}) 
+ const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+navbarLinks.classList.toggle('active')
+})
+</script>
 </body>
 
 </html>

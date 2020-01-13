@@ -8,17 +8,68 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles/footer.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/testimonial.css">
+  <link rel="stylesheet" href="styles/other.css">
+  <link rel="stylesheet" href="./styles/about.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  
 
   <title>Testimonials</title>
 
 </head>
 <body>
+
+
+      <nav class="navbar">
+        <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="indexpriya.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="testimonial.html">TESTIMONIALS</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
+
+            <div class="dropdown">
+              <li class="dropbtn"><a href="">PROJECTS</a> </li>
+              <div class="dropdown-content">
+                <a href="currentprojects.html">Current Projects</a>
+                <a href="successproj.html">Successful Projects</a>
+              </div>
+            </div>
+            <li><a href="joinus.html">JOIN US</a></li>
+            <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+
+
+          </ul>
+        </div>
+      </nav>
   
+      
+   
+      <div class="head">
+        <div class="background">
+            <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
+            <div class="animated fadeInLeft">
+                <h1>SUCCESSFULL PROJECTS</h1>
+            </div>
+            <div class="typewriter">
+                <h4>What We Have Achieved So Far. </h4>
+            </div>
+        </div>
+    </div>
+      
 
   <div class="container-test">
     <div class="tz-gallery">
@@ -85,6 +136,34 @@
 
 
 
+
+
+
+
+   <div class="footer">
+     <div class="contain">
+     <div class="col">
+       <h1>Resilient India</h1>
+       
+     </div>
+     <div class="col">
+       <h1> &#169 Powered by RAIT </h1>
+       
+     </div>
+     
+     
+     <div class="col social">
+       <ul>
+         <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+         <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+       </ul>
+     </div>
+   <div class="clearfix"></div>
+   </div>
+   </div>
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
  <script>
      baguetteBox.run('.tz-gallery');
@@ -100,6 +179,22 @@
    delay: 300,
    disable: 'mobile'
 });
+       </script>
+          <script>
+            $(window).on('scroll',function(){
+       if($(window).scrollTop()){
+         $('nav').addClass('black');
+       }
+       else{
+         $('nav').removeClass('black');
+       }
+     }) 
+         const toggleButton = document.getElementsByClassName('toggle-button')[0]
+ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+ 
+ toggleButton.addEventListener('click', () => {
+   navbarLinks.classList.toggle('active')
+ })
        </script>
 </body>
 </html>

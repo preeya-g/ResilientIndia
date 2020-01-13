@@ -83,7 +83,7 @@ color: white;
 }
 @media only screen and (max-width: 950px) {
   .footer .col {
-    width: 33%;
+    width: 100%;
   }
   .footer .col h1 {
     font-size: 14px;
@@ -94,7 +94,7 @@ color: white;
 }
 @media only screen and (max-width: 500px) {
     .footer .col {
-      width: 50%;
+      width: 100%;
     }
     .footer .col h1 {
       font-size: 14px;

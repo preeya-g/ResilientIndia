@@ -8,12 +8,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-
-
-
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/footer.css">
 <link rel="stylesheet" href="styles/other.css">
-
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <link rel="stylesheet" href="styles/about.css">
 
 <link rel="stylesheet" href="styles/footer.css">
@@ -122,43 +121,39 @@ flex-direction: column;
 
 
        
-  <nav class="navbar">
-    <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">TESTIMONIALS</a></li>
-        <li><a href="#">CLIENTS</a></li>
 
-        <div class="dropdown">
-          <li class="dropbtn"><a href="">PROJECTS</a> </li>
-          <div class="dropdown-content">
-            <a href="#">Current Projects</a>
-            <a href="#">Successful Projects</a>
+  
+ 
+        <nav class="navbar">
+          <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="indexpriya.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="testimonial.html">TESTIMONIALS</a></li>
+              <li><a href="clients.html">CLIENTS</a></li>
+  
+              <div class="dropdown">
+                <li class="dropbtn"><a href="">PROJECTS</a> </li>
+                <div class="dropdown-content">
+                  <a href="currentprojects.html">Current Projects</a>
+                  <a href="successproj.html">Successful Projects</a>
+                </div>
+              </div>
+              <li><a href="joinus.html">JOIN US</a></li>
+              <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+  
+  
+            </ul>
           </div>
-        </div>
-        <li><a href="#">JOIN US</a></li>
-        <li><a href="#"><button type="submit" class="outline white-blue">Donate</button></a></li>
-
-
-      </ul>
-    </div>
-  </nav>
+        </nav>
+    
   
-  
-
-
-
-
-
-
-
 
         <div class="head">
                 <div class="background">
@@ -250,7 +245,11 @@ flex-direction: column;
 
 <br><br><br><br><br><br><br>
 
-<div class="footer">
+
+
+
+
+  <div class="footer">
     <div class="contain">
     <div class="col">
       <h1>Resilient India</h1>
@@ -261,9 +260,39 @@ flex-direction: column;
       
     </div>
     
+    
+    <div class="col social">
+      <ul>
+        <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  <div class="clearfix"></div>
+  </div>
+  </div>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
                           <script>
                               AOS.init();
                           </script>
+                          
+        <script>
+          $(window).on('scroll',function(){
+     if($(window).scrollTop()){
+       $('nav').addClass('black');
+     }
+     else{
+       $('nav').removeClass('black');
+     }
+   }) 
+       const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+ navbarLinks.classList.toggle('active')
+})
+     </script>
 </body>
 </html>

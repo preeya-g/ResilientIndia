@@ -3,9 +3,8 @@
 }
 
 body {
-    margin: 2%;
- 
-    padding-top: 200px;
+
+
 
 }
 
@@ -140,8 +139,7 @@ height: 1.5em;
       
 
 
-.dropdown:hover .dropdown-content {display: block;
-  
+.dropdown:hover .dropdown-content {display: block;  
 
 }
 .dropdown:hover .dropdown-content a{
@@ -200,7 +198,7 @@ button {
 
       
     .dropdown {
-  display: inline-block;
+  display: block;
 
 }
 
@@ -227,9 +225,9 @@ button {
 
 .dropdown:hover .dropdown-content {display: block;
 
-}
+}/*
 .dropdown:hover .dropdown-content a{
     visibility: visible;
     display: block;
-}
+}*/
 

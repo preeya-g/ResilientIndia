@@ -226,11 +226,76 @@
         }
 
         .dropdown-menu:hover {}
+
+        #header{
+            position: absolute;
+            z-index: 1000;
+            top: 200px;
+            left: 200px;
+            }
+
+            .text-box{
+                height: 600px;
+                padding: 50px;
+            }
+            @media only screen and (max-device-width: 1024px) {
+                .bgimg {
+                    background-attachment: scroll;
+                }
+            }
+
+            #notyourclass{
+                margin-top:160px;
+                margin-left:-30px;
+                color: black;
+                font-family: 'Times,Times New';
+                font-style: oblique;
+                font-size: 45px;
+                text-shadow: 0 0 3px rgb(221, 148, 243);
+                
+            }
+            #b {
+            quotes: "“" "„" "„" "‘";
+            
+            }
+
     </style>
 </head>
 
 <body>
-    <div class="bgimg"> </div>
+    <div class="bgimg"> <div class="col-lg-12 text-box ">
+        <h1 class="animated fadeInLeft" id="notyourclass" ><q id="b">Volunteers do not<br>necessarily<br>have the TIME<br>they just have the HEART</q></h1>
+        </div></div>
+    
+    
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonial.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clients.html">Clients</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="currentprojects.html">Current Projects</a>
+                            <a class="dropdown-item" href="successproj.html">Successful Projects</a>
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>

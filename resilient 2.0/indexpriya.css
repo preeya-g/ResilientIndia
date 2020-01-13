@@ -17,9 +17,11 @@
 
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
-   background-position: center;
    background-repeat: no-repeat;
    background-size: cover; 
+   object-position: 50 -100; /* even if we dont declare this the image will still be centered */
+   -webkit-filter: brightness(0.30);
+   filter: brightness(0.30);
 }
 
 

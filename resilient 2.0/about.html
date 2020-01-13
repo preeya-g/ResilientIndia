@@ -12,6 +12,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/footer.css">
     <title>About</title>
 </head>
 
@@ -64,24 +67,7 @@
         </div>
       </nav>
   
-      
-      <script>
-           $(window).on('scroll',function(){
-      if($(window).scrollTop()){
-        $('nav').addClass('black');
-      }
-      else{
-        $('nav').removeClass('black');
-      }
-    }) 
-        const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
-})
-      </script>
-      
+     
       
 
     <div class="head">
@@ -249,8 +235,53 @@ Physiological First aid from JOHNS HOPKINS UNIVERSITY. "
 
 
 
-
-
+    
+    
+    
+      
+    
+    
+          <div class="footer">
+            <div class="contain">
+            <div class="col">
+              <h1>Resilient India</h1>
+              
+            </div>
+            <div class="col">
+              <h1> &#169 Powered by RAIT </h1>
+              
+            </div>
+            
+            
+            <div class="col social">
+              <ul>
+                <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          <div class="clearfix"></div>
+          </div>
+          </div>
+ 
+          <script>
+            $(window).on('scroll',function(){
+       if($(window).scrollTop()){
+         $('nav').addClass('black');
+       }
+       else{
+         $('nav').removeClass('black');
+       }
+     }) 
+         const toggleButton = document.getElementsByClassName('toggle-button')[0]
+ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+ 
+ toggleButton.addEventListener('click', () => {
+   navbarLinks.classList.toggle('active')
+ })
+       </script>
+       
 </body>
 
 </html>

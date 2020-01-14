@@ -22,7 +22,7 @@ html, body {
     overflow: hidden;
     width: 100%;
     background: black;
-    height: 300px;
+    height: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -36,6 +36,7 @@ html, body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            padding-top: 80px;
     /* The typing effect */
     /* The typewriter cursor effect */
   }

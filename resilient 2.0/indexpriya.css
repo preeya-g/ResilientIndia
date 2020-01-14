@@ -300,8 +300,15 @@ body {
 .pdfs img{
  width: 100px;
  height: 100px;
-
+margin-bottom: 20px;
 }
+
+
+#second{
+  width: 300px;
+  margin-left: 100px;
+}
+
 
 .expertiseitems ul {
  list-style-type: none;
@@ -485,6 +492,8 @@ body {
 
 
 .priyahcontainer {
+  margin-left: 60px;
+
   position: relative;
   width: 100%;
   max-width: 150px;
@@ -505,7 +514,7 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   font-size: 16px;
-  padding: 12px 24px;
+  padding: 5px 10px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -513,8 +522,9 @@ body {
   display: none;
   color: black;
 
-  border: 2px solid white;
+  border: 2px solid #05383d;
   border-radius: 10px;
+  margin-left: -10px;
 }
 
 .priyahcontainer .priyahbtn:hover {
@@ -523,17 +533,19 @@ body {
 
 .priyahcontainer:hover .priyahbtn{
   display: inline-block;
-  background-color: white;
+  background-color: #0a4c54;
 
 
 }
 
 .priyahcontainer:hover img{
-  -webkit-filter: opacity(50%);filter: opacity(50%);
+  -webkit-filter: opacity(30%);filter: opacity(30%);
 }
 .priyahcontainer:hover .priyahbtn a{
-  color: #0a4c54;
+  color: white;
   font-family: 'Lato', sans-serif;
+  text-decoration: none;
+
 
 }
 

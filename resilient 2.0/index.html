@@ -247,7 +247,7 @@
 
         #notyourclass {
             margin-top: 160px;
-            margin-left: -30px;
+            margin-left: -20px;
             color: white;
             font-family: 'Ubuntu', sans-serif;
             font-size: 45px;
@@ -257,17 +257,23 @@
     </style>
 </head>
 
-<body>
+<body>  
+
     <div class="bgimg">
-        <div class="col-lg-12 text-box ">
+    
+    <!--    <div class="col-lg-12 text-box ">
             <h1 class="animated fadeInLeft" id="notyourclass">Volunteers do not<br>necessarily<br>have the TIME<br>they
                 just have the HEART</h1>
         </div>
+
+    -->
+
+    <button type="button" class="btn btn-outline-dark pbutton">JOIN US</button>
     </div>
 
 
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#"><img src="assets/logo1.png" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -335,7 +341,7 @@
     <div class="meraclass" style="display: none;"></div>
 
 
-    <a href="#aisehi">
+    <a href="#contact">
         <div class="arrow"></div>
     </a>
 
@@ -835,14 +841,14 @@ navbarLinks.classList.toggle('active')
         $(document).ready(function () {
             $(".expleft .road").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/road.png' class='bandimages'> <br>Road safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/road.png' class='bandimages'> <br>Road safety is very important.<center> <a href='roadsafety.html'> <button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });
 
             $(".expleft .school").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/schoolsafety2.png' class='bandimages'> <br>School safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/schoolsafety2.png' class='bandimages'> <br>School safety is very important.<center><a href='school.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
 
@@ -850,7 +856,7 @@ navbarLinks.classList.toggle('active')
 
             $(".expleft .sec").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/safe2.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/safe2.png' class='bandimages'> <br> Safety is very important.<center><a href='safety.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });
@@ -859,7 +865,7 @@ navbarLinks.classList.toggle('active')
 
             $(".expleft .crime").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/cyber2.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/cyber2.png' class='bandimages'> <br> Safety is very important.<center><a href='security.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });
@@ -869,26 +875,26 @@ navbarLinks.classList.toggle('active')
 
             $(".expright .disaster").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/disaster2.png' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/disaster2.png' class='bandimages'> <br> Safety is very important.<center> <a href='disastermanagement.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });
             $(".expright .risk").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/risk2.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/risk2.jpg' class='bandimages'> <br> Safety is very important.<center><a href='risk.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });
             $(".expright .crowd").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/crowd2.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/crowd2.jpg' class='bandimages'> <br> Safety is very important.<center> <a href='crowd.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });
 
             $(".expright .prevent").hover(function () {
                 $(".expcenter").html(
-                    "<div><img src='assets/index/crime2.jpg' class='bandimages'> <br> Safety is very important.<center><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button></center></div>"
+                    "<div><img src='assets/index/crime2.jpg' class='bandimages'> <br> Safety is very important.<center><a href='crime.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
                 );
                 $(".expcenter").show();
             });

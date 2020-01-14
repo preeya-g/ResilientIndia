@@ -10,6 +10,17 @@
 */
 
 
+.pbutton{
+  margin: 100px;
+  margin-top: 400px;
+}
+
+
+.pbutton:hover .bgimg{
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+}
+
 .bgimg{
   /* Set a specific height */
   min-height: 100vh;

@@ -12,9 +12,15 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link href="ihover/styles/ihover.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
 
@@ -35,7 +41,7 @@
     <link rel="stylesheet" href="styles/ytstyle.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <!--to be removed
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -245,30 +251,50 @@
             }
         }
 
-        #notyourclass {
+        /*#notyourclass {
             margin-top: 160px;
             margin-left: -20px;
-            color: white;
+            color: rgb(7, 3, 3);
             font-family: 'Ubuntu', sans-serif;
             font-size: 45px;
+            text-shadow: 2px 2px 5px rgb(248, 131, 131);
 
+        }*/
+
+        .caption {
+            width: 100%;
+            max-width: 100%;
+            position: absolute;
+            top: 40%;
+            z-index: 1;
+            color:rgb(19, 2, 2);
+            text-transform: uppercase;
+            margin-left:20px;
         }
-
+        .caption h1 {
+            font-size: 2.0rem;
+            font-weight: 400;
+            letter-spacing: .3rem;
+            text-shadow: .1rem .1rem .1rem 
+            black;
+            padding-bottom: 1rem;
+            font-family: 'Ubuntu', sans-serif;
+        }
     </style>
 </head>
 
-<body>  
+<body>
 
     <div class="bgimg">
-    
-    <!--    <div class="col-lg-12 text-box ">
-            <h1 class="animated fadeInLeft" id="notyourclass">Volunteers do not<br>necessarily<br>have the TIME<br>they
-                just have the HEART</h1>
+
+        <div class="caption">
+            <h1 class="animated fadeInLeft" id="notyourclass">''Volunteers do<br> not necessarily<br>have the
+                TIME<br>they
+                just have <br>the HEART''</h1><br>
+            <button type="button" class="btn btn-dark btn-lg" style="margin-top:-10px;margin-left:90px;">JOIN
+                US</button>
+
         </div>
-
-    -->
-
-    <button type="button" class="btn btn-outline-dark pbutton">JOIN US</button>
     </div>
 
 
@@ -582,12 +608,12 @@
         <div class="items">
             <div class="priyahcontainer">
                 <img src="assets/index/pdf1.png" alt="" style="width:130px ; height: 130px;" />
-    
+
                 <button class="priyahbtn"><a href="uploads/PDF/THE DISASTER MANAGEMENT ACT 2005.pdf"> OPEN </a></button>
-    
-    
+
+
             </div>
-            
+
             <h5 style="margin-left: 60px;">DMA ACT 2005</h5>
             </a>
         </div>
@@ -595,12 +621,12 @@
         <div class="items" id="second">
             <div class="priyahcontainer">
                 <img src="assets/index/pdf2.png" alt="" style="width:130px; height: 130px;" />
-    
+
                 <button class="priyahbtn"><a href="uploads/PDF/sendai.pdf"> OPEN </a></button>
-    
-    
+
+
             </div>
-                <h5 style="text-align: center;">SENDAI Freamework for disaster risk reduction</h5>
+            <h5 style="text-align: center;">SENDAI Freamework for disaster risk reduction</h5>
             </a>
         </div>
 
@@ -608,17 +634,17 @@
         <div class="items" id="third">
             <div class="priyahcontainer">
                 <img src="assets/index/pdf3.png" alt="" style="width:130px ; height: 130px;" />
-    
+
                 <button class="priyahbtn"><a href="uploads/PDF/SchoolSafety.pdf"> OPEN </a></button>
-    
-    
+
+
             </div>
-                <h5>NDMA School Safety Policy</h5>
+            <h5>NDMA School Safety Policy</h5>
 
             </a>
         </div>
 
-<!--test
+        <!--test
 
         <div class="priyahcontainer">
             <img src="assets/index/india.jpg" alt="" style="width:100%" />
@@ -766,15 +792,15 @@
 
 
     <!--scripts-->
-    
-<script>
-    const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-toggleButton.addEventListener('click', () => {
-navbarLinks.classList.toggle('active')
-})
-  </script>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
 
     <script>
         $(document).ready(function () {

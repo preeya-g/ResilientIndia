@@ -239,30 +239,50 @@
             }
         }
 
-        #notyourclass {
+        /*#notyourclass {
             margin-top: 160px;
             margin-left: -20px;
-            color: white;
+            color: rgb(7, 3, 3);
             font-family: 'Ubuntu', sans-serif;
             font-size: 45px;
+            text-shadow: 2px 2px 5px rgb(248, 131, 131);
 
+        }*/
+
+        .caption {
+            width: 100%;
+            max-width: 100%;
+            position: absolute;
+            top: 25%;
+            z-index: 1;
+            color:rgb(19, 2, 2);
+            text-transform: uppercase;
+            margin-left:20px;
         }
-
+        .caption h1 {
+            font-size: 2.0rem;
+            font-weight: 400;
+            letter-spacing: .3rem;
+            text-shadow: .1rem .1rem .1rem 
+            black;
+            padding-bottom: 1rem;
+            font-family: 'Ubuntu', sans-serif;
+        }
     </style>
 </head>
 
-<body>  
+<body>
 
     <div class="bgimg">
-    
-    <!--    <div class="col-lg-12 text-box ">
-            <h1 class="animated fadeInLeft" id="notyourclass">Volunteers do not<br>necessarily<br>have the TIME<br>they
-                just have the HEART</h1>
+
+        <div class="caption">
+            <h1 class="animated fadeInLeft" id="notyourclass">''Volunteers do<br> not necessarily<br>have the
+                TIME, <br> <br> <br>they
+                just have <br>the HEART''</h1><br>
+            <button type="button" class="btn btn-dark btn-lg" style="margin-top:-10px;margin-left:90px;">JOIN
+                US</button>
+
         </div>
-
-    -->
-
-    <button type="button" class="btn btn-outline-dark pbutton">JOIN US</button>
     </div>
 
 
@@ -576,12 +596,12 @@
         <div class="items">
             <div class="priyahcontainer">
                 <img src="assets/index/pdf1.png" alt="" style="width:130px ; height: 130px;" />
-    
+
                 <button class="priyahbtn"><a href="uploads/PDF/THE DISASTER MANAGEMENT ACT 2005.pdf"> OPEN </a></button>
-    
-    
+
+
             </div>
-            
+
             <h5 style="margin-left: 60px;">DMA ACT 2005</h5>
             </a>
         </div>
@@ -589,12 +609,12 @@
         <div class="items" id="second">
             <div class="priyahcontainer">
                 <img src="assets/index/pdf2.png" alt="" style="width:130px; height: 130px;" />
-    
+
                 <button class="priyahbtn"><a href="uploads/PDF/sendai.pdf"> OPEN </a></button>
-    
-    
+
+
             </div>
-                <h5 style="text-align: center;">SENDAI Freamework for disaster risk reduction</h5>
+            <h5 style="text-align: center;">SENDAI Freamework for disaster risk reduction</h5>
             </a>
         </div>
 
@@ -602,17 +622,17 @@
         <div class="items" id="third">
             <div class="priyahcontainer">
                 <img src="assets/index/pdf3.png" alt="" style="width:130px ; height: 130px;" />
-    
+
                 <button class="priyahbtn"><a href="uploads/PDF/SchoolSafety.pdf"> OPEN </a></button>
-    
-    
+
+
             </div>
-                <h5>NDMA School Safety Policy</h5>
+            <h5>NDMA School Safety Policy</h5>
 
             </a>
         </div>
 
-<!--test
+        <!--test
 
         <div class="priyahcontainer">
             <img src="assets/index/india.jpg" alt="" style="width:100%" />
@@ -760,15 +780,15 @@
 
 
     <!--scripts-->
-    
-<script>
-    const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-toggleButton.addEventListener('click', () => {
-navbarLinks.classList.toggle('active')
-})
-  </script>
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
 
     <script>
         $(document).ready(function () {

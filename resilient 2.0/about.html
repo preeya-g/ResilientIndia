@@ -11,6 +11,9 @@
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/other.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
     <title>About</title>
 </head>
 
@@ -31,7 +34,34 @@
 </style>
 
 <body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt="logo"></a>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="testimonial.html">TESTIMONIALS</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
 
+            <div class="dropdown">
+              <li class="dropbtn"><a href="">PROJECTS</a> </li>
+              <div class="dropdown-content">
+                <a href="currentprojects.html">Current Projects</a>
+                <a href="successproj.html">Successful Projects</a>
+              </div>
+            </div>
+            <li><a href="whatwedo.html">WHAT WE DO</a></li>
+            <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+
+
+          </ul>
+        </div>
+      </nav>
     <div class="head">
         <div class="background">
             <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
@@ -83,7 +113,7 @@
 
 
     <div class="join">
-        <h1>Want to join us ? <a class="button button5"
+        <h1>Want to WHAT WE DO ? <a class="button button5"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSeHvkl1y1vwaPZyC5ddJJhMy0xtJOs4OslPE1eGWYq-UKNAyA/viewform?usp=sf_link">Click
                 Here
             </a> </h1>
@@ -194,8 +224,45 @@ Physiological First aid from JOHNS HOPKINS UNIVERSITY. "
             </div>
 
         </div>
-
-
+        <div class="footer">
+            <div class="contain">
+            <div class="col">
+              <h1>Resilient India</h1>
+              
+            </div>
+            <div class="col">
+              <h1> &#169 Powered by RAIT </h1>
+              
+            </div>
+            
+            
+            <div class="col social">
+              <ul>
+                <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          <div class="clearfix"></div>
+          </div>
+          </div>
+        <script>
+            $(window).on('scroll',function(){
+       if($(window).scrollTop()){
+         $('nav').addClass('black');
+       }
+       else{
+         $('nav').removeClass('black');
+       }
+     }) 
+         const toggleButton = document.getElementsByClassName('toggle-button')[0]
+ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+ 
+ toggleButton.addEventListener('click', () => {
+   navbarLinks.classList.toggle('active')
+ })
+       </script>
 
 
 

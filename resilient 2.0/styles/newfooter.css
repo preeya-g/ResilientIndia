@@ -63,7 +63,7 @@
             color: #fff;
             padding: 5px 0px 5px 0px;
             cursor: pointer;
-            transition: .2s;
+           transition: .2s;
             -webkit-transition: .2s;
             -moz-transition: .2s;
             text-decoration: none;
@@ -73,7 +73,7 @@
         .footer .social ul li a:hover {
             color: #4bcffa;
            
-            transition: .1s;
+           transition: .1s;
             -webkit-transition: .1s;
             -moz-transition: .1s;
         }
@@ -86,6 +86,7 @@
             .contain {
                 width: 1200px;
                 margin: 0 auto;
+               
             }
         }
 

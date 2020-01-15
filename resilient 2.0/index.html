@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
@@ -28,7 +27,6 @@
     <link rel="stylesheet" href="indexpriya.css">
     <link rel="stylesheet" href="styles/ytstyle.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   
 <!--fonts-->
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> 
@@ -96,9 +94,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="whatwedo.html">What we do</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exp">Expertise</a>
+                </li>
+
 
             </ul>
-            <a href="donateus.html"><button class="btn btn-outline-success my-2 my-sm-0">Donate</button></a>
         </div>
     </nav>
 
@@ -270,8 +271,8 @@
     </div>
 
 
-
-    <div class="portfolio about--part1">
+    <div data-aos="fade-up">
+    <div class="portfolio">
         <div class="container text-center">
             <div class="tz-gallery">
 
@@ -355,7 +356,7 @@
             </div>
         </div>
     </div>
-
+</div>
 
     <!--pdf-->
 
@@ -404,17 +405,7 @@
             </a>
         </div>
 
-        <!--test
-
-        <div class="priyahcontainer">
-            <img src="assets/index/india.jpg" alt="" style="width:100%" />
-
-            <button class="priyahbtn"><a href="uploads/PDF/SchoolSafety.pdf"> OPEN </a></button>
-
-
-        </div>
-
--->
+  
     </div>
 
 
@@ -434,40 +425,7 @@
     <center>
         <h1 id="contact" class="display-4">Contact Details</h1>
     </center>
-    <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>-->
-
-
-
-    <!--<div class="d-flex flex-row  mb-3 justify-content-space-evenly"
-        style=" color:black; margin-left: 50px;">
-        <div class="p-2 bd-highlight">
-            <div data-aos="zoom-in-right" class="card shadow">
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li data-aos="fade-left" class="list-group-item"><i
-                                class="material-icons w3-xlarge animated ">business</i> Resilient India</li>
-                        <li data-aos="fade-right" class="list-group-item"><i
-                                class="material-icons w3-xlarge animated pulse infinite"
-                                style="padding-top:10px;">mail_outline</i> resilient.india@outlook.com </li>
-                        <li data-aos="fade-left" class="list-group-item"><i
-                                class="material-icons w3-xlarge">language</i> www.resilientindia.co.in </li>
-                        <li data-aos="fade-right" class="list-group-item"><i
-                                class="material-icons w3-xlarge animated slideInUP infinite">navigation</i> 305, Simlim
-                            Square, Near D.B. Marg Police Station,<br> Lamington Road, Grant Road (E), Mumbai – 400007
-                        </li>
-                        <li class="list-group-item"><i class="material-icons w3-xlarge animated pulse infinite">call</i>
-                            +91 9823179464, +91 9665599900 </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="p-2 bd-highlight" style=" margin-left: 150px;">
-            <img src="assets/map.png" class="img-fluid" alt="map">
-        </div>
-        <- map </div> -->
+   
 
     <section class="container mt-50px" id="marginkeliye">
         <div class="row justify-content-center">
@@ -521,14 +479,14 @@
     <footer class="footer_style">
         <main class="container-fluid">
             <div class="row p-3">
-                <div class="col-md-2 col-12 offset-md-1">
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12 offset-md-1">
                     <h4>Resilient India</h4>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 col-sm-12">
                     <p class="text-capitalize"> &#169 Powered By DY PATIL GROUP, RAIT,  NERUL</p>
                 </div>
 
-                <div class="col-md-4 col-12 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-12 col-sm-6 col-lg-4">
                     <ul>
                         <li> <a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i
                                     class="fa fa-facebook fa-2x " aria-hidden="true"></i></a></li>
@@ -562,31 +520,7 @@
         })
     </script>
 
-    <script>
-        $(document).ready(function () {
-            $('.about--part1').waypoint(function (direction) {
-                $('.about--part1').addClass('animated fadeInUp')
-            }, {
-                offset: '700px'
-            });
-
-
-            $('.about--part2').waypoint(function (direction) {
-                $('.about--part2').addClass('animated fadeInLeft')
-            }, {
-                offset: '100px'
-            });
-            $('.about--part3').waypoint(function (direction) {
-                $('.about--part3').addClass('animated fadeInRight')
-            }, {
-                offset: '100px'
-            });
-            $('.gallery--part1').waypoint(function (direction) {
-                $('.gallery--part1').addClass('animated fadeInUp')
-            }, {
-                offset: '100px'
-            });
-        });
+   
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
     <script>

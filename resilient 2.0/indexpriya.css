@@ -182,20 +182,6 @@ body {
 }
 
 
-/* ANIMATION */
-.about--part1,
-.about--part2,
-.about--part3,
-.gallery--part1 {
-  opacity: 0;
-}
-
-.about--part1.animated,
-.about--part2.animated,
-.about--part3.animated,
-.gallery--part1.animated {
-  opacity: 1;
-}
 
 
 /* NAVBAR */
@@ -203,6 +189,7 @@ body {
   height: 80px;
   margin-top: -5px;
   border: none;
+
 
 
 }
@@ -217,6 +204,11 @@ body {
   animation: load 0.5s both;
 
 
+}
+
+
+.dropdown-item:hover{
+  background-color: teal;
 }
 
 .dropdown-menu:hover {

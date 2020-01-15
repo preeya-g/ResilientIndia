@@ -23,8 +23,8 @@ body{
   background-size: cover;
   object-position: 50 -100;
   /* even if we dont declare this the image will still be centered */
-  -webkit-filter: brightness(0.50);
-  filter: brightness(0.50);
+  -webkit-filter: brightness(0.20);
+   filter: brightness(0.20); 
 }
 
 
@@ -547,7 +547,10 @@ height: 70px;}
   #notyourclass{
     margin-left: -15px;
     font-size: 20px;
+  
+    
   }
+
 
    #joinbtn{
     margin-top:-10px;
@@ -736,4 +739,5 @@ margin: auto;}
   black;
   padding-bottom: 1rem;
   font-family: 'Ubuntu', sans-serif;
+  
 }

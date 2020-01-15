@@ -81,3 +81,14 @@ body {
       border: none;
   }
   
+
+  @media only screen and (max-width: 800px){
+      
+     .leftinfo  li {
+  
+        
+                font-size: 18px;
+                line-height: 2;
+                margin-left: 5%;
+            }
+  }

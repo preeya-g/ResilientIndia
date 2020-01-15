@@ -1,48 +1,46 @@
-
 .footer_style {
-    background-color: #041d21;
-   
-    color: white;
-   
-   }
-   
-   .footer_style a {
-    text-decoration: none;
-    color: white;
-   }
-   
-   .footer_style a:hover {
-    text-decoration: none;
-    color: #4bcffa;
-   }
-   
-   .footer_style .d-flex div {
-    text-align: center;
-    border-right: 1px solid grey;
-    border-top: 1px solid grey;
-   }
-   
-   .footer_style .d-flex div:last-child {
-    border-right: none;
-   }
-   
-   @media(max-width: 768px) {
-    .footer_style li {
-      list-style: none;
-    }
-   
-    .footer_style .d-flex span {
-      display: none;
-    }
-   }
-   
-   
-   
-   
-   .footer_style li {
+  background-color: #041d21;
+
+  color: white;
+
+}
+
+.footer_style a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_style a:hover {
+  text-decoration: none;
+  color: #4bcffa;
+}
+
+.footer_style .d-flex div {
+  text-align: center;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.footer_style .d-flex div:last-child {
+  border-right: none;
+}
+
+@media(max-width: 768px) {
+  .footer_style li {
     list-style: none;
-    float: left;
-    margin-left: 10px;
-   
-   }
-   
+  }
+
+  .footer_style .d-flex span {
+    display: none;
+  }
+}
+
+
+
+
+.footer_style li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+
+}

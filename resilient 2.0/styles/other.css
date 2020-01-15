@@ -342,3 +342,14 @@ button {
 .btn-close:hover:after {
     color: #34B484;
 }
+
+.point {
+    margin: 10px;
+}
+
+
+.team-flex {
+    display: flex;
+    flex-direction: column;
+
+}

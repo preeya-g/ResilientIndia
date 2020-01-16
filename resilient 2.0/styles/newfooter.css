@@ -6,6 +6,7 @@
             width: 100%;
             margin-top: 5%;
             font-family: 'Lato', sans-serif;
+            padding-bottom: 5%;
         }
 
         .footer a{
@@ -91,19 +92,19 @@
         }
 
         @media only screen and (max-width: 1139px) {
-            .contain .social {
-                width: 1000px;
-                display: block;
-            }
+          
 
             .social h1 {
                 margin: 0px;
             }
+           
         }
 
         @media only screen and (max-width: 950px) {
             .footer .col {
                 width: 100%;
+                padding: 0px 0px 10px 0px;
+
             }
 
             .footer .col h1,.footer .col .p {
@@ -118,6 +119,7 @@
         @media only screen and (max-width: 500px) {
             .footer .col {
                 width: 100%;
+                padding: 0px 0px 10px 10px;
             }
 
             .footer .col h1,.footer .col .p {

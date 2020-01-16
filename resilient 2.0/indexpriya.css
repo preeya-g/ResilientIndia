@@ -189,7 +189,7 @@ body {
   height: 80px;
   margin-top: -5px;
   border: none;
-
+  background-color: #041d21;
 
 
 }
@@ -206,9 +206,12 @@ body {
 
 }
 
-
+.dropdown-item{
+  color: white;
+}
 .dropdown-item:hover{
   background-color: teal;
+
 }
 
 .dropdown-menu:hover {

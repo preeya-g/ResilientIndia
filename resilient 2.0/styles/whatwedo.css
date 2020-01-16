@@ -1,5 +1,4 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
@@ -15,80 +14,50 @@ body {
   
       }
   
-     .leftinfo  li {
-  
+     .leftinfo li {
   list-style: circle;
-          font-size: 22px;
+          font-size: 25px;
           line-height: 2;
           margin-left: 5%;
+
       }
   
       .leftinfo{
           box-shadow: 0px 0px 15px 0px #30e3d7;
-          padding: 15px;
+          padding: 20px;
           margin-left: 0%;
           
     
         }  
-      
-   
-      .info li{
-      list-style-type: circle;
-          font-size: 25px;
-          margin-left: 5%;
-   
-  
-  
-  
-      }
-      .info{
-        
-         padding: 30px;
-         border-radius: 10px;
-         box-shadow: 0px 0px 15px 0px #000;
-        
-      
-      color: #fff;
-      background: linear-gradient(-45deg, #2be7af, #23a6d5, #23d5ab);
-      background-size: 400% 400%;
-      animation: gradientBG 15s ease infinite;
-  }
-  
-  
-  @keyframes gradientBG {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  }
-  
-      
-     
    
   
   .container-what .img-fluid{
       max-width: 100%;
      
   }
-
-  
+ 
   .imagerow .card{
       border: none;
   }
   
 
   @media only screen and (max-width: 800px){
-      
+   
      .leftinfo  li {
-  
-        
-                font-size: 18px;
-                line-height: 2;
-                margin-left: 5%;
+       
+              font-size: 16px;
+              line-height: 1.5;
+                margin: 0% !important;
+                
+               
             }
+            .leftinfo{
+            padding: 20px 7px 20px 5px;
+            }
+            .container-what{
+                margin: 3%;
+            }
+          
+            
+               
   }

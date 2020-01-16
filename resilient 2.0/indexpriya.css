@@ -551,13 +551,6 @@ line-height: 90px;
 @media(max-width: 768px) 
 
 {
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
 
 
   body{

@@ -6,7 +6,6 @@
             width: 100%;
             margin-top: 5%;
             font-family: 'Lato', sans-serif;
-            padding-bottom: 5%;
         }
 
         .footer a{
@@ -92,7 +91,9 @@
         }
 
         @media only screen and (max-width: 1139px) {
-          
+          .footer{
+              margin-bottom: 5%;
+          }
 
             .social h1 {
                 margin: 0px;
@@ -120,15 +121,13 @@
             .footer .col {
                 width: 100%;
                 padding: 0px 0px 10px 10px;
+                
             }
 
             .footer .col h1,.footer .col .p {
                 font-size: 20px;
             }
 
-            .footer .col ul li {
-                font-size: 13px;
-            }
         }
 
         @media only screen and (max-width: 340px) {

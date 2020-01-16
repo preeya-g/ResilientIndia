@@ -685,9 +685,9 @@ display: block;
 #aishh {
   width: 100%;
   position: relative;
-  opacity: 1;
+  /*opacity: 1;
   -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
+  -moz-opacity: 0.5;*/
   transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
@@ -695,14 +695,18 @@ display: block;
 
 #aishh:hover {
   width: 110%;
-  opacity: 1;
+ /* opacity: 1;
   -webkit-opacity: 1;
-  -moz-opacity: 1;
+  -moz-opacity: 1;*/
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 gray;
 }
 
-#xyzz:hover {
+/*#xyzz:hover {
   -webkit-transform: scale(1.04);
+}*/
+
+#xyzz1{
+  color:black;
 }
 
 #container {

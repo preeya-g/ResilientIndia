@@ -21,15 +21,13 @@ body,html {
       }
       .crimeinfo{
      
-        
+        background-color: rgb(238, 225, 225);
         padding: 30px;
         border-radius: 10px;
-     box-shadow: 0px 0px 15px 0px #000;
         margin-bottom: 5%;
        
      
-     color: #fff;
-     background: linear-gradient(-45deg, #2be7af, #23a6d5, #23d5ab);
+     color: black;
    
  }
  
@@ -37,18 +35,20 @@ body,html {
 
      
     .crimeinfo p{
-        font-size: 20px;
+        font-size: 22px;
         
 
     }
   
     @media only screen and (max-width: 800px){
-      
+        .container-crime{
+            margin: 5%;
+        }
       .crimeinfo p {
    
          
-                 font-size: 17px;
-                 margin-left: 5%;
+                 font-size: 16px;
+                 margin-left: 1%;
              }
           
    }

@@ -189,14 +189,7 @@ body {
   height: 80px;
   margin-top: -5px;
   border: none;
-  text-align: center;
-  background-color: #074b57;
-  border-radius: 10px;
-  box-shadow: 0px 0px 15px 0px #aac7c5;
-
-  
-  
-
+  background-color: #041d21;
 
 
 }
@@ -212,20 +205,13 @@ body {
 
 
 }
-.dropdown-item {
-color: white;
-display: block;
-font-size: 15px;
-padding: auto;
-text-decoration: none;
-text-transform: uppercase;
-font-family: 'Lato', sans-serif;
-font-weight: 500;
+
+.dropdown-item{
+  color: white;
 }
-
-
 .dropdown-item:hover{
   background-color: teal;
+
 }
 
 .dropdown-menu:hover {
@@ -323,14 +309,7 @@ font-weight: 500;
 
 }
 
-.expleft li:hover {
-  font-size: 1.25em;
-  transition: 0.5s ease-out;
-  color: darkgoldenrod;
-}
-
-
-.expright li:hover {
+.expleft li:hover,.expright li:hover {
   font-size: 1.25em;
   transition: 0.5s ease-out;
   color: darkgoldenrod;
@@ -338,13 +317,35 @@ font-weight: 500;
 
 
 
-.expright {
-  margin-right: 80px;
-}
+
+
+
 
 .expleft {
   margin-left: 10px;
 }
+
+.expleft .sec{
+  width: 200px;
+  line-height: 45px;
+  
+}
+
+.expleft li, .expright li{
+  margin-bottom: 20px;
+
+}
+.expleft .school{
+  width: 275px;
+}
+
+
+.expright .disaster{
+    width: 250px;
+line-height: 90px;  
+}
+
+
 
 .navbar-toggler-icon {
   display: inline-block;
@@ -532,18 +533,36 @@ font-weight: 500;
 
 
 
+.donateklass{
+  margin-top:-10px;
+  margin-left:90px;
+}
+
+
+@media(min-width: 752px) {
+  
+  .mobilelist{
+    display: none;
+    visibility: collapse;
+  }
+}
+
+
 @media(max-width: 768px) {
   body{
     font-size: 10px;
     overflow-x: hidden;
   }
+
   .footer_style li {
     list-style: none;
   }
-.navbar img{
+
+  .navbar img{
   margin-left: -10px;
-width: 70px;
-height: 70px;}
+  width: 70px;
+  height: 70px;
+}
 
   .footer_style .d-flex span {
     display: none;
@@ -556,15 +575,13 @@ height: 70px;}
   #notyourclass{
     margin-left: -15px;
     font-size: 20px;
-  
-    
   }
 
 
-   #joinbtn{
-    margin-top:-10px;
+  #joinbtn{
     margin-left:90px;
   }
+
 
   .falogocontainer   .fa{
       font-size: 25px;
@@ -572,43 +589,94 @@ height: 70px;}
 
 
    
-.pdfs {
+  .pdfs {
   display: flex;
   flex-direction: column;
-}
+  }
 
- #second{
-margin: auto;}
+  #second{
+  margin: auto;
+  }
 
-.items{
+  .items{
   margin-bottom: 50px !important;
-}
-.items h5{
-  font-size: 15px;
-}
+  }
 
-.sec-head, .thi-head{
+  .items h5{
+  font-size: 15px;
+  }
+
+  .sec-head, .thi-head{
   width: 250px;  
   text-align: center;
-}
+  }
 
-#contact{
+  #contact{
   margin-top: -20px;
-}
+  }
 
-#marginkeliye .col-md-6{
+  #marginkeliye .col-md-6{
   margin-bottom: 70px !important;
+  }
+  
+  .caption #notyourclass{
+    text-align: center;
+  }
+
+  .donateklass{
+    margin-top: 60px;
+  }
+
+
+  .expleft, .expright{
+    line-height: normal;
+    text-align: center;
+  }
+
+  .expertiseitems{
+    flex-direction: column;
+  }
+
+  .expertiseitems{
+    display: none;
+    visibility: collapse;
+  }
+
+  
+
+  
+.mobilelist{
+display: block;
 }
-.dropdown-menu {
+.mobilelist ul{
+  margin-top: 30px;
+  list-style: none;
+  text-align: center;
+  margin-left: -50px;
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif;
 
-width: 200px;
-margin-left: 20%;
+}
+
+  .mobilelist a{
+    text-decoration: none;
+  }
+.mobilehead{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+
 }
 
 
 
 
-
+/* rd */
+/* .mobilelist{
+  display: none;
+  visibility: collapse;
+} */
 
 
 
@@ -741,8 +809,7 @@ margin-left: 20%;
   position: absolute;
   top: 25%;
   z-index: 1;
-  color:rgb(19, 2, 2);
-  text-transform: uppercase;
+  color:white;
   margin-left:20px;
 }
 .caption h1 {
@@ -753,5 +820,5 @@ margin-left: 20%;
   black;
   padding-bottom: 1rem;
   font-family: 'Ubuntu', sans-serif;
-  
+}
 }

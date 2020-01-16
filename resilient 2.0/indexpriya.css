@@ -528,13 +528,20 @@ line-height: 90px;
 }
 
 
-@media(max-width: 1000px) {
+@media(max-width: 768px) 
+
+{
+
+
   body{
     font-size: 10px;
+width: auto;
     overflow-x: hidden;
   }
  
 
+
+  
   .footer_style li {
     list-style: none;
   }

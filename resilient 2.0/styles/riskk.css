@@ -1,15 +1,16 @@
 
  
  ul,li{
+     padding:10px;
     color:white;
     font-size:large;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-ul{
+/*ul{
     background-image: linear-gradient(#0a4c54,black);
     border-radius:30px;
-}
+}*/
 
 body{
     background-image:linear-gradient(#0a4c54,black);
@@ -45,13 +46,23 @@ background-image: linear-gradient(to right, rgba(255, 255, 255,0 ), rgba(255, 25
 width: 70%;
 }
 
+.ash{
+    display: 100%;
+}
+.ash1{
+    width: 75%;
+    background-image: linear-gradient(#0a4c54,black);
+    border-radius:30px;
+}
 
 
 
 @media screen and (max-width: 473px) {
   
+   
     body{
         font-size: 10px;
+        
     }
     
     .typewriter h4{
@@ -61,10 +72,41 @@ width: 70%;
     margin-top: 20px;
     font-size: 19px !important;
 }
-.lead{
+#ashh{
+    font-size: x-large;
+    margin:10px;
+}
+.ash1 li{
+    font-size: 10px;
+    margin-right: 50px;
+}
+
+.display-4{
+    font-size: 40px !important;
+}
+
+hr.new{
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width:200px){
+    body{
+        font-size: 10px;
+        
+    }
+    
+    .typewriter h4{
+        font-size: 10px !important;
+    }
+.display-4{
+    margin-top: 30px;
+    font-size: 19px !important;
+}
+.ashh{
     font-size: smaller;
 }
-.w-75 li{
+.ash1 li{
     font-size: 10px;
     margin-right: 50px;
 }

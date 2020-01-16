@@ -41,6 +41,12 @@ body {
   }
   
 
+  .card img:hover{
+        filter: sepia(100%);
+    
+    
+  }
+
   @media only screen and (max-width: 800px){
    
      .leftinfo  li {

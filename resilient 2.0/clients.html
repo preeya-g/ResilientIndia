@@ -77,8 +77,13 @@
     <img src="assets/clients/earth.svg" width="100px" alt="Kiwi standing on oval">
 
   </div>
-  <center><img src="assets/clients/handshake.svg" width="100px" alt="" srcset="" style="margin-bottom: 90px;"></center>
+  <center><img src="assets/clients/handshake.svg" width="100px" alt="" srcset="" class="hand"></center>
 
+
+
+
+
+  
   <center>
     <h2> <span class="under" id="domestic">DOMESTIC</span>
     </h2>
@@ -163,22 +168,21 @@
     </div>
   </div>
   <script>
-    $(window).on('scroll',function(){
-if($(window).scrollTop()){
- $('nav').addClass('black');
-}
-else{
- $('nav').removeClass('black');
-}
-}) 
- const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      } else {
+        $('nav').removeClass('black');
+      }
+    })
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-toggleButton.addEventListener('click', () => {
-navbarLinks.classList.toggle('active')
-})
-</script>
- 
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active')
+    })
+  </script>
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({

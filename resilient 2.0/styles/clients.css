@@ -85,4 +85,18 @@ html {
     margin-bottom: 400px;
 
   }
+
+  .lenks a{
+    font-size: 15px;
+  }
+
+  .lenks img{
+    width: 65px;
+    
+  }
+
+  .hand{
+    width: 65px;
+    margin-bottom: 90px;
+  }
 }

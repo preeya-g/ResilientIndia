@@ -1,6 +1,10 @@
-body{
+body,html{
   overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  
 }
+
 .pbutton {
   margin: 100px;
   margin-top: 400px;
@@ -515,12 +519,15 @@ line-height: 90px;
 
 .donateklass{
   margin-top:-10px;
-  margin-left:90px;
+  /*margin-left:90px;*/
 }
 
 
-@media(min-width: 752px) {
-  
+@media only screen and (min-width: 752px) {
+
+  body ,html{
+    overflow-x: hidden !important;
+  }
   .mobilelist{
     display: none;
     visibility: collapse;
@@ -528,15 +535,12 @@ line-height: 90px;
 }
 
 
-@media(max-width: 768px) 
-
-{
-
+@media only screen and (max-width: 768px) {
 
   body{
     font-size: 10px;
-width: auto;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    
   }
  
 
@@ -797,12 +801,10 @@ display: block;
 
 .caption {
   width: 100%;
-  max-width: 100%;
   position: absolute;
   top: 25%;
   z-index: 1;
   color:white;
-  margin-left:20px;
 }
 .caption h1 {
   font-size: 2.0rem;

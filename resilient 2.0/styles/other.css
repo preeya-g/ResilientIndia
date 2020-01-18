@@ -132,8 +132,8 @@ button {
       width: 100px;
     height: 100px;
     max-height: 100%;
-    border-radius: 25%;
-    }
+    border-bottom-right-radius: 25%;
+}
 
 
  
@@ -283,8 +283,8 @@ button {
         margin-left:0px !important;
         width: 70px !important ; 
         height: 70px;
-        border-radius: 20%;
-        }
+        border-bottom-right-radius: 20%;
+    }
     
         nav.black{
             height: auto;

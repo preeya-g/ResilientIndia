@@ -34,19 +34,19 @@
             background-image: linear-gradient(#0a4c54, black);
         }
         .cybersecurity {
-                margin: 50px;
+                margin: 5%;
         }
 
         .title {
             padding: 10px;
             text-align: center;
-            background-color: #6c7371;
+            background-color: #b49b8d;
         }
 
         .title h1 {
             font-size: 2em;
             font-weight: bold;
-            color: white;
+            color: #000;
 
         }
 
@@ -55,8 +55,8 @@
             margin-bottom: 50px;
             display: flex;
             justify-content: center;
-            color:white;
-            font-size: 18px;
+            color:#000;
+            font-size: 19px;
         
         }
 .cybersecurity .row{
@@ -69,16 +69,24 @@
         .cybersecurity .cyberleftinfo,
         .cybersecurity .cyberrightinfo {
             border-radius: 5px;
-            background-color: #849c8b
+            background-color: #cfc8c5;
             
           }
 
         
-        .about--part1, .about--part2,.about--part3,.gallery--part1{
-    opacity: 0;
-}
-.about--part1.animated, .about--part2.animated, .about--part3.animated, .gallery--part1.animated{
-    opacity: 1;
+   
+@media only screen and (max-width: 800px) {
+    .cybersecurity {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .title h1 {
+            font-size: 1.5em;
+    }
+    .ccontent {
+        font-size: 16px;
+    }
+
 }
     </style>
 </head>
@@ -120,7 +128,6 @@
  
       <div class="head">
         <div class="background">
-            <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
             <div class="animated fadeInLeft">
                 <h1>CYBER CRIME</h1>
             </div>
@@ -131,7 +138,7 @@
     </div>
     <div class="cybersecurity">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 minfo">
                 <div data-aos="zoom-in">
                 <div class="cyberinfo">
                     <div class="title">
@@ -157,34 +164,7 @@
                 </div>
             </div></div>
         </div>
-        <!--div class="row">
-
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                <div class="cyberinfo   about--part1">
-                    <div class="title">
-                        <h1>Definition </h1>
-                      
-                    </div>
-                    <div class="ccontent">“The process of identifying, preserving, analyzing and presenting digital
-                        evidence in a manner that is legally acceptable.” Computer forensics involves the preservation,
-                        identification, extraction, documentation, and interpretation of computer media for evidentiary
-                        and/or
-                        root cause analysis. Evidence might be required for a wide range of computer crimes and misuses
-                        Multiple methods of Discovering data on computer system and cell phone Recovering deleted,
-                        encrypted, or
-                        damaged file information Monitoring live activity Detecting violations of corporate policy
-                        Information
-                        collected assists in arrests, prosecution, termination of employment, and preventing future
-                        illegal
-                        activity Any information being subject to human intervention or not, that can be extracted from
-                        a computer.
-                        Must be in human-readable format or capable of being interpreted by a person with expertise in
-                        the subject.
-                    </div>
-                </div>
-            </div>
-        </!--div>
-        -->
+       
         <div class="row cyberrow">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div data-aos="fade-right">
@@ -364,28 +344,11 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init({duration: 400,
+  offset:30,
     once: true, 
 });
 </script>
-      <script>
-        $(document).ready(function () {
-            $('.about--part1').waypoint(function (direction) {
-                $('.about--part1').addClass('animated zoomIn')
-            }, {
-                offset: '50%'
-            });
-
-
-            $('.about--part2').waypoint(function (direction) {
-                $('.about--part2').addClass('animated zoomIn')
-            }, {
-                offset: '50%'
-            });
-            
-         
-           
-        });
-    </script>
+     
          <script>
             $(window).on('scroll',function(){
        if($(window).scrollTop()){

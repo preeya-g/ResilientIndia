@@ -544,7 +544,15 @@ line-height: 90px;
   }
  
 
-
+.footer_style h4,p{
+  display: flex;
+justify-content: center;
+}
+.footer_style p{}
+.footer_style ul{
+  display: flex;
+justify-content: center;
+padding: 0px 15px;}
   
   .footer_style li {
     list-style: none;

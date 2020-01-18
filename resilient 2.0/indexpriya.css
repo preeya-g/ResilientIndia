@@ -517,11 +517,17 @@ line-height: 90px;
 
 
 
-.donateklass{
-  margin-top:-10px;
-  /*margin-left:90px;*/
+.boomer{
+  margin-left: 50px;
 }
 
+
+@media only screen and (max-width: 415px) {
+
+  .boomer{
+    margin-top: 30px;
+  }
+}
 
 @media only screen and (min-width: 752px) {
 
@@ -543,7 +549,9 @@ line-height: 90px;
     
   }
  
-
+.caption{
+  margin-left: 0px !important;
+}
 .footer_style h4,p{
   display: flex;
 justify-content: center;
@@ -623,9 +631,6 @@ padding: 0px 15px;}
     text-align: center;
   }
 
-  .donateklass{
-    margin-top: 60px;
-  }
 
 
   .expleft, .expright{
@@ -666,6 +671,9 @@ display: block;
   font-family: 'Lato', sans-serif;
 
 }
+
+
+
 
 }
 
@@ -813,6 +821,7 @@ display: block;
   top: 25%;
   z-index: 1;
   color:white;
+  margin-left: 50px;
 }
 .caption h1 {
   font-size: 2.0rem;

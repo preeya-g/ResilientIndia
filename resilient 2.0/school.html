@@ -19,9 +19,8 @@
 
 
 
-    <link rel="stylesheet" href="styles/other.css">
+    <link rel="stylesheet" href="styles/othernewnav.css">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
     <style>
@@ -132,38 +131,47 @@
 <body>
 
   
-   
+    <section class="navigation">
+        <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt="Logo"></a>
+         <nav>
+           
+         
+           <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+           <ul class="nav-list">
+             <li>
+               <a href="index.html">HOME</a>
+             </li>
+             <li>
+               <a href="about.html">ABOUT US</a>
+             </li>
+             <li>
+               <a href="testimonial.html">TESTIMONIALS</a>
+             </li>
+             <li>
+               <a href="clients.html">CLIENTS</a>
+             </li>
+             <li>
+               <a href="#">PROJECTS</a>
+               <ul class="nav-dropdown">
+                 <li>
+                   <a href="currentprojects.html">CURRENT PROJECTS</a>
+                 </li>
+                 <li>
+                   <a href="successproj.html">SUCCESSFUL PROJECTS</a>
+                 </li>
+               </ul>
+             </li>
+             
+               <li>
+               <a href="whatwedo.html">WHAT WE DO</a>
+             </li>
+             <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+           </ul>
+         </nav>
+         </section>
     
  
-          <nav class="navbar">
-            <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt=""></a>
-            <a href="#" class="toggle-button">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-              <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="testimonial.html">TESTIMONIALS</a></li>
-                <li><a href="clients.html">CLIENTS</a></li>
-    
-                <div class="dropdown">
-                  <li class="dropbtn"><a href="">PROJECTS</a> </li>
-                  <div class="dropdown-content">
-                    <a href="currentprojects.html">Current Projects</a>
-                    <a href="successproj.html">Successful Projects</a>
-                  </div>
-                </div>
-                <li><a href="whatwedo.html">WHAT WE DO</a></li>
-                <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
-    
-    
-              </ul>
-            </div>
-          </nav>
-      
+          
     <div class="head">
         <div class="background">
             <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
@@ -294,6 +302,9 @@
       <div class="clearfix"></div>
       </div>
       </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script>
         $(window).on('scroll',function(){
    if($(window).scrollTop()){
@@ -310,6 +321,26 @@ toggleButton.addEventListener('click', () => {
 navbarLinks.classList.toggle('active')
 })
    </script>
+    <script>
+        (function ($) { 
+          $(function () { 
+            $('nav ul li a:not(:only-child)').click(function (e) {
+              $(this).siblings('.nav-dropdown').toggle();
+              $('.nav-dropdown').not($(this).siblings()).hide();
+              e.stopPropagation();
+            });
+            $('html').click(function () {
+              $('.nav-dropdown').hide();
+            });
+            $('#nav-toggle').click(function () {
+              $('nav ul').slideToggle();
+            });
+            $('#nav-toggle').on('click', function () {
+              this.classList.toggle('active');
+            });
+          });
+        })(jQuery);
+      </script>
 </body>
 
 </html>

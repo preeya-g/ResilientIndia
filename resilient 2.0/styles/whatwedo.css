@@ -33,6 +33,7 @@ body {
   
   .container-what .img-fluid{
       max-width: 100%;
+      height: 350px;
      
   }
  
@@ -63,7 +64,9 @@ body {
             .container-what{
                 margin: 3%;
             }
-          
+            .container-what .card{
+                margin-top: 5%;
+            }
             
                
   }

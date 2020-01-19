@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+ 
+    padding: 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
+    background-image: linear-gradient(#0a4c54, black);
+}
+.cybersecurity {
+        margin: 5%;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    background-color: #b49b8d;
+}
+
+.title h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+
+}
+
+.ccontent {
+    padding: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    color:#000;
+    font-size: 19px;
+
+}
+.cybersecurity .row{
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+
+.cybersecurity .cyberinfo,
+.cybersecurity .cyberleftinfo,
+.cybersecurity .cyberrightinfo {
+    border-radius: 5px;
+    background-color: #cfc8c5;
+    
+  }
+
+
+
+@media only screen and (max-width: 800px) {
+.cybersecurity {
+margin-left: 3%;
+margin-right: 3%;
+}
+.title h1 {
+    font-size: 1.5em;
+}
+.ccontent {
+font-size: 16px;
+}
+
+}

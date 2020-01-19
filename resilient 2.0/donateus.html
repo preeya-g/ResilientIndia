@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/newfooter.css">
-  <link rel="stylesheet" href="styles/other.css">
+  <link rel="stylesheet" href="styles/othernewnav.css">
   <link rel="stylesheet" href="styles/head.css">
 
   <style>
@@ -55,45 +55,51 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt=""></a>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT US</a></li>
-        <li><a href="testimonial.html">TESTIMONIALS</a></li>
-        <li><a href="clients.html">CLIENTS</a></li>
+  <section class="navigation">
+    <a class="navbar-brand" href="#"><img src="assets/logo.jpg" alt="Logo"></a>
+     <nav>
+       
+     
+       <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+       <ul class="nav-list">
+         <li>
+           <a href="index.html">HOME</a>
+         </li>
+         <li>
+           <a href="about.html">ABOUT US</a>
+         </li>
+         <li>
+           <a href="testimonial.html">TESTIMONIALS</a>
+         </li>
+         <li>
+           <a href="clients.html">CLIENTS</a>
+         </li>
+         <li>
+           <a href="#">PROJECTS</a>
+           <ul class="nav-dropdown">
+             <li>
+               <a href="currentprojects.html">CURRENT PROJECTS</a>
+             </li>
+             <li>
+               <a href="successproj.html">SUCCESSFUL PROJECTS</a>
+             </li>
+           </ul>
+         </li>
+         
+           <li>
+           <a href="whatwedo.html">WHAT WE DO</a>
+         </li>
+         <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
+       </ul>
+     </nav>
+     </section>
 
-        <div class="dropdown">
-          <li class="dropbtn"><a href="">PROJECTS</a> </li>
-          <div class="dropdown-content">
-            <a href="currentprojects.html">Current Projects</a>
-            <a href="successproj.html">Successful Projects</a>
-          </div>
-        </div>
-        <li><a href="whatwedo.html">WHAT WE DO</a></li>
-        <li><a href="donateus.html"><button type="submit" class="outline white-blue">Donate</button></a></li>
-
-
-      </ul>
-    </div>
-  </nav>
 
 
 
-
-  <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
-
+  
   <div class="head">
-    <div class="background" style="height:200px;">
-      <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
+    <div class="background">
       <div class="animated fadeInLeft">
         <h1>DONATE US</h1>
       </div>
@@ -102,12 +108,7 @@
       </div>
     </div>
   </div>
-  <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                          <script>
-                              AOS.init();
-                          </script>-->
-
-  <!--<div class="parallax"></div>-->
+ 
   <div class="d-flex flex-column bd-highlight mb-3">
     
     <div class="p-2 bd-highlight">
@@ -198,15 +199,12 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <script>
     $(window).on('scroll', function () {
@@ -225,7 +223,31 @@
     })
   </script>
 
-
+<script>
+  (function ($) { // Begin jQuery
+    $(function () { // DOM ready
+      // If a link has a dropdown, add sub menu toggle.
+      $('nav ul li a:not(:only-child)').click(function (e) {
+        $(this).siblings('.nav-dropdown').toggle();
+        // Close one dropdown when selecting another
+        $('.nav-dropdown').not($(this).siblings()).hide();
+        e.stopPropagation();
+      });
+      // Clicking away from dropdown will remove the dropdown class
+      $('html').click(function () {
+        $('.nav-dropdown').hide();
+      });
+      // Toggle open and close nav styles on click
+      $('#nav-toggle').click(function () {
+        $('nav ul').slideToggle();
+      });
+      // Hamburger to X toggle
+      $('#nav-toggle').on('click', function () {
+        this.classList.toggle('active');
+      });
+    }); // end DOM ready
+  })(jQuery); // end jQuery
+</script>
 </body>
 </html>
 

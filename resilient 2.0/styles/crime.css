@@ -18,7 +18,14 @@ body,html {
     .container-crime .card{
           margin-bottom: 5% !important;
           border: none;
+          
       }
+/*
+      .container-crime .card .img-fluid{
+          height: 500px;
+      }
+*/
+      
       .crimeinfo{
      
         background-color: rgb(238, 225, 225);

@@ -18,6 +18,14 @@
 
 
     <title>About</title>
+
+    <style>
+        #sizee{
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+    </style>
 </head>
 
 <body>
@@ -71,7 +79,7 @@
                 <h1>ABOUT US </h1>
             </div>
             <div class="typewriter">
-                <h4> Meet the amazing team behind this project. </h4>
+                <h4 id="sizee"> Meet the amazing team behind this project. </h4>
             </div>
         </div>
     </div>
@@ -269,28 +277,23 @@ Physiological First aid from JOHNS HOPKINS UNIVERSITY. "
        </script>
 <script>
     (function ($) { // Begin jQuery
-      $(function () { // DOM ready
-        // If a link has a dropdown, add sub menu toggle.
+      $(function () { 
         $('nav ul li a:not(:only-child)').click(function (e) {
           $(this).siblings('.nav-dropdown').toggle();
-          // Close one dropdown when selecting another
           $('.nav-dropdown').not($(this).siblings()).hide();
           e.stopPropagation();
         });
-        // Clicking away from dropdown will remove the dropdown class
         $('html').click(function () {
           $('.nav-dropdown').hide();
         });
-        // Toggle open and close nav styles on click
         $('#nav-toggle').click(function () {
           $('nav ul').slideToggle();
         });
-        // Hamburger to X toggle
         $('#nav-toggle').on('click', function () {
           this.classList.toggle('active');
         });
-      }); // end DOM ready
-    })(jQuery); // end jQuery
+      });
+    })(jQuery); 
   </script>
 
 

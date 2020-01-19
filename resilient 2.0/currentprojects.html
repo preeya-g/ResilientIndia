@@ -63,7 +63,6 @@
 
   <div class="head">
     <div class="background">
-      <!--    <div class="animated fadeInLeft text">ABOUT US</div> -->
       <div class="animated fadeInLeft">
         <h1>CURRENT PROJECTS </h1>
       </div>
@@ -72,12 +71,7 @@
       </div>
     </div>
   </div>
-  <!--<div class="links">         
-<a href="#1">NHAI(National Highway Authority of India)</a><br>
-<a href="#2">Additional Director General of Police (Traffic) Maharashtra</a><br>
-<a href="#3">Planning,Training & Implementation for Crowd and Disaster Risk Management at Shirdi</a><br>
-<a href="#4">Urban Crime and Violence Prevention Project with Nashik Police</a><br>
-            </div>-->
+
 
 
   <center>
@@ -85,7 +79,7 @@
       <div class="d-flex flex-column bd-highlight mb-3">
         <div class="p-1 bd-highlight" id="1">
           <div data-aos="fade-right" class="jumbotron shadow " id="vk1">
-            <h1 class="display-4" style="font-size: xx-large; color:cornsilk">NHAI(National Highway Authority of India</h1>
+            <h1 class="display-4" style="font-size: xx-large; color:cornsilk">NHAI(National Highway Authority of India)</h1>
             <hr class="my-3" style="color:white">
             <p style="color: cornsilk">Hazard Vulnerability Risk & Capacity Analysis of National Highways under the
               jusrisdiction of NHAI, M.S. with an aim to bring down the numbers of casualties resulting from Road
@@ -223,29 +217,28 @@
     })
   </script>
     <script>
-      (function ($) { // Begin jQuery
-        $(function () { // DOM ready
-          // If a link has a dropdown, add sub menu toggle.
+      (function ($) { 
+        $(function () { 
           $('nav ul li a:not(:only-child)').click(function (e) {
             $(this).siblings('.nav-dropdown').toggle();
-            // Close one dropdown when selecting another
+           
             $('.nav-dropdown').not($(this).siblings()).hide();
             e.stopPropagation();
           });
-          // Clicking away from dropdown will remove the dropdown class
+          
           $('html').click(function () {
             $('.nav-dropdown').hide();
           });
-          // Toggle open and close nav styles on click
+          
           $('#nav-toggle').click(function () {
             $('nav ul').slideToggle();
           });
-          // Hamburger to X toggle
+        
           $('#nav-toggle').on('click', function () {
             this.classList.toggle('active');
           });
-        }); // end DOM ready
-      })(jQuery); // end jQuery
+        }); 
+      })(jQuery); 
     </script>
 </body>
 

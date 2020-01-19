@@ -13,7 +13,15 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/newfooter.css">
-</head>
+        <style>
+          #sizee{
+              font-size: 1.5rem;
+              font-weight: 500;
+              line-height: 1.2;
+          }
+      </style>
+
+      </head>
     
     <body>
 
@@ -70,7 +78,7 @@
                   <h1>RISK ANALYSIS</h1><br>
               </div>
               <div class="typewriter">
-                  <h4>Care Before It Gets Too Late.</h4>
+                  <h4 id="sizee">Care Before It Gets Too Late.</h4>
               </div>
           </div>
       </div>
@@ -168,29 +176,24 @@ toggleButton.addEventListener('click', () => {
 })
      </script>
      <script>
-      (function ($) { // Begin jQuery
-        $(function () { // DOM ready
-          // If a link has a dropdown, add sub menu toggle.
+      (function ($) { 
+                $(function () { 
           $('nav ul li a:not(:only-child)').click(function (e) {
             $(this).siblings('.nav-dropdown').toggle();
-            // Close one dropdown when selecting another
             $('.nav-dropdown').not($(this).siblings()).hide();
             e.stopPropagation();
           });
-          // Clicking away from dropdown will remove the dropdown class
           $('html').click(function () {
             $('.nav-dropdown').hide();
           });
-          // Toggle open and close nav styles on click
           $('#nav-toggle').click(function () {
             $('nav ul').slideToggle();
           });
-          // Hamburger to X toggle
           $('#nav-toggle').on('click', function () {
             this.classList.toggle('active');
           });
-        }); // end DOM ready
-      })(jQuery); // end jQuery
+        }); 
+      })(jQuery); 
     </script>
      
     </body>

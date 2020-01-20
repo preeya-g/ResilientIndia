@@ -48,6 +48,13 @@ body {
     
   }
 
+  @media only screen and (max-width: 1000px){
+
+    .leftinfo  li {
+        font-size: 20px;
+    }
+  }
+
   @media only screen and (max-width: 800px){
    
      .leftinfo  li {
@@ -55,8 +62,7 @@ body {
               font-size: 16px;
               line-height: 1.5;
                 margin: 0% !important;
-                
-               
+       
             }
             .leftinfo{
             padding: 20px 7px 20px 5px;

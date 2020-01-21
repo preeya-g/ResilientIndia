@@ -557,6 +557,8 @@ margin-top: 15px;
   #exp{
     margin-top: 40px;
   }
+
+  
 }
 
 @media only screen and (max-width: 415px) {
@@ -842,6 +844,14 @@ display: block;
   height: 600px;
   padding: 50px;
 }
+@media only screen and (max-device-width: 376px) {
+
+.caption{
+  top: 1510px;
+
+}
+}
+
 
 @media only screen and (max-device-width: 1024px) {
   .bgimg {
@@ -860,14 +870,13 @@ display: block;
 }*/
 
 .caption {
-  width: 100%;
   position:absolute;
   top: 25%;
   z-index: 1;
   color:white;
   position: absolute;
-  top: 1100px;
-  left: 50px;
+  top: 1110px;
+  left: 40px;
 
 }
 .caption h1 {
@@ -878,3 +887,6 @@ display: block;
   padding-bottom: 1rem;
   font-family: 'Ubuntu', sans-serif;
 }
+
+
+

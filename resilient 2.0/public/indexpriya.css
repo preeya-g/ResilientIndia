@@ -42,9 +42,9 @@ body,html{
   height: 100%;
   display: block;
 
-  
-  -webkit-filter: brightness(0.50);
-   filter: brightness(0.50); 
+  /*
+  -webkit-filter: brightness(0.90);
+   filter: brightness(0.90); */
 }
 
 html {
@@ -860,14 +860,14 @@ display: block;
 }*/
 
 .caption {
-  width: 100%;
+ /* max-width: 100%;*/
   position:absolute;
   top: 25%;
   z-index: 1;
   color:white;
   position: absolute;
   top: 1100px;
-  left: 50px;
+  /*left: 50px;*/
 
 }
 .caption h1 {

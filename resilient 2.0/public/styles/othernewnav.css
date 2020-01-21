@@ -58,6 +58,8 @@ button {
   margin-left: 15px;
     width: 100px;
   height: 80%;
+  box-shadow: 0px 0px 15px 0px black;
+
 }
   
   
@@ -158,6 +160,8 @@ button {
           margin-top: -5px;
           width: 70px !important ; 
           height: 100%;
+          box-shadow: 0px 0px 15px 0px black;
+
       }
         nav {
           width: 100%;

@@ -557,8 +557,6 @@ margin-top: 15px;
   #exp{
     margin-top: 40px;
   }
-
-  
 }
 
 @media only screen and (max-width: 415px) {
@@ -683,11 +681,13 @@ padding: 0px 15px;}
     line-height: normal;
     text-align: center;
   }
-
+  .expleft li, .expright li{
+    font-size: 22px !important;
+  }
   .expertiseitems{
     flex-direction: column;
   }
-
+  
   .expertiseitems{
     display: none;
     visibility: collapse;
@@ -844,14 +844,6 @@ display: block;
   height: 600px;
   padding: 50px;
 }
-@media only screen and (max-device-width: 376px) {
-
-.caption{
-  top: 1510px;
-
-}
-}
-
 
 @media only screen and (max-device-width: 1024px) {
   .bgimg {
@@ -872,11 +864,10 @@ display: block;
 .caption {
  /* max-width: 100%;*/
   position:absolute;
-  top: 25%;
+ left: 3%;
   z-index: 1;
   color:white;
-  position: absolute;
-  top: 1100px;
+  top: 1050px;
   /*left: 50px;*/
 
 }
@@ -888,6 +879,3 @@ display: block;
   padding-bottom: 1rem;
   font-family: 'Ubuntu', sans-serif;
 }
-
-
-

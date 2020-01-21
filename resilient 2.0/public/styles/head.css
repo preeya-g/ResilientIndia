@@ -127,3 +127,13 @@ html, body {
       font-size: use 10px;
     }
 }  
+
+@media screen and (max-width: 800px){
+.typewriter h4{
+ 
+font-size: 13px;
+}
+.head .background h1{
+  text-align: center;
+}
+}

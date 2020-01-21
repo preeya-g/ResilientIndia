@@ -200,7 +200,7 @@ height: 100px;
 margin: 0 auto;
 margin-bottom: 20px;
 }
-img{
+.flip-card .flip-card-front img{
 width: 100px !important;
 height: 100px !important;
 }

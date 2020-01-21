@@ -25,6 +25,7 @@
 .col-centered {
     float: none;
     margin: 0 auto;
+  
 }
 
 
@@ -40,6 +41,7 @@
     min-height: 1px; 
     padding: 5px; 
     float: left;
+    /*padding-left: 50px;*/
  }
 
  .active > div { display:none; }

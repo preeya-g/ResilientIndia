@@ -50,11 +50,12 @@ button {
     }
       .navbar-brand{
         padding-bottom: 0px ;
+        display: inline-block;
       }
 
 .navbar-brand img {
   position: relative;
- 
+
   margin-left: 15px;
     width: 100px;
   height: 80%;

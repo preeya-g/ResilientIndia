@@ -18,8 +18,13 @@
       }
 
     @media screen and (max-width: 473px) {
+        .school{
+            float: none;
+        }
         .school img{
             width: 300px;
+            margin-top: 5px ;
+            margin-bottom: 15px ;
         }
 
         .safety-text{

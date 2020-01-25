@@ -14,9 +14,7 @@ body {
     text-align: center;
     background-color: #b49b8d;
 }
-.cybersecurity .card-img{
-    height: 600px;
-}
+
 .title h1 {
     font-size: 2em;
     font-weight: bold;
@@ -60,10 +58,5 @@ margin-right: 3%;
 .ccontent {
 font-size: 16px;
 }
-.cybersecurity .card-img{
-    height: 100%;
-}
-.cybersecurity{
-    margin-bottom: 50px;
-}
+
 }

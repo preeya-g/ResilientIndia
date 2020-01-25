@@ -24,7 +24,13 @@ html {
 }
 
 
+.about--part1 {
+  opacity: 0;
+}
 
+.about--part1.animated {
+  opacity: 1;
+}
 
 
 .lenks {

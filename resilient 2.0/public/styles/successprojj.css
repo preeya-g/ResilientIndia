@@ -6,8 +6,35 @@ body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
     background-image: linear-gradient(#0a4c54, black);
     color: white;
+    background-size: cover;
 }
 
+.successcontent{
+    margin: 5%;
+}
+
+.successcontent .pt1 h1{
+    font-size: 1.8em;
+    color: brown;
+}
+
+.successcontent .pt1 ol ul li{
+    color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .pt1 h1 {
     font-size: 25px;
     font-weight: 400;
@@ -31,18 +58,14 @@ body {
     list-style-type: disc;
 }
 
-body {
-    background-image: linear-gradient(#0a4c54, black);
-    background-size: cover;
-    margin: 0;
-}
+
 
 
 
 .kcontent .pt1 {
     margin-top: 50px;
 }
-
+*/
 .class-images {
     display: flex;
     flex-direction: row;
@@ -68,19 +91,17 @@ body {
     margin-left: 20px;
 }
 
-.kcontent {
-    margin: 5px;
-}
 
+/*
 hr.new {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
-
+*/
 
 @media only screen and (max-width: 800px) {
-
+/*
 .kcontent .pt1 h1 li {
 font-size: 20px !important;
 margin-left: -40px !important;
@@ -97,7 +118,7 @@ font-size: 10px !important;
 margin-left: -40px !important;
 text-align: center !important;
 
-}
+}*/
 
 .animated h1 {
 font-size: 30px;

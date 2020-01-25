@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
     background-image: linear-gradient(#0a4c54, black);
-    color: white;
+   
     overflow: hidden;
     max-width: 100%;
   }
@@ -15,10 +15,11 @@ body {
       }
   
      .leftinfo li {
-  list-style: circle;
+  
           font-size: 25px;
           line-height: 2;
           margin-left: 5%;
+          color: beige;
 
       }
   

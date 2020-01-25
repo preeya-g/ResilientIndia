@@ -2,20 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Crime Prevention</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="styles/othernewnav.css">
-  <link rel="stylesheet" href="styles/head.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/newfooter.css">
-  <link rel="stylesheet" href="styles/crime.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/othernewnav.css">
+    <link rel="stylesheet" href="styles/head.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/newfooter.css">
+<link rel="stylesheet" href="styles/crime.css">
 
 </head>
 
@@ -172,22 +171,27 @@
               <a class="Lightbox" href="assets/crime/5.png">
 
 
-                <img src="assets/crime/5.png" alt="poster 4" class="card-img img-fluid"> </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-          <div data-aos="fade-left">
-
-            <div class="card">
-              <a class="Lightbox" href="assets/crime/6.png">
-
-                <img src="assets/crime/6.png" alt="poster 5" class="card-img img-fluid"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
+</div></div>
+</div>
+<div class="footer">
+    <div class="contain">
+    <div class="col">
+      <h1>Resilient India</h1>
+      
+    </div>
+    <div class="col">
+      <p> &#169 Powered by DY PATIL GROUP, RAIT, NERUL </p>
+      
+    </div>
+    
+    
+    <div class="col social">
+      <ul>
+        <li><a href="https://www.facebook.com/Resilient-India-1746303802275429/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/indiaresilient/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/Resilient_India"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCLa25zlJ5Mc-5fy4apMksvQ"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
   </div>
   </div>
@@ -249,27 +253,33 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
   <script>
     baguetteBox.run('.tz-gallery');
-  </script>
-  <script>
-    (function ($) {
-      $(function () {
-        $('nav ul li a:not(:only-child)').click(function (e) {
-          $(this).siblings('.nav-dropdown').toggle();
-          $('.nav-dropdown').not($(this).siblings()).hide();
-          e.stopPropagation();
-        });
-        $('html').click(function () {
-          $('.nav-dropdown').hide();
-        });
-        $('#nav-toggle').click(function () {
-          $('nav ul').slideToggle();
-        });
-        $('#nav-toggle').on('click', function () {
-          this.classList.toggle('active');
-        });
+</script>
+ <script>
+  (function ($) { // Begin jQuery
+    $(function () { // DOM ready
+      // If a link has a dropdown, add sub menu toggle.
+      $('nav ul li a:not(:only-child)').click(function (e) {
+        $(this).siblings('.nav-dropdown').toggle();
+        // Close one dropdown when selecting another
+        $('.nav-dropdown').not($(this).siblings()).hide();
+        e.stopPropagation();
       });
-    })(jQuery);
-  </script>
+      // Clicking away from dropdown will remove the dropdown class
+      $('html').click(function () {
+        $('.nav-dropdown').hide();
+      });
+      // Toggle open and close nav styles on click
+      $('#nav-toggle').click(function () {
+        $('nav ul').slideToggle();
+      });
+      // Hamburger to X toggle
+      $('#nav-toggle').on('click', function () {
+        this.classList.toggle('active');
+      });
+    }); // end DOM ready
+  })(jQuery); // end jQuery
+</script>
+
 </body>
 
 </html>

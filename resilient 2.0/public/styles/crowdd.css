@@ -57,6 +57,13 @@ body{
     font-size: 20px;
 }
 
+.animated h1{
+    font-size: 30px;
+}
+
+.typewriter h4{
+    font-size: 15px;
+}
 
 .animated.lightSpeedIn{
     font-size: 15px;
@@ -72,8 +79,8 @@ body{
 }
 
 .class-images img{  
-    height: 200px;
-    width: 270px !important;
+    height: 100px;
+    width: 300px;
 
     margin-bottom: 10px;
 }

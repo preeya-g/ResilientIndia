@@ -54,10 +54,10 @@ button {
 
 .navbar-brand img {
   position: relative;
- 
+ margin-top: 10px;
   margin-left: 15px;
     width: 100px;
-  height: 80%;
+  height: 100%;
 }
   
   

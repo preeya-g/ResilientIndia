@@ -50,6 +50,8 @@ button {
     }
       .navbar-brand{
         padding-bottom: 0px ;
+
+        
       }
 
 .navbar-brand img {
@@ -57,7 +59,13 @@ button {
  margin-top: 10px;
   margin-left: 15px;
     width: 100px;
+<<<<<<< HEAD:resilient 2.0/styles/othernewnav.css
   height: 100%;
+=======
+  height: 100px;
+  box-shadow: 0px 0px 15px 0px black;
+
+>>>>>>> bdd37b5ba108bb89933990b9e1bd1084a3b3fe07:resilient 2.0/public/styles/othernewnav.css
 }
   
   
@@ -155,7 +163,7 @@ button {
           display: block;
         }
         .navbar-brand img {
-          margin-top: -5px;
+          margin-top: -2px;
           width: 70px !important ; 
           height: 100%;
       }
@@ -175,7 +183,7 @@ button {
         }
   
         nav ul li a {
-          padding: 15px;
+          padding: 12px;
           line-height: 20px;
           text-align: center;
 

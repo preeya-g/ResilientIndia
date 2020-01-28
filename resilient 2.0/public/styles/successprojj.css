@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
     background-image: linear-gradient(#0a4c54, black);
-    color: white;
+    color: beige;
     background-size: cover;
 }
 
@@ -13,14 +13,28 @@ body {
     margin: 5%;
 }
 
-.successcontent .pt1 h1{
+.successcontent .pt1 h1,.successcontent .pt2 h1{
     font-size: 1.8em;
-    color: brown;
+    
+   
+   
 }
 
-.successcontent .pt1 ol ul li{
-    color: chartreuse;
+
+.successcontent .pt1 ul li{
+  
+    font-size: 22px;
 }
+
+.successcontent .pt2{
+    margin-top: 5%;
+}
+
+.successcontent .pt2 ul p{
+
+    font-size: 22px;
+}
+
 
 
 

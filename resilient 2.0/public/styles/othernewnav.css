@@ -154,7 +154,7 @@ button {
         width: 70px;
       }
   
-      @media only screen and (max-width: 1000px) {
+      @media only screen and (max-width: 1200px) {
         .nav-mobile {
           display: block;
         }
@@ -200,7 +200,7 @@ button {
       
       }
   
-      @media screen and (min-width: 1000px) {
+      @media screen and (min-width: 1200px) {
         .nav-list {
           display: block !important;
         }

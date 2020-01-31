@@ -136,11 +136,18 @@ html {
 }
 
 .fa:hover {
-  font-size: 3em;
+  font-size: 6em;
   transition: 0.5s ease-out;
 
 }
 
+
+
+footer .fa:hover {
+  font-size: 2.5em;
+  transition: 0.5s ease-out;
+
+}
 .meraclass {
   text-align: center;
   margin-top: 50px;

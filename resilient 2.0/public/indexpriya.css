@@ -567,7 +567,7 @@ line-height: 90px;
   display: flex;
 justify-content: center;
 }
-.footer_style p{}
+
 .footer_style ul{
   display: flex;
 justify-content: center;
@@ -713,7 +713,9 @@ display: block;
 }
 
 #aishh:hover {
-  width: 110%;
+  width: 105%;
+  transition: 0.5s ease-out;
+
  /* opacity: 1;
   -webkit-opacity: 1;
   -moz-opacity: 1;*/

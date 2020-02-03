@@ -19,7 +19,7 @@ body,html{
 .bgimg {
   /* Set a specific height */
   min-height: 100vh;
-  background-image: url('assets/index/img6.png');
+  background-image: url('assets/webp/top.webp');
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -113,7 +113,7 @@ html {
 
   margin-top: 200px;
   /* The image used */
-  background-image: url("assets/index/children.png");
+  background-image: url("assets/webp/children.webp");
 
   /* Set a specific height */
   min-height: 350px;

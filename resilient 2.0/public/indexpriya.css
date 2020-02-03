@@ -81,7 +81,9 @@ html {
   text-decoration: none;
   color: white;
 }
-
+.footer_style p{
+  text-align: center;
+}
 
 .footer_style a:hover {
   text-decoration: none;
@@ -568,8 +570,11 @@ line-height: 90px;
   display: flex;
 justify-content: center;
 }
+.footer_style h4{
+  margin-bottom: 15px;
+}
 .footer_style p{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .footer_style ul{

@@ -41,8 +41,9 @@
         }
         .footer .col p{
             margin: 0;        
-            font-size: 15px;
+            font-size: 16px;
             padding: 20px 0px 5px 0px;
+            text-align: center;
             
         }
        .footer .social ul {
@@ -109,9 +110,11 @@
             }
             .footer .col p{
                 padding: 10px 0px 5px 0px;
+                font-size: 14px;
+                
             }
 
-            .footer .col h1,.footer .col .p {
+            .footer .col h1{
                 font-size: 20px;
             }
 
@@ -127,9 +130,10 @@
                 
             }
 
-            .footer .col h1,.footer .col .p {
+            .footer .col h1 {
                 font-size: 20px;
             }
+           
 
         }
 

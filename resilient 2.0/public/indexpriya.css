@@ -830,6 +830,26 @@ display: block;
   }
 }
 
+/*@media only screen and (max-width:378px){
+  .crcon{
+    width:80%;
+    height:10%;
+  }
+}*/
+
+.crcon {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.crcon > div {
+  width: 50%;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 /*#notyourclass {
   margin-top: 160px;
   margin-left: -20px;

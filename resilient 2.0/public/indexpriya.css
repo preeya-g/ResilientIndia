@@ -109,6 +109,7 @@ html {
 }
 
 
+
 #crcon {
   margin-left: 60px;
   height:10%
@@ -123,44 +124,80 @@ html {
   margin-left:70px;
 }
 #notyourclass{
-  font-size:45px;
-  margin-top:50px;
+  font-size:4vw;
+  /*margin-top:50px;*/
 }
 
-@media only screen and (max-width:1034px){
+@media only screen and (max-width:1285px){
+  
+  #crimg{
+      width:85%;
+      height:45%;
+     
+     /*margin-left:-20px;*/
+  }
+  #notyourclass{
+      font-size:5vw;
+      margin-left:-90px;
+      margin-top:-50px;
+  }
+  .p-2{
+    height:690px;
+  }
+}
+
+@media only screen and (max-width:1030px){
+ 
+  #crimg{
+      width:65%;
+      height:40%;
+      margin-top:100px;
+     /*margin-left:-20px;*/
+  }
+  #notyourclass{
+      font-size:4vw;
+      margin-left:-250px;
+      margin-top:-100px;
+  }
+  .p-2{
+    height:690px;
+  }
+}
+
+@media only screen and (max-width:800px){
   #crcon{
       margin-left:30px;
       margin-top:-10px;
   }
   #crimg{
-      width:80%;
-      height:30%;
+      width:75%;
+      height:40%;
   }
   #notyourclass{
-      font-size:34px;
+      font-size:4.8vw;
       margin-top:-100px;
-      margin-left:-55px;
+      margin-left:-60px;
     
     
   }
   .p-2{
-      height:580px;
+      height:510px;
   }
 }
 
-@media only screen and (max-width:778px){
+@media only screen and (max-width:640px){
   #crimg{
-    height:30%;
-    width:50%
+    height:40%;
+    width:60%
   }
   #notyourclass{
-      font-size:17px;
-      margin-left:-190px;
-      margin-top:-55px;
+      font-size:3vw;
+     /* margin-left:-150px;
+      margin-top:-55px;*/
       
   }
   .p-2{
-    height:450px;
+    height:490px;
   }
 }
 @media only screen and (max-width:610px){
@@ -168,32 +205,60 @@ html {
       margin-left:15px;
   }
   #crimg{
-      width:70%;
-      height:40%;
+      width:60%;
+      height:38%;
       margin-top:100px;
      /*margin-left:-20px;*/
   }
   #notyourclass{
-      font-size:15px;
-      margin-left:-90px;
-      margin-top:-70px;
+      font-size:3vw;
+      /*margin-left:-160px;
+      margin-top:-70px;*/
+  }
+}
+
+@media only screen and (max-width:548px){
+  #crimg{
+    width:55%;
+    height:35%;
+  }
+  #notyourclass{
+    font-size:3vw;
+    /*margin-top:-80px;*/
+  }
+}
+
+@media only screen and (max-width:501px){
+  #crimg{
+    width:55%;
+    height:35%
+
+  }
+  #notyourclass{
+    font-size:1vw;
+    /*margin-left:-160px;
+    margin-top:-100px;*/
+  }
+}
+
+@media only screen and (max-width:523px){
+  #notyourclass{
+    font-size:1vw;
   }
 }
 
 @media only screen and (max-width:450px){
- #crcon{
-     margin-left:5px;
- }
+ 
   #crimg{
       margin-top:80px;
       width:60%;
-      height:35%
+      height:29%
   }
   
   #notyourclass{
-      font-size:13px;
-      margin-left:-90px;
-      margin-top:-100px;
+      font-size:1vw;
+      /*margin-left:-128px;
+      margin-top:-100px;*/
   }
   .p-2{
       height:330px;
@@ -203,26 +268,62 @@ html {
 
 @media only screen and (max-width:432px){
   #crimg{
-      width:65%;
+      width:68%;
       height:30%;
   }
+  #notyourclass{
+    font-size:3.3vw;
+    margin-left:-79px;
+    margin-top:-60px;
+
+  }
 }
-@media only screen and (max-width:381px){
+@media only screen and (max-width:380px){
   #crimg{
-      height:28%;
-      width:70%;
+      height:30%;
+      width:58%;
+      margin-top:50%
   }
   #notyourclass{
-      font-size:14px;
-      margin-left:-55px;
-      margin-top:-60px;
+      font-size:4vw;
+      
+      margin-left:-90px;
+      margin-top:-20px;
+
+     
   }
   .p-2{
       height:280px;
   }
 }
 
-@media only screen and (max-width:330px){
+@media only screen and (max-width:326px){
+  #crimg{
+    height:28%;
+    width:55%;
+  }
+  #notyourclass{
+    font-size:5vw;
+    margin-top:-50px;
+  /*margin-left:-110px;*/
+}
+}
+
+
+@media only screen and (max-width:292px){
+  #crimg{
+    height:22%;
+    width:57%;
+  }
+  #notyourclass{
+    font-size:5vw;
+   /* margin-left:-120px;
+    margin-top:-150px;*/
+  }
+
+}
+
+/*@media only screen and (max-width:330px){
   #crimg{
     height:28%;
     width:53%;
@@ -231,7 +332,7 @@ html {
     font-size:12px;
   margin-left:-110px;
 }
-}
+}*/
 
 
 

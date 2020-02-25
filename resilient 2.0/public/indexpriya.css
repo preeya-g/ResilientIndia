@@ -124,7 +124,7 @@ html {
   margin-left:70px;
 }
 #notyourclass{
-  font-size:4vw;
+  font-size:3vw;
   /*margin-top:50px;*/
 }
 
@@ -1213,25 +1213,28 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(16, 31, 46);
+  background: rgb(16, 55, 68);
 }
 
 .projectFactsWrap .item:nth-child(2){
-  background: rgb(18, 34, 51);
+  background: rgb(19, 67, 83)  ;
 }
 
 .projectFactsWrap .item:nth-child(3){
-  background: rgb(21, 38, 56);
+  background:rgb(24, 84, 104)
+  ;
 }
 
 .projectFactsWrap .item:nth-child(4){
-  background: rgb(23, 44, 66);
+  background: rgb(28, 101, 125)
+  ;
 }
 
 .projectFactsWrap .item p.number{
   font-size: 40px;
   padding: 0;
   font-weight: bold;
+
 }
 
 .projectFactsWrap .item p{
@@ -1239,8 +1242,10 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
   font-size: 18px;
   margin: 0;
   padding: 10px;
-  font-family: 'Open Sans';
+ /* font-family: 'Raleway', sans-serif;*/
 }
+
+
 
 
 .projectFactsWrap .item span{

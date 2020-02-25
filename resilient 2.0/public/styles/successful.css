@@ -1,0 +1,249 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+
+}
+.head{margin-bottom: 100px;}
+.display-4{
+  font-size: 30px;
+  color: cornsilk;
+}
+
+.display-42{
+  font-size: 25px;
+  color: black;
+}
+
+.curre p{
+  font-size: 23px;
+}/*
+.curre ul li{
+  font-size: px;
+}*/
+#box1 h1{
+    font-size: 30px;
+} 
+
+#box2 h1{
+    font-size: 27px;
+    color: black;
+}
+#box1 ul li{
+  font-size:20px ;
+  color: cornsilk;
+}
+
+#vk2 ul li{
+    font-size:20px;
+}
+/*.links a{
+    margin-bottom: 10px;
+font-size: 20px;
+text-align: center;
+}
+.links{
+    margin-top: 50px;
+    display: flex;
+flex-direction: column;
+}
+*/
+#vk1:hover{
+    -webkit-transform: scale(1.01);
+    }
+    
+ #vk1{   
+     border-radius:20px;
+    background-color: black;  
+    font-size:large;
+}
+
+#vk2:hover{
+    -webkit-transform: scale(1.01);
+
+}
+#vk2 p{
+  color: black;
+}
+
+#vk2{
+    border-radius:20px;font-size:large;
+}
+
+
+#vk3:hover{
+        -webkit-transform: scale(1.02);
+}
+
+#vk3{
+    border-radius:20px;background-color:black; 
+    font-size:large;
+}
+
+
+#vk4:hover{
+    -webkit-transform: scale(1.09);
+}
+
+#vk4{
+    background-color: rgb(243, 232, 232); border-radius:20px;  
+    font-size:large;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 3px;
+  margin-bottom: 25%;
+  
+}
+
+#vk3 ul li{
+  font-size:19px;
+  color: cornsilk;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 3px;
+ 
+}
+
+.column img {
+    margin-top: 6px;
+  vertical-align: middle;
+  width: 100%;
+}
+.zoom:hover {
+  -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04); 
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .display-4{
+    font-size: 21px;
+  }
+  .display-42{
+    font-size: 19px;
+ 
+  }
+  .curre p{
+    font-size: 16px;
+  }
+  .curre ul li{
+    font-size: 16px;
+  }
+
+  #box1 ul li{
+    font-size:16px;
+    color: cornsilk;
+  }
+  
+  #box2 ul li{
+    font-size:16px;
+    
+  }
+
+  #box1 h1{
+    font-size:21px;
+    
+  }
+
+  #box2 h1{
+    font-size:21px;
+    
+  }
+  #vk3 ul li{
+    font-size:16px;
+    color: cornsilk;
+  }
+}
+/*@media screen and (max-width: 610px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}*/
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 600px) {
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }
+}
+
+@media screen and (min-width: 377px) {
+  .column {
+    -ms-flex: 32%;
+    flex: 32%;
+    max-width: 32%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    margin-left:20px;
+  }
+}
+
+
+.card{
+    border: none;
+}
+
+.curre .row{
+    margin-bottom: 5%;
+}
+
+.card img{
+    height: 250px;
+} 
+
+  
+   .card {
+    margin-top: 40px;
+    border: none;
+    border-radius: 0%;
+  }
+  
+   .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0%;
+  
+  }
+  
+   .card {
+    overflow: hidden;
+  
+  }
+
+.inner img {
+    transition: all 1.5s ease;
+    border: none;
+  
+  
+  }
+  
+  .inner:hover img {
+    transform: scale(1.2);
+  }
+  

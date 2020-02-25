@@ -124,7 +124,7 @@ $.fn.jQuerySimpleCounter = function( options ) {
         end:    100,
         easing: 'swing',
         duration: 400,
-        complete: ''
+        complete: '',
     }, options );
 
     var thisElement = $(this);

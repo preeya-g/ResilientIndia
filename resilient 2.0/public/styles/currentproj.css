@@ -9,6 +9,11 @@ body{
   color: cornsilk;
 }
 
+.display-42{
+  font-size: 25px;
+  color: black;
+}
+
 .curre p{
   font-size: 23px;
 }
@@ -16,8 +21,11 @@ body{
   font-size: 23px;
 }
 
-
-.links a{
+#box1 ul li{
+  font-size:20px ;
+  color: cornsilk;
+}
+/*.links a{
     margin-bottom: 10px;
 font-size: 20px;
 text-align: center;
@@ -27,8 +35,9 @@ text-align: center;
     display: flex;
 flex-direction: column;
 }
+*/
 #vk1:hover{
-    -webkit-transform: scale(1.09);
+    -webkit-transform: scale(1.02);
     }
     
  #vk1{   
@@ -38,7 +47,11 @@ flex-direction: column;
 }
 
 #vk2:hover{
-    -webkit-transform: scale(1.09);
+    -webkit-transform: scale(1.02);
+
+}
+#vk2 p{
+  color: black;
 }
 
 #vk2{
@@ -47,11 +60,12 @@ flex-direction: column;
 
 
 #vk3:hover{
-        -webkit-transform: scale(1.09);
+        -webkit-transform: scale(1.02);
 }
 
 #vk3{
-    border-radius:20px;background-color:black; font-size:large;
+    border-radius:20px;background-color:black; 
+    font-size:large;
 }
 
 
@@ -60,7 +74,8 @@ flex-direction: column;
 }
 
 #vk4{
-    background-color: white; border-radius:20px;  font-size:large;
+    background-color: white; border-radius:20px;  
+    font-size:large;
 }
 
 
@@ -73,6 +88,11 @@ flex-direction: column;
   padding: 0 3px;
   margin-bottom: 25%;
   
+}
+
+#vk3 ul li{
+  font-size:19px;
+  color: cornsilk;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -105,11 +125,22 @@ flex-direction: column;
   .display-4{
     font-size: 21px;
   }
+  .display-42{
+    font-size: 19px;
+  }
   .curre p{
     font-size: 16px;
   }
   .curre ul li{
     font-size: 16px;
+  }
+  #box1 ul li{
+    font-size:16px;
+    color: cornsilk;
+  }
+  #vk3 ul li{
+    font-size:16px;
+    color: cornsilk;
   }
 }
 /*@media screen and (max-width: 610px) {

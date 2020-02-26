@@ -832,7 +832,7 @@ display: block;
 }*/
 
 .caption {
-  width: 100%;
+  max-width: 100%;
   position: absolute;
   top: 25%;
   z-index: 1;
@@ -1092,3 +1092,43 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 
 }
+
+
+
+
+@media screen and (max-width: 1241px) {
+  footer img{
+    width: 70px;
+  }
+  }
+  
+  @media screen and (max-width: 991px) {
+    footer img{
+      width: 50px;
+    }
+    }
+  
+    @media screen and (max-width: 767px) {
+      footer img{
+        margin-top: 4%;
+        width: 100px;
+       margin-left: 295px;
+      }
+      }
+
+      @media screen and (max-width: 697px) {
+        footer img{
+          margin-top: 4%;
+          width: 100px;
+          margin-left: 295PX;
+
+        }
+        }
+
+        @media screen and (max-width: 500px) {
+          footer img{
+            margin-top: 4%;
+            width: 100px;
+           margin-left: 100%;
+          }
+          }

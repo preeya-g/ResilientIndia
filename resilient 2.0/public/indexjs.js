@@ -118,7 +118,6 @@ function resetLazyVideo() {
 
 
 /*------------------------counter-----------------------------*/
-
 $.fn.jQuerySimpleCounter = function( options ) {
     var settings = $.extend({
         start:  0,
@@ -126,8 +125,6 @@ $.fn.jQuerySimpleCounter = function( options ) {
         easing: 'swing',
         duration: 400,
         complete: '',
-        done : false,
-
     }, options );
 
     var thisElement = $(this);
@@ -135,20 +132,13 @@ $.fn.jQuerySimpleCounter = function( options ) {
     $({count: settings.start}).animate({count: settings.end}, {
         duration: settings.duration,
         easing: settings.easing,
-
         step: function() {
             var mathCount = Math.ceil(this.count);
             thisElement.text(mathCount);
         },
-    
-        complete: settings.complete,
-        done:settings.done,
-
+        complete: settings.complete
     });
-
 };
-
-$(window).scroll(function() {
 
 
 $('#number1').jQuerySimpleCounter({end: 20550,duration: 2000});
@@ -156,7 +146,6 @@ $('#number2').jQuerySimpleCounter({end: 40900,duration: 2000});
 $('#number3').jQuerySimpleCounter({end: 12480,duration: 2300});
 $('#number4').jQuerySimpleCounter({end: 15,duration: 2500});
 
-});
 
 
   /* AUTHOR LINK */

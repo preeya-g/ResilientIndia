@@ -33,8 +33,8 @@ body,html{
   background-size: cover;
   object-position: 50 -100;
   /* even if we dont declare this the image will still be centered */
-  -webkit-filter: brightness(0.20);
-   filter: brightness(0.20); 
+  -webkit-filter: brightness(0.30);
+   filter: brightness(0.30); 
 }
 
 
@@ -595,6 +595,12 @@ padding: 0px 15px;}
 
   .bgimg {
     height: 50% !important;
+    background-image: url('assets/crime/1.png');
+    -webkit-filter: brightness(0.40);
+    filter: brightness(0.40); 
+
+
+
   }
 
   #notyourclass{

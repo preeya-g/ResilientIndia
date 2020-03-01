@@ -52,4 +52,18 @@ color: black;
     .lead {
       font-weight: bold;
     }
+    .roadcontainer ul,.roadcontainer2 ul{
+      font-size: 13px;
+      }
+      .roadcontainer p,.roadcontainer2 p{
+      font-size: 14px;
+      }
+  }
+  @media screen and (max-width: 760px) {
+    .roadcontainer ul,.roadcontainer2 ul{
+      font-size: 16px;
+      }
+      .roadcontainer p,.roadcontainer2 p{
+      font-size: 17px;
+      }
   }

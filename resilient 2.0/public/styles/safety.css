@@ -13,13 +13,17 @@
 
 
 .school {
-    float: right;}
-   .school img {width:400px;height:300px;margin-left:15px;
+    float: right;
+}
+   .school img {
+       width:400px;
+       height:300px;
+       margin-left:15px;
       }
 
     @media screen and (max-width: 473px) {
         .school img{
-            width: 300px;
+            width: 345px;
         }
 
         .safety-text{
@@ -28,10 +32,21 @@
             margin-right: 5px;
         }
         .animated h1{
-            font-size: 30px;
+            font-size: 25px;
         }
         
-        .typewriter h4{
-            font-size: 10px;
+        .typewriter h4 {
+            font-size: 11px;
         }
     }        
+
+
+
+    /*body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+        #sizee{
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }*/

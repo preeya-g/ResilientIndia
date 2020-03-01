@@ -130,7 +130,7 @@ html {
 
   margin-top: 100px;
   /* The image used */
-  background-image: url("assets/childrenparallax1.webp");
+  background-image: url("assets/webp/childrenparallax1.webp");
 
   /* Set a specific height */
   min-height: 350px;
@@ -144,9 +144,9 @@ html {
 
 .childrenparallax2 {
 
-  margin-top: 200px;
+  margin-top: 100px;
   /* The image used */
-  background-image: url("assets/childrenparallax2.webp");
+  background-image: url("assets/webp/childrenparallax2.webp");
 
   /* Set a specific height */
   min-height: 350px;
@@ -163,7 +163,7 @@ html {
 
   margin-top: 100px;
   /* The image used */
-  background-image: url("assets/childrenparallax3.webp");
+  background-image: url("assets/webp/childrenparallax3.webp");
 
   /* Set a specific height */
   min-height: 350px;
@@ -179,24 +179,14 @@ html {
   display: flex;
   justify-content: space-evenly;
 
-
 }
 
-.falogo{
-  padding-top:1px ;
-  background-color: #e9ecef;
-
-}
-
-.falogo .item{
-  font-size: 1.5rem;
-  font-family: 'Lato',sans-serif;
-}
 .falogocontainer .fa{
-  color:rgba(0, 0, 0, 0.8);
-
+  color: #041d21;
 }
 
+.falogocontainer .item{
+font-size: 1.5rem;}
 .fa:hover .falogocontainer .item {
   font-size: 1000px;
 }
@@ -223,6 +213,7 @@ html {
 a {
   color: whitesmoke;
 }
+
 
 
 a.nav-link {
@@ -701,11 +692,13 @@ padding: 0px 15px;}
   }
 
 
+ 
   .falogocontainer   .fa{
-      font-size: 25px;
+    font-size: 25px;
+ }
 
-   }
-
+ .falogocontainer .item{
+  font-size: 12px;}
 
    
   .pdfs {
@@ -1237,7 +1230,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
           }
 
           .contactcontainer{
-            padding-top:1px ;
+            padding-top:50px;
             background-color: #e9ecef;
             padding-bottom: 5%;
           

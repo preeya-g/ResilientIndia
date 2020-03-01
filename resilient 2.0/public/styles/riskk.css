@@ -1,6 +1,6 @@
 
  
- ul,li{
+ .risk ul,.risk li{
      padding:10px;
     color:black;
     font-size:large;
@@ -26,7 +26,7 @@ body{
     background-color: white;
     margin: 20px;
 }
-p{
+.risk p{
     color:black;
     font-size: larger;
   text-align: justify;
@@ -35,7 +35,7 @@ p{
 .henlo{
     margin: 30px;
 }
-h3,h1{
+.risk h3,h1{
     margin-top: 30px;
     color:black;
 }
@@ -81,7 +81,7 @@ width: 90%;
 }
 #lead{
     font-size: 15px;
-    margin:10px;
+    margin-right:25px;
 }
 .w-75 li{
     font-size: 15px;
@@ -98,5 +98,10 @@ hr.new{
 }
 
 
+@media screen and (max-width: 590px) {
 
-
+    #lead{
+        font-size: 15px;
+        margin-right:35px;
+    }
+}

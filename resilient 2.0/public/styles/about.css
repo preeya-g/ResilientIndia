@@ -1,0 +1,340 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
+  background-image: linear-gradient(#0a4c54, black);
+  color: cornsilk;
+}
+
+.head .background {
+  overflow: hidden;
+  width: 100%;
+  background: black;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* The typing effect */
+  /* The typewriter cursor effect */
+}
+
+.head .background .text {
+  color: white;
+  font-size: 50px;
+}
+
+.head .background .typewriter h4 {
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+  color: white;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.head .background h1 {
+  color: white;
+}
+
+.lenks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  flex-direction: row;
+  padding-top: 50px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.lenks a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.what {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.what h3 {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.mission {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mission .sub-head {
+  margin-top: -10px;
+  border-bottom: 4.5px solid tomato;
+}
+
+.mission h3 {
+  text-align: center;
+}
+
+
+
+.flexcols{
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.flex1{
+  background-color: white;
+  flex: 1;
+}
+
+.flex2{
+  background-color: rgb(221, 216, 216);
+  flex: 1;
+
+}
+
+
+
+.flex3{
+  background-color: white;
+  flex: 1;
+
+  
+}
+
+
+.profileflex{
+  display: flex;
+}
+
+
+
+.sub-head{
+margin-top: -10px;
+border-bottom: 4.5px solid tomato;
+margin-right: 50px;
+}
+
+#coll{
+  flex-grow: 1;
+  padding: 20px;
+}
+.team {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 473px) {
+  
+  body{
+      font-size: 20px;
+  }
+  
+  .animated h1{
+      font-size: 30px;
+  }
+  
+  .typewriter h4{
+      font-size: 15px;
+  }
+  
+  
+  .background .typewriter h4 {
+    font-size: use 10px;
+  }
+  .lenks a {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+h1 {
+  text-align: center;
+}
+
+.team-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.team-flex .img {
+  float: left;
+}
+
+.team-flex .flip-card {
+  margin-bottom: 200px;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin-left: -500px;
+}
+
+.team-flex .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team-flex .flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.team-flex .flip-card-front, .team-flex .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.team-flex .flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.team-flex .flip-card-back {
+  background-color: black;
+  color: white;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+/*# sourceMappingURL=about.css.map */
+

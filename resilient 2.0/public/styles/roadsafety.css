@@ -1,0 +1,55 @@
+body {
+    background-color: #fff;
+  }
+
+  hr.new {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 90%;
+  }
+
+  #roadash {
+    border-radius: 30px;
+
+  }
+
+  .roadcontainer {
+    background: linear-gradient(45deg,#faaa3a,white,#faaa3a);
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .roadcontainer2 {
+    background: linear-gradient(45deg,#faaa3a,white,#faaa3a);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 7%;
+    
+  }
+.roadcontainer ul,.roadcontainer2 ul{
+font-size: 19px;
+}
+.roadcontainer p,.roadcontainer2 p{
+font-size: 23px;
+}
+
+.lead{
+color: black;
+}
+  @media screen and (max-width: 473px) {
+
+    body,
+    .lead {
+      font-size: 15px;
+    }
+
+    .typewriter h4 {
+      font-size: 15px;
+    }
+
+
+    .lead {
+      font-weight: bold;
+    }
+  }

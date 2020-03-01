@@ -2,9 +2,8 @@ body,html {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
-    background-image: linear-gradient(#0a4c54, black);
-    color: white;
+   background-color: white;
+    color: black;
     overflow-x: hidden;
     max-width: 100%;
   }
@@ -28,13 +27,13 @@ body,html {
       
       .crimeinfo{
      
-        background-color: rgb(238, 225, 225);
         padding: 30px;
         border-radius: 10px;
         margin-bottom: 5%;
-       
-     
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.50) !important;
+     background-color: white;
      color: black;
+     font-size: 16px;
    
  }
  

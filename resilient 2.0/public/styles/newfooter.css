@@ -1,7 +1,7 @@
 
 
         .footer {
-            background-color: #041d21;
+            background-color:#252525 ;
             color: white;
             width: 100%;
             margin-top: 5%;
@@ -71,7 +71,7 @@
         
 
         .footer .social ul li a:hover {
-            color: #4bcffa;
+            color: #f86f2d;
            
            transition: .1s;
             -webkit-transition: .1s;

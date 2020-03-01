@@ -4,7 +4,7 @@
         height: 70px;
         position: fixed;
         width: 100%;
-        background: #041d21;
+        background: #f86f2d;
         margin: 0 auto;
         top: 0;
         left: 0;
@@ -15,7 +15,7 @@
       }
 
     section.black{
-        background-color: rgba(0,0,0,0.8);
+        background-color: #f86f2d;
         height: 18%    ;
         padding: 10px 50px;
       
@@ -60,7 +60,6 @@ button {
   margin-left: 15px;
     width: 100px;
   height: 100px;
-  box-shadow: 0px 0px 15px 0px black;
 
 }
   
@@ -96,7 +95,7 @@ button {
   
       nav ul li a:hover {
         
-        color:teal;
+        color:#442211;
         text-decoration: none;
 
       }
@@ -117,7 +116,8 @@ button {
   
   
       nav ul li ul{
-        background-color: #041d21;   
+        background-color: #f86f2d; 
+        opacity: 0.9;  
         border-radius: 5%;
         margin-top: -10px;
               }
@@ -149,7 +149,7 @@ button {
         position: absolute;
         top: 0;
         right: 0;
-        background: #262626;
+        background: #f86f2d;
         /* height: 70px;*/
         width: 70px;
       }
@@ -171,7 +171,7 @@ button {
   
         nav ul {
           display: none;
-          background-color: black;
+          background-color: #f86f2d;
 
         }
   

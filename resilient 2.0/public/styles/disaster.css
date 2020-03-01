@@ -11,13 +11,15 @@
     float:left;
     border-color: black;
     max-width: 900px;
+    
   }
-#aish2:hover {
-    -webkit-transform: scale(1.05);
-  }
+
 
   #aish2{
     background-color:black;
+    font-size: 18px;
+    color: white;
+    padding-top: 2%;
   }
 
   #aish3:hover {
@@ -27,22 +29,32 @@
 #aish3{
     border-color: black;
     max-width: 900px; 
-    float:right
+    float:right;
+    color: white;
+
 }
 
 #ul1{
     color:white;
     background-color: black;
+    font-size: 18px;
+    
+
 }
 #l1{
     background-color: black;
     color: cornsilk;
+    font-size: 18px;
+    
+
 }
 
 #ul2{
     color:white;
     background-color:black; 
     margin-bottom: 15px;
+    font-size: 18px;
+
 }
 
 #aish4:hover {
@@ -68,11 +80,15 @@
     color:white;
     background-color:black ; 
     margin-bottom: 90px;
+    font-size: 18px;
+
 }
 
 #tay2{
     background-color: black;
     color: cornsilk;
+    font-size: 18px;
+
 }
   
   .body {
@@ -96,3 +112,4 @@
       font-size: 10px;
     }
   }
+

@@ -25,17 +25,7 @@ body{
   font-size:20px ;
   color: cornsilk;
 }
-/*.links a{
-    margin-bottom: 10px;
-font-size: 20px;
-text-align: center;
-}
-.links{
-    margin-top: 50px;
-    display: flex;
-flex-direction: column;
-}
-*/
+
 #vk1:hover{
     -webkit-transform: scale(1.02);
     }
@@ -55,28 +45,13 @@ flex-direction: column;
 }
 
 #vk2{
-    border-radius:20px;font-size:large;
-}
-
-
-#vk3:hover{
-        -webkit-transform: scale(1.02);
-}
-
-#vk3{
-    border-radius:20px;background-color:black; 
+    border-radius:20px;
     font-size:large;
 }
 
 
-#vk4:hover{
-    -webkit-transform: scale(1.09);
-}
 
-#vk4{
-    background-color: white; border-radius:20px;  
-    font-size:large;
-}
+
 
 
 
@@ -88,11 +63,6 @@ flex-direction: column;
   padding: 0 3px;
   margin-bottom: 25%;
   
-}
-
-#vk3 ul li{
-  font-size:19px;
-  color: cornsilk;
 }
 
 /* Create four equal columns that sits next to each other */

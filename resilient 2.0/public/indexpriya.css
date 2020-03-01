@@ -77,12 +77,10 @@ html {
 
 /*footer*/
 .footer_style {
-  background-color: #041d21;
-
+ 
+  background-color: #252525;
   color: white;
-
 }
-
 .footer_style a {
   text-decoration: none;
   color: white;
@@ -128,14 +126,76 @@ html {
   background-size: cover;
 }
 
+.childrenparallax1 {
 
+  margin-top: 100px;
+  /* The image used */
+  background-image: url("assets/childrenparallax1.webp");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.childrenparallax2 {
+
+  margin-top: 200px;
+  /* The image used */
+  background-image: url("assets/childrenparallax2.webp");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.childrenparallax3 {
+
+  margin-top: 100px;
+  /* The image used */
+  background-image: url("assets/childrenparallax3.webp");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .falogocontainer {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 
+
 }
 
+.falogo{
+  padding-top:1px ;
+  background-color: #e9ecef;
+
+}
+
+.falogo .item{
+  font-size: 1.5rem;
+  font-family: 'Lato',sans-serif;
+}
+.falogocontainer .fa{
+  color:rgba(0, 0, 0, 0.8);
+
+}
 
 .fa:hover .falogocontainer .item {
   font-size: 1000px;
@@ -168,13 +228,19 @@ a {
 a.nav-link {
   color: #fff;
 }
-
+body {
+  /* background-image: linear-gradient(#0a4c54, black, #0a4c54, black);*/
+  background-color: #fff;
+   background-repeat: no-repeat;
+   color: black;
+ }
+ /*
 body {
   background-image: linear-gradient(#0a4c54, black, #0a4c54, black);
   background-repeat: no-repeat;
   color: whitesmoke;
 }
-
+*/
 .card:hover .card-block .rotate .fa {
   font-size: 6em;
   transition: 1s ease-out;
@@ -185,7 +251,7 @@ body {
   height: 80px;
   margin-top: -5px;
   border: none;
-  background-color: #041d21;
+  background-color: #f86f2d;
 
 
 }
@@ -208,7 +274,7 @@ body {
   color: white;
 }
 .dropdown-item:hover{
-  background-color: teal;
+  background-color: #faaa3a;
 
 }
 
@@ -247,12 +313,13 @@ body {
 }
 
 .navbar {
-  background-color: #041d21;
-}
+
+    background-color: #f86f2d;
+  }
 
 /*#084b66*/
 .nav-item:hover>.nav-link {
-  color: #3FE0D0;
+  color: #442211;
 }
 
 /*#3FE0D0*/
@@ -286,6 +353,7 @@ body {
 .expertiseitems ul {
   list-style-type: none;
 
+
 }
 
 .expertiseitems {
@@ -294,16 +362,22 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
-
+ 
 
   font-family: 'Raleway', sans-serif;
 
+
+}
+.expeertise{
+background-color: whitesmoke;
+padding-top: 2%;
 
 }
 
 
 .expertiseitems a {
   text-decoration: none;
+  color: black;
 
 }
 
@@ -376,7 +450,7 @@ line-height: 90px;
   margin-left: 15px;
   width: 100px;
   height: 100px;
-  box-shadow: 0px 0px 15px 0px black;
+  /*box-shadow: 0px 0px 15px 0px black;*/
 
 }
 
@@ -399,8 +473,8 @@ line-height: 90px;
   -webkit-transform: rotate(45deg);
   border-left: none;
   border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid;
+  border-right: 2px rgb(109, 104, 104) solid;
+  border-bottom: 2px rgb(109, 104, 104) solid;
 }
 
 
@@ -412,8 +486,8 @@ line-height: 90px;
   margin: -10px 0 0 -10px;
   border-left: none;
   border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
+  border-right: 1px rgb(109, 102, 102) solid;
+  border-bottom: 1px rgb(109, 102, 102) solid;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: arrow;
@@ -432,19 +506,25 @@ line-height: 90px;
 
 /*---------------------------Gallery--------------------------*/
 
+.btn-outline-light{
+  border-color: black;
+color: black;
+}
+
 .portfolio {
   width: 100%;
+  margin-top: 5%;
 }
 
 .portfolio .card {
-  margin-top: 40px;
+  margin-top: 0px;
   border: none;
   border-radius: 0%;
 }
 
 .portfolio .card img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   border-radius: 0%;
 
 }
@@ -465,6 +545,13 @@ line-height: 90px;
   transform: scale(1.5);
 }
 
+.portfolio .col-lg-3,.portfolio .col-md-3,.portfolio .col-sm-12,.portfolio .col-12,.portfolio .d-block{
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+
+}
+
+/*-------------------------------gallery end-------------------*/
 
 #contact {
   margin-top: 90px;
@@ -525,7 +612,7 @@ line-height: 90px;
 }
 
 .priyahcontainer:hover .priyahbtn a {
-  color: white;
+  color: black;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
 
@@ -616,6 +703,7 @@ padding: 0px 15px;}
 
   .falogocontainer   .fa{
       font-size: 25px;
+
    }
 
 
@@ -684,7 +772,10 @@ display: block;
   line-height: 30px;
   font-family: 'Raleway', sans-serif;
 
+
 }
+
+
 
   .mobilelist a{
     text-decoration: none;
@@ -692,14 +783,11 @@ display: block;
 .mobilehead{
   text-align: center;
   font-family: 'Lato', sans-serif;
-
-}
-
-
+  color: #041d21;  
 
 
 }
-
+}
 
 
 
@@ -903,7 +991,8 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 .sectiontitle h2 {
   font-size: 30px;
-  color: #222;
+  color: black !important;
+  /*color: #222;*/
   margin-bottom: 0px;
   padding-right: 10px;
   padding-left: 10px;
@@ -942,25 +1031,23 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(16, 31, 46);
-  background: rgb(16, 55, 68);
+  background: #f86f2d;
+  /*background: rgb(16, 55, 68);*/
 }
 
 .projectFactsWrap .item:nth-child(2){
-  background: rgb(18, 34, 51);
-  background: rgb(19, 67, 83)  ;
+  background: #fa8f3d;
+  /*background: rgb(19, 67, 83)  ;*/
 }
 
 .projectFactsWrap .item:nth-child(3){
-  background: rgb(21, 38, 56);
-  background:rgb(24, 84, 104)
-  ;
+  background:  #faaa3a;
+  /*background:rgb(24, 84, 104);*/
 }
 
 .projectFactsWrap .item:nth-child(4){
-  background: rgb(23, 44, 66);
-  background: rgb(28, 101, 125)
-  ;
+  background:  #f5ba4d;
+  /*background: rgb(28, 101, 125)  ;*/
 }
 
 .projectFactsWrap .item p.number{
@@ -1138,3 +1225,81 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
            margin-left: 100%;
           }
           }
+
+
+       
+
+          .pdfcontainer{
+            padding-top:1px ;
+            background-color: #e9ecef;
+            padding-bottom: 5%;
+          
+          }
+
+          .contactcontainer{
+            padding-top:1px ;
+            background-color: #e9ecef;
+            padding-bottom: 5%;
+          
+          }
+          .mobilelist li{
+          color: black !important;
+          }
+
+          .parallaxtext{
+            color: #fa8f3d;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 300px;
+            text-transform: uppercase;
+          }
+
+          .text1{
+            color: #fa8f3d;
+
+          }
+
+          .text2{
+            color: #fff;
+          }
+
+          .text3{
+            color: green;
+          }
+
+          
+        @media screen and (max-width: 1050px) {
+        .parallaxtext{
+          font-size: 30px;
+        }
+          }
+
+             
+        @media screen and (max-width: 730px) {
+          .parallaxtext{
+            font-size: 20px;
+          }
+            }
+                  
+        @media screen and (max-width: 480px) {
+          .parallaxtext{
+            font-size: 18px;
+          }
+            }
+            @media screen and (max-width: 380px) {
+              .parallaxtext{
+                font-size: 15px;
+              }
+                }
+
+                @media screen and (max-width: 310px) {
+                  .parallaxtext{
+                    font-size: 12px;
+                  }
+                    }
+                    @media screen and (max-width: 260px) {
+                      .parallaxtext{
+                        font-size: 8px;
+                      }
+                        }

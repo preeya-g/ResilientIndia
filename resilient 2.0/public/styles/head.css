@@ -11,17 +11,27 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#0a4c54), to(black));
     background-image: linear-gradient(#0a4c54, black);
-    color: cornsilk;
+    background-image: linear-gradient(-140deg, black,white);*/
+  /*  background-image: linear-gradient(to bottom right, white,#fcc2a6,white);*/
+
+    color: black;
   }
 
-  
+  .aboutcontainer{
+      background-image: linear-gradient(to bottom right, white,#e7a482,white);
+      padding-top: 20px;
+
+  }
   
 .head .background {
     overflow: hidden;
     width: 100%;
-    background: black;
+    background-image: linear-gradient(45deg, #fdaf42, black);
+    /*
+    background: #442702;*/
+    /*#4d3b23*/
     height: 400px;
     display: -webkit-box;
     display: -ms-flexbox;

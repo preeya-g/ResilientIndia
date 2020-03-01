@@ -154,3 +154,26 @@ $('#number4').jQuerySimpleCounter({end: 15,duration: 2500});
     }, function(){
         $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*#e9ecef*/

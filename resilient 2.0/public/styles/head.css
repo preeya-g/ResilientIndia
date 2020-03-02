@@ -31,9 +31,8 @@ html, body {
 .head .background {
     overflow: hidden;
     width: 100%;
-    background-image: linear-gradient(45deg, #fdaf42, black);
-    /*
-    background: #442702;*/
+   /* background-image: linear-gradient(45deg, #fdaf42, black);*/
+    background: #000;
     /*#4d3b23*/
     height: 400px;
     display: -webkit-box;
@@ -61,6 +60,7 @@ html, body {
   
   .head .background .typewriter h4 {
     font-family: monospace;
+
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange;
@@ -73,7 +73,7 @@ html, body {
     /* Adjust as needed */
     -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
             animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
-    color: white;
+  color: #f86f2d;
   }
   
   @-webkit-keyframes typing {
@@ -115,7 +115,8 @@ html, body {
   }
   
   .head .background h1 {
-    color: white;
+  
+    color: #f86f2d;
   }
   
 

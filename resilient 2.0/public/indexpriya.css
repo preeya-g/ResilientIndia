@@ -948,7 +948,6 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
   direction: ltr;
 }*/
 
-
 .counter dl, .counter dt, .counter dd, .counter ul, .counter ol, .counter li, .counter h1, .counter h2, .counter h3, .counter h4, .counter h5, .counter h6, .counter pre, .counter form,  .counter p, .counter blockquote, .counter th, .counter td
 {
   margin: 0;
@@ -1231,7 +1230,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
           .contactcontainer{
             padding-top:50px;
-            background-color: #e9ecef;
+            background-color: #fff;
             padding-bottom: 5%;
           
           }
@@ -1296,3 +1295,47 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                         font-size: 8px;
                       }
                         }
+
+
+
+
+                        
+
+                        .medialink .link1 a{
+                          text-decoration: none;
+                          color: #fa7510;
+                          font-size: 25px;
+                          font-weight: bold;
+                        }
+                        .medialinktop{
+                          padding-top: 2%;
+                        }
+                        .medialink{
+                          padding-top: 1%;
+                        }
+                        .mediacontainer{
+                          padding-top: 1px;
+                          background-color: #e9ecef;
+                          padding-bottom: 5%
+                        }
+
+                        .medialink .link1{
+                          display: flex;
+                          justify-content: center;
+                        }
+
+                        @media screen and (max-width: 650px) {
+                          .medialink .link1 a{
+                            font-size: 17px;
+                          }
+                          }
+                          @media screen and (max-width: 400px) {
+                            .medialink .link1 a{
+                              font-size: 12px;
+                            }
+                            }
+                            @media screen and (max-width: 300px) {
+                              .medialink .link1 a{
+                                font-size: 10px;
+                              }
+                              }

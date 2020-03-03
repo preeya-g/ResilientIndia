@@ -118,7 +118,7 @@ function resetLazyVideo() {
 
 
 /*------------------------counter-----------------------------*/
-$.fn.jQuerySimpleCounter = function( options ) {
+/*$.fn.jQuerySimpleCounter = function( options ) {
     var settings = $.extend({
         start:  0,
         end:    100,
@@ -138,13 +138,45 @@ $.fn.jQuerySimpleCounter = function( options ) {
         },
         complete: settings.complete
     });
-};
+};*/
 
+$.fn.jQuerySimpleCounter = function( options ) {
+    var settings = $.extend({
+        start:  0,
+        end:    100,
+        easing: 'swing',
+        duration: 400,
+        complete: '',
+    }, options );
+    var thisElement = $(this);
+
+    jQuery(window).scroll(startCounter);
+    function startCounter() {
+        var hT = jQuery('.counter').offset().top,
+            hH = jQuery('.counter').outerHeight(),
+            wH = jQuery(window).height();
+        if (jQuery(window).scrollTop() > hT+hH-wH) {
+            jQuery(window).off("scroll", startCounter);
+            jQuery('.number').each(function () {
+
+    $({count: settings.start}).animate({count: settings.end}, {
+        duration: settings.duration,
+        easing: settings.easing,
+        step: function() {
+            var mathCount = Math.ceil(this.count);
+            thisElement.text(mathCount);
+        },
+        complete: settings.complete
+    });
+});
+}
+}
+};
 
 $('#number1').jQuerySimpleCounter({end: 20550,duration: 2000});
 $('#number2').jQuerySimpleCounter({end: 40900,duration: 2000});
-$('#number3').jQuerySimpleCounter({end: 12480,duration: 2300});
-$('#number4').jQuerySimpleCounter({end: 15,duration: 2500});
+$('#number3').jQuerySimpleCounter({end: 12480,duration: 2100});
+$('#number4').jQuerySimpleCounter({end: 15,duration: 2300});
 
 
 

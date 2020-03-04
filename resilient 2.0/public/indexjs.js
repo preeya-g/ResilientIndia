@@ -39,7 +39,30 @@ $(document).ready(function () {
 
     });
 
-    $(".expleft .sec").hover(function () {
+    $(".expleft .hazard").hover(function () {
+        $(".expcenter").html(
+            "<div><img src='assets/webp/hazard.webp' class='bandimages'> <br>School safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+        );
+        $(".expcenter").show();
+
+    });
+
+    $(".expleft .train").hover(function () {
+        $(".expcenter").html(
+            "<div><img src='assets/webp/training.webp' class='bandimages'> <br>School safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+        );
+        $(".expcenter").show();
+
+    });
+
+    $(".expleft .women").hover(function () {
+        $(".expcenter").html(
+            "<div><img src='assets/webp/women.webp' class='bandimages'> <br>Safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+        );
+        $(".expcenter").show();
+
+    });
+    $(".expright .sec").hover(function () {
         $(".expcenter").html(
             "<div><img src='assets/webp/safe2.webp' class='bandimages'> <br> Safety is very important.<center><a href='safety.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
@@ -48,14 +71,12 @@ $(document).ready(function () {
 
 
 
-    $(".expleft .crime").hover(function () {
+    $(".expright .crime").hover(function () {
         $(".expcenter").html(
             "<div><img src='assets/webp/cyber2.webp' class='bandimages'> <br> Safety is very important.<center><a href='security.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
-
-
 
 
     $(".expright .disaster").hover(function () {
@@ -64,12 +85,14 @@ $(document).ready(function () {
         );
         $(".expcenter").show();
     });
+
     $(".expright .risk").hover(function () {
         $(".expcenter").html(
             "<div><img src='assets/webp/risk2.webp' class='bandimages'> <br> Safety is very important.<center><a href='risk.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
+
     $(".expright .crowd").hover(function () {
         $(".expcenter").html(
             "<div><img src='assets/webp/crowd2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='crowd.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
@@ -180,13 +203,7 @@ $('#number4').jQuerySimpleCounter({end: 15,duration: 2300});
 
 
 
-  /* AUTHOR LINK */
- $('.about-me-img').hover(function(){
-        $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
-    }, function(){
-        $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
-    });
-
+  
 
 
 

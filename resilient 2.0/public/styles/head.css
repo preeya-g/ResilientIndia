@@ -130,6 +130,7 @@ html, body {
     
     .animated h1{
         font-size: 27px;
+        text-align: center;
     }
     
     .typewriter h4{

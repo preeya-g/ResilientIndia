@@ -592,7 +592,7 @@ color: black;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-size: 16px;
+  font-size: 17px;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
@@ -601,18 +601,18 @@ color: black;
   display: none;
   color: black;
 
-  border: 2px solid #05383d;
+  border: 2px solid rgb(247, 103, 1);
   border-radius: 10px;
   margin-left: -10px;
 }
 
 .priyahcontainer .priyahbtn:hover {
-  background-color: black;
+  background-color: white;
 }
 
 .priyahcontainer:hover .priyahbtn {
   display: inline-block;
-  background-color: #0a4c54;
+  background-color:#FF6900 ;
 
 
 }
@@ -623,7 +623,7 @@ color: black;
 }
 
 .priyahcontainer:hover .priyahbtn a {
-  color: black;
+  color: white;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
 
@@ -671,7 +671,6 @@ color: black;
   display: flex;
 justify-content: center;
 }
-.footer_style p{}
 .footer_style ul{
   display: flex;
 justify-content: center;
@@ -1152,9 +1151,6 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 
-.about-me-img img {
-}
-
 
 .authorWindow{
   width: 600px;
@@ -1367,4 +1363,17 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                              padding: 25px;*/
                               }
                              
+                              .quote{
+                                text-align: center;
+                              }
+
+                              .quote .btn-outline-light{
+                                color: #FF6900;
+                                border-color: #FF6900;
+                              }
+
+                              .quote .btn-outline-light:hover{
+                                color:#fa8f3d;
+                                border-color:#fa8f3d;
+                              }
                            

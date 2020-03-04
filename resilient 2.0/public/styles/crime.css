@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 body,html {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -41,7 +43,8 @@ body,html {
 
      
     .crimeinfo p{
-        font-size: 22px;
+        font-size: 21px;
+        text-align: justify;
         
 
     }
@@ -62,3 +65,15 @@ body,html {
              }
           
    }
+
+    .animated h1{
+      font-family: 'Josefin Sans', sans-serif !important; 
+        
+    }
+    @media screen and (max-width: 473px) {
+  
+       
+        .animated h1{
+            font-size: 24px;
+            text-align: center;
+        }

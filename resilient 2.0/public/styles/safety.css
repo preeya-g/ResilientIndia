@@ -9,6 +9,7 @@
 .safety-text{
     margin: 50px 50px 30px 50px;
     font-size: 20px;
+    text-align: justify;
 }
 
 
@@ -28,8 +29,8 @@
 
         .safety-text{
             font-size: 15px ;
-            margin-left: 5px;
-            margin-right: 5px;
+            margin-left: 8px;
+            margin-right: 8px;
         }
         .animated h1{
             font-size: 25px;

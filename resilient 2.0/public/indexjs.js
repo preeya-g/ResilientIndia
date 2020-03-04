@@ -26,14 +26,14 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(".expleft .road").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/road.webp' class='bandimages'> <br>Road safety is very important.<center> <a href='roadsafety.html'> <button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/road.webp' class='bandimages'> <br>Road safety is very important.<center> <a href='roadsafety.html'> <button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
 
     $(".expleft .school").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/schoolsafety2.webp' class='bandimages'> <br>School safety is very important.<center><a href='school.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/schoolsafety2.webp' class='bandimages'> <br>School safety is very important.<center><a href='school.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     $(".expleft .hazard").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/hazard.webp' class='bandimages'> <br>School safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/hazard.webp' class='bandimages'> <br>School safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     $(".expleft .train").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/training.webp' class='bandimages'><br>Learning experiences are like journeys.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/training.webp' class='bandimages'><br>Learning experiences are like journeys.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     $(".expleft .women").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/women.webp' class='bandimages'> <br>Never respect opinion which disrespect women.</center><center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/women.webp' class='bandimages'> <br>Never respect opinion which disrespect women.</center><center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -65,7 +65,7 @@ $(document).ready(function () {
 
     $(".expleft .risk").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/risk2.webp' class='bandimages'> <br> Safety is very important.<center><a href='risk.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/risk2.webp' class='bandimages'> <br> Safety is very important.<center><a href='risk.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
@@ -73,35 +73,35 @@ $(document).ready(function () {
 
     $(".expright .prevent").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/crime2.webp' class='bandimages'> <br> Safety is very important.<center><a href='crime.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/crime2.webp' class='bandimages'> <br> Safety is very important.<center><a href='crime.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
 
     $(".expright .disaster").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/disaster2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='disastermanagement.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/disaster2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='disastermanagement.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
 
     $(".expright .sec").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/safe2.webp' class='bandimages'> <br> Safety isn't just a slogan, it's a way of life.<center><a href='safety.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/safe2.webp' class='bandimages'> <br> Safety isn't just a slogan, it's a way of life.<center><a href='safety.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
 
     $(".expright .crime").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/cyber2.webp' class='bandimages'> <br> Safety is very important.<center><a href='security.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/cyber2.webp' class='bandimages'> <br> Safety is very important.<center><a href='security.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
 
     $(".expright .crowd").hover(function () {
         $(".expcenter").html(
-            "<div><img src='assets/webp/crowd2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='crowd.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/crowd2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='crowd.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });

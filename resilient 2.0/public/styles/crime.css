@@ -41,7 +41,8 @@ body,html {
 
      
     .crimeinfo p{
-        font-size: 22px;
+        font-size: 21px;
+        text-align: justify;
         
 
     }

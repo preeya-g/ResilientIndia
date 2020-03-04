@@ -132,7 +132,9 @@ button {
               nav ul li ul li a{
               padding-top: 2px;
               }
-  
+              nav ul li ul li:hover{
+                background-color: #faaa3a;
+              }
       .nav-dropdown {
         position: absolute;
         display: none;

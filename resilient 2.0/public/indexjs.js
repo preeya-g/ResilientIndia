@@ -26,7 +26,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(".expleft .road").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/road.webp' class='bandimages'> <br>Road safety is very important.<center> <a href='roadsafety.html'> <button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/road.webp' class='bandimages'> <br>Practicing Road Safety is more important than preaching it.<center> <a href='roadsafety.html'> <button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
@@ -65,7 +65,7 @@ $(document).ready(function () {
 
     $(".expleft .risk").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/risk2.webp' class='bandimages'> <br> Safety is very important.<center><a href='risk.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/risk2.webp' class='bandimages'> <br> Risk comes from not knowing what you're doing.<center><a href='risk.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });
@@ -73,7 +73,7 @@ $(document).ready(function () {
 
     $(".expright .prevent").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/crime2.webp' class='bandimages'> <br> Safety is very important.<center><a href='crime.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/crime2.webp' class='bandimages'> <br> Non-violence is the article of faith.<center><a href='crime.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });

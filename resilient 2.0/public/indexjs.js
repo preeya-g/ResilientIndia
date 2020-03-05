@@ -80,7 +80,7 @@ $(document).ready(function () {
 
     $(".expright .disaster").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/disaster2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='disastermanagement.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/disaster2.webp' class='bandimages'> <br> Prepare and prevent, don't repair and repent.<center> <a href='disastermanagement.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });

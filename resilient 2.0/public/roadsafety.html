@@ -101,7 +101,50 @@
       </p>
     </div>
   </div>
+  <div class="container">
+    <div class="roadcontainer2">
 
+      <p class="lead">India, ranks 1st in the number of road accident deaths across the 199 countries reported in the
+        World Road Statistics, 2018 followed by China and US. As per the WHO Global Report on Road Safety 2018, India
+        accounts for almost 11% of the accident related deaths in the World.
+
+
+
+
+
+
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="roadcontainer2">
+
+      <p class="lead">National Highways which comprise of 1.94 percent of total road network, accounted for 30.2 per
+        cent of total road accidents and 35.7 per cent of deaths in 2018. State Highways which account for 2.97% of the
+        road length accounted for 25.2 percent and 26.8 percent of accidents and deaths respectively.
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="roadcontainer2">
+
+      <p class="lead">Road accidents cost India 3-5% of gross domestic product every year, and are avoidable if India
+        could improve its roads and city planning, train its drivers better, and enforce traffic laws properly.
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="roadcontainer2">
+
+      <p class="lead">India’s young, productive population, aged 18-45 years, is involved in 70% of road accidents,
+        according to data from Road Accidents in India 2018, a report published by the Ministry of Road Transport and
+        Highways.
+        Over a period of 24 years from 2014 to 2038, if India could halve the deaths and injuries due to road traffic,
+        its GDP could increase by 7%, [Source :World Bank ]
+
+      </p>
+    </div>
+  </div>
 
 
 
@@ -141,10 +184,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
+    </script>
   <script>
     $(window).on('scroll', function () {
       if ($(window).scrollTop()) {
@@ -161,24 +204,24 @@
     })
   </script>
   <script>
-    (function ($) { 
-      $(function () { 
-        $('nav ul li a:not(:only-child)').click(function (e) {
-          $(this).siblings('.nav-dropdown').toggle();
-          $('.nav-dropdown').not($(this).siblings()).hide();
-          e.stopPropagation();
+      (function ($) {
+        $(function () {
+          $('nav ul li a:not(:only-child)').click(function (e) {
+            $(this).siblings('.nav-dropdown').toggle();
+            $('.nav-dropdown').not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          $('html').click(function () {
+            $('.nav-dropdown').hide();
+          });
+          $('#nav-toggle').click(function () {
+            $('nav ul').slideToggle();
+          });
+          $('#nav-toggle').on('click', function () {
+            this.classList.toggle('active');
+          });
         });
-        $('html').click(function () {
-          $('.nav-dropdown').hide();
-        });
-        $('#nav-toggle').click(function () {
-          $('nav ul').slideToggle();
-        });
-        $('#nav-toggle').on('click', function () {
-          this.classList.toggle('active');
-        });
-      });
-    })(jQuery); 
+      })(jQuery); 
   </script>
 </body>
 

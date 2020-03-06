@@ -1,0 +1,96 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+
+}
+
+.traincontainer{
+    margin: 5% 7% 5% 7%;
+}
+
+.traincont {
+    /*box-shadow: 0px 0px 15px 0px rgb(143, 136, 136);*/
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 7%;
+    
+  }
+.train p{
+    font-size:1.4em;
+    text-align: justify;
+}
+
+.trainimg{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.trainimg img{
+    height: 400px;
+    width: 700px;
+   
+}
+
+@media screen and (max-width: 930px) {
+
+    .train p{
+        font-size:1.3em;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .train p{
+        font-size:18px;
+    }
+
+}
+@media screen and (max-width: 561px) {
+
+    .train p{
+        font-size:16px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .trainimg img{
+        height: 300px;
+        width: 500px;
+       
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+    .trainimg img{
+        height: 250px;
+        width: 400px;
+       
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+    .trainimg img{
+        height: 200px;
+        width: 250px;
+       
+    }
+
+}
+
+@media screen and (max-width: 473px) {
+ 
+    .animated h1{
+        font-size: 25px !important;
+    }
+    
+    .typewriter h4 {
+        font-size: 11px;
+    }
+} 

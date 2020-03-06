@@ -1,0 +1,96 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+
+}
+
+.womencontainer{
+    margin: 5% 7% 5% 7%;
+}
+
+.womencont {
+    /*box-shadow: 0px 0px 15px 0px rgb(143, 136, 136);*/
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 7%;
+    
+  }
+.women p{
+    font-size:1.4em;
+    text-align: justify;
+}
+
+.womenimg{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    
+}
+/*
+.womenimg img{
+    height: 400px;
+    width: 700px;
+   
+}
+*/
+@media screen and (max-width: 930px) {
+
+    .women p{
+        font-size:1.3em;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .women p{
+        font-size:18px;
+    }
+
+}
+@media screen and (max-width: 561px) {
+
+    .women p{
+        font-size:16px;
+    }
+
+}
+/*
+@media screen and (max-width: 850px) {
+
+    .womenimg img{
+        height: 300px;
+        width: 500px;
+       
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+    .womenimg img{
+        height: 250px;
+        width: 400px;
+       
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+    .womenimg img{
+        height: 200px;
+        width: 250px;
+       
+    }
+
+}*/
+
+@media screen and (max-width: 473px) {
+ 
+    .animated h1{
+        font-size: 25px !important;
+    }
+    
+    .typewriter h4 {
+        font-size: 11px;
+    }
+} 

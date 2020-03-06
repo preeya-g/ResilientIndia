@@ -200,6 +200,8 @@ $('#number1').jQuerySimpleCounter({end: 20550,duration: 2000});
 $('#number2').jQuerySimpleCounter({end: 40900,duration: 2000});
 $('#number3').jQuerySimpleCounter({end: 12480,duration: 2100});
 $('#number4').jQuerySimpleCounter({end: 15,duration: 2300});
+$('#number5').jQuerySimpleCounter({end: 5200,duration: 2000});
+
 
 
 

@@ -1,0 +1,145 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+
+}
+
+.hazardcontainer{
+    margin: 5% 7% 5% 7%;
+}
+
+.hazardcont {
+    /*box-shadow: 0px 0px 15px 0px rgb(143, 136, 136);*/
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 7%;
+    
+  }
+  .hazardcont1 {
+    box-shadow: 0px 0px 15px 0px rgb(143, 136, 136);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 7%;
+    
+  }
+.hazard p{
+    font-size:1.4em;
+    text-align: justify;
+}
+
+.hazardimg{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hazardimg img{
+    height: 400px;
+    width: 700px;
+   
+}
+#textt{
+    color: black;
+    font-size: 20px;
+}
+.card-text{
+text-align: center;
+}
+.card{
+    border: none;
+    background: linear-gradient(45deg,#f86f2d,#faaa3a,#f86f2d);
+    border-radius:20px;
+    transition: transform .5s !important;
+
+}
+.card-body{
+    height: 100px;
+
+}
+.card:hover{
+    transform: scale(1.09) !important; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(74, 238, 169, 0.19) !important;
+}
+
+#tay{
+    max-width: 18rem;
+}
+.hazardh1 h1{
+    font-size: 2.1em;
+}
+@media screen and (max-width: 930px) {
+
+    .hazard p{
+        font-size:1.3em;
+    }
+    .hazardh1 h1{
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .hazard p{
+        font-size:18px;
+    }
+ 
+}
+@media screen and (max-width: 561px) {
+
+    .hazard p{
+        font-size:16px;
+    }
+    .hazardh1 h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .hazardimg img{
+        height: 300px;
+        width: 500px;
+       
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+    .hazardimg img{
+        height: 250px;
+        width: 400px;
+       
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+    .hazardimg img{
+        height: 200px;
+        width: 250px;
+       
+    }
+
+}
+
+@media screen and (max-width: 473px) {
+ 
+    .animated h1{
+        font-size: 25px !important;
+    }
+    
+    .typewriter h4 {
+        font-size: 11px;
+    }
+} 
+
+@media screen and (max-width: 473px) {
+ 
+    #textt{
+        font-size: 15px;
+    }
+    .hazardh1 h1{
+        font-size: 1em;
+    }
+}

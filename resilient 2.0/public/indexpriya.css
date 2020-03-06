@@ -377,7 +377,7 @@ padding-top: 2%;
 }
 
 .expleft li:hover,.expright li:hover {
-  font-size: 1.25em;
+  font-size: 1.16em;
   transition: 0.5s ease-out;
   color: #fa8f3d;
 }
@@ -1035,7 +1035,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 }
 
 .projectFactsWrap .item{
-  width: 25%;
+  width: 20%;
   height: 100%;
   padding: 60px 0px;
   text-align: center;
@@ -1060,6 +1060,10 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
   background:  #f5ba4d;
   /*background: rgb(28, 101, 125)  ;*/
 }
+.projectFactsWrap .item:nth-child(5){
+  background:  #443211;
+  /*background: rgb(28, 101, 125)  ;*/
+}
 
 .projectFactsWrap .item p.number{
   font-size: 40px;
@@ -1070,7 +1074,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 .projectFactsWrap .item p{
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 15px;
   margin: 0;
   padding: 10px;
   font-family: 'Ubuntu', sans-serif;
@@ -1234,13 +1238,22 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
           }
           }
 
-
+          @media screen and (max-width: 850px) {
+            .pdfcontainer{
+             
+              padding-right: 10%;
+  
+            
+            }
+            }
        
 
           .pdfcontainer{
             padding-top:1px ;
             background-color: #e9ecef;
             padding-bottom: 5%;
+            padding-right: 5%;
+
           
           }
 

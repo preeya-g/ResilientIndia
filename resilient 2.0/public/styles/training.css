@@ -10,7 +10,7 @@ body{
 
 .traincont {
     /*box-shadow: 0px 0px 15px 0px rgb(143, 136, 136);*/
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     border-radius: 10px;
     margin-top: 7%;
     
@@ -74,18 +74,15 @@ body{
     }
 
 }
-@media screen and (max-width: 450px) {
 
+
+@media screen and (max-width: 473px) {
     .trainimg img{
         height: 200px;
         width: 250px;
        
     }
 
-}
-
-@media screen and (max-width: 473px) {
- 
     .animated h1{
         font-size: 25px !important;
     }

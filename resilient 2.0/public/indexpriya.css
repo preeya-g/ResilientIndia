@@ -130,7 +130,7 @@ html {
 
   margin-top: 100px;
   /* The image used */
-  background-image: url("assets/webp/childrenparallax1.webp");
+  background-image: url("assets/police5.jpg");
 
   /* Set a specific height */
   min-height: 350px;
@@ -392,6 +392,9 @@ padding-top: 2%;
   margin-left: 10px;
 }
 
+.expleft1 {
+  margin-top: 500px;
+}
 .expright .sec{
   width: 200px;
   line-height: 45px;
@@ -701,7 +704,7 @@ padding: 0px 15px;}
   }
 
   #notyourclass{
-    margin-left: -15px;
+    margin-left: 15px;
     font-size: 20px;
   }
 
@@ -799,6 +802,14 @@ display: block;
 
 
 }
+
+.donatep h1{
+  font-size: 20px !important;
+ 
+}
+
+
+
 }
 
 
@@ -1357,6 +1368,12 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                           .medialink .link1 a{
                             font-size: 17px;
                           }
+
+                          .donatep h1{
+                            font-size: 15px;
+                        
+
+                          }
                           }
                           @media screen and (max-width: 400px) {
                             .medialink .link1 a{
@@ -1390,3 +1407,22 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                                 border-color:#fa8f3d;
                               }
                            
+                              .donatec{
+                                background-color: whitesmoke;
+                                padding: 50px 30px 50px 30px;
+                                max-width: 100%;
+                       
+                              
+                              }
+
+                              .donatep h1{
+                                font-size: 25px;
+                              text-align: center;
+                              color:  #fa7510;
+
+                              }
+                              /*.donatebtn{
+                                display: flex;
+                                justify-items: center;
+                              }*/
+                              

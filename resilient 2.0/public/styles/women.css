@@ -5,27 +5,22 @@ body{
 }
 
 .womencontainer{
-    margin: 5% 7% 5% 7%;
+    margin: 5% 6% 5% 6%;
 }
 
 .womencont {
     /*box-shadow: 0px 0px 15px 0px rgb(143, 136, 136);*/
-    padding: 20px;
+  /*  padding: 20px;*/
     border-radius: 10px;
     margin-top: 7%;
     
   }
 .women p{
-    font-size:1.4em;
+    font-size:1.3em;
     text-align: justify;
 }
 
-.womenimg{
-    margin-top: 7%;
-    display: flex;
-    justify-content: center;
-    
-}
+
 /*
 .womenimg img{
     height: 400px;
@@ -33,6 +28,22 @@ body{
    
 }
 */
+
+        .womanp {
+            margin: 50px 50px 30px 0px;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .womanimg {
+            max-width: 100%;
+            height: auto;
+            float: right;
+            margin-right: 30px;
+            margin-left: 50px;
+            margin-top: 30px;
+
+        }
 @media screen and (max-width: 930px) {
 
     .women p{
@@ -40,6 +51,14 @@ body{
     }
 
 }
+@media screen and (max-width: 1023px) {
+
+   .womanimg{
+       width:500px;
+   }
+
+}
+
 
 @media screen and (max-width: 700px) {
 
@@ -51,7 +70,7 @@ body{
 @media screen and (max-width: 561px) {
 
     .women p{
-        font-size:16px;
+        font-size:1em;
     }
 
 }
@@ -94,3 +113,22 @@ body{
         font-size: 11px;
     }
 } 
+
+@media screen and (max-width: 561px) {
+            
+            
+    html *{font-size: 1em !important;
+        
+    }
+
+    .womanp{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .womanimg{
+        margin-bottom: 20px;
+        margin-right: -7.7px;
+}
+
+}

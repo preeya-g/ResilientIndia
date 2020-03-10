@@ -170,10 +170,11 @@ $.fn.jQuerySimpleCounter = function( options ) {
         easing: 'swing',
         duration: 400,
         complete: '',
+       
     }, options );
     var thisElement = $(this);
 
-    jQuery(window).scroll(startCounter);
+    jQuery(window).scroll(startCounter)
     function startCounter() {
         var hT = jQuery('.counter').offset().top,
             hH = jQuery('.counter').outerHeight(),

@@ -16,6 +16,10 @@ body,html{
   margin-top: 400px;
 }
 
+.items{
+  margin-left: 2%;
+ 
+}
 
 .pbutton:hover .bgimg {
   -webkit-filter: brightness(1);
@@ -70,8 +74,6 @@ html {
 
 }
 
-/*Toggler Icon*/
-
 
 
 
@@ -88,7 +90,7 @@ html {
 
 .footer_style a:hover {
   text-decoration: none;
-  color: #4bcffa;
+  color:#FF6900;
 }
 
 .footer_style .d-flex div {
@@ -341,7 +343,7 @@ font-size: 17px;
 
 #second {
   width: 300px;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 
@@ -743,6 +745,7 @@ padding: 0px 15px;}
   .sec-head, .thi-head{
   width: 250px;  
   text-align: center;
+  
   }
 
   #contact{
@@ -774,7 +777,12 @@ padding: 0px 15px;}
   }
 
   
-
+  .pdfs{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 70px;
+   }
   
 .mobilelist{
 display: block;
@@ -1047,7 +1055,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 .projectFactsWrap .item{
   width: 20%;
-  height: 100%;
+  height: 222px;
   padding: 60px 0px;
   text-align: center;
 }
@@ -1085,7 +1093,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 .projectFactsWrap .item p{
   color: rgba(255, 255, 255, 0.8);
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
   padding: 10px;
   font-family: 'Ubuntu', sans-serif;
@@ -1196,18 +1204,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
   transition: all 500ms ease;
 }
 
-@media screen and (max-width: 768px) {
-    .authorWindow{
-         width: 210px;
-    }
 
-    .authorWindowWrapper{
-             bottom: -170px;
-  margin-bottom: 20px;
-    }
-
-
-}
 
 
 
@@ -1411,7 +1408,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                                 background-color: whitesmoke;
                                 padding: 50px 30px 50px 30px;
                                 max-width: 100%;
-                       
+                             
                               
                               }
 
@@ -1421,8 +1418,12 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                               color:  #fa7510;
 
                               }
-                              /*.donatebtn{
-                                display: flex;
-                                justify-items: center;
-                              }*/
-                              
+                             
+                              @media only screen and (max-width: 300px) {
+                                .donatec{
+                                  display: flex;
+                                  flex-wrap: wrap;
+                                  align-content: center;
+                                  
+                                }
+                              }

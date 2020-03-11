@@ -75,6 +75,7 @@ html {
 
 #joinbtn{
   font-family:'Times New Roman', Times, serif;
+  letter-spacing: 1px;
 }
 
 
@@ -84,6 +85,11 @@ html {
   background-color: #252525;
   color: white;
   font-family: 'Times New Roman', Times, serif;
+}
+.footer_style p{
+  font-size: 16px;
+  letter-spacing: 1px;
+ 
 }
 .footer_style a {
   text-decoration: none;
@@ -297,7 +303,7 @@ body {
 
 .nav-link {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   padding: 0 0 8px;
   position: relative;
   text-decoration: none;
@@ -1086,9 +1092,10 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 }
 
-.projectFactsWrap .item p{
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+.projectFactsWrap .item p{/*
+  color: rgba(255, 255, 255, 0.8);*/
+  color: #fff;
+  font-size: 15px;
   margin: 0;
   padding: 10px;
   font-family:'Times New Roman', Times, serif;
@@ -1117,7 +1124,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
 
 
 .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
-  color: white;
+ color: #fff;
 }
 
 .projectFactsWrap .item:hover span{
@@ -1277,10 +1284,11 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
             justify-content: center;
             padding-top: 300px;
             text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
           }
 
           .text1{
-            color: #fa8f3d;
+            color: #FF6900;
 
           }
 
@@ -1289,7 +1297,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
           }
 
           .text3{
-            color: green;
+            color: rgb(0, 192, 0);
           }
 
           
@@ -1345,6 +1353,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                         .medialink{
                           padding-top: 1%;
                           font-family: 'Times New Roman', Times, serif;
+                          letter-spacing: 0.5px;
                         }
                         .mediacontainer{
                           padding-top: 1px;

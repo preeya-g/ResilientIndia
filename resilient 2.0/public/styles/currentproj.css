@@ -5,12 +5,12 @@ body{
 }
 .head{margin-bottom: 100px;}
 .display-4{
-  font-size: 30px;
+  font-size: 28px;
   color: cornsilk;
 }
 
 .display-42{
-  font-size: 25px;
+  font-size: 28px;
   color: black;
 }
 
@@ -25,7 +25,10 @@ body{
   font-size:20px ;
   color: cornsilk;
 }
-
+#box2 ul li{
+  font-size:20px ;
+ 
+}
 #vk1:hover{
     -webkit-transform: scale(1.02);
     }

@@ -1,6 +1,6 @@
     .navigation {
       
-        height: 70px;
+        height: 73px;
         position: fixed;
         width: 100%;
         background: #f86f2d;
@@ -8,7 +8,7 @@
         top: 0;
         left: 0;
         z-index: 999;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
       }

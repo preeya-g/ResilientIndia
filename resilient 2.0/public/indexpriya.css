@@ -73,7 +73,9 @@ html {
 
 }
 
-
+#joinbtn{
+  font-family:'Times New Roman', Times, serif;
+}
 
 
 /*footer*/
@@ -81,6 +83,7 @@ html {
  
   background-color: #252525;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 .footer_style a {
   text-decoration: none;
@@ -187,7 +190,8 @@ html {
 }
 
 .falogocontainer .item{
-font-size: 1.5rem;}
+font-size: 1.5rem;
+font-family: 'Times New Roman', Times, serif;}
 .fa:hover .falogocontainer .item {
   font-size: 1000px;
 }
@@ -264,11 +268,11 @@ body {
 
 .dropdown-item{
   color: white;
-  
+  font-family: 'Times New Roman', Times, serif ;
+  font-size: 18px; 
+
 }
-.dropdown-item a{
-font-size: 17px;
-}
+
 .dropdown-item:hover{
   background-color: #faaa3a;
 
@@ -299,8 +303,8 @@ font-size: 17px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  /*font-family:'Times New Roman', Times, serif !important;*/
-  font-family: 'Lato', sans-serif;
+  font-family:'Times New Roman', Times, serif !important;
+  /*font-family: 'Lato', sans-serif;*/
   letter-spacing: 1.8px;
   color: white;
 }
@@ -946,15 +950,6 @@ display: block;
   }
 }
 
-/*#notyourclass {
-  margin-top: 160px;
-  margin-left: -20px;
-  color: rgb(7, 3, 3);
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 45px;
-  text-shadow: 2px 2px 5px rgb(248, 131, 131);
-
-}*/
 
 .caption {
   max-width: 100%;
@@ -1096,7 +1091,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
   font-size: 14px;
   margin: 0;
   padding: 10px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family:'Times New Roman', Times, serif;
  /* font-family: 'Raleway', sans-serif;*/
 }
 
@@ -1349,6 +1344,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                         }
                         .medialink{
                           padding-top: 1%;
+                          font-family: 'Times New Roman', Times, serif;
                         }
                         .mediacontainer{
                           padding-top: 1px;
@@ -1413,9 +1409,11 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
                               }
 
                               .donatep h1{
-                                font-size: 25px;
+                                font-size: 1.8em;
                               text-align: center;
                               color:  #fa7510;
+                              font-family: 'Times New Roman', Times, serif;
+
 
                               }
                              

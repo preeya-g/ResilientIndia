@@ -8,7 +8,7 @@ html, body {
   }
   
   body {
-    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
@@ -59,7 +59,8 @@ html, body {
   }
   
   .head .background .typewriter h4 {
-    font-family: monospace;
+   /* font-family: monospace;*/
+   font-family: 'Times New Roman', Times, serif;
 
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */

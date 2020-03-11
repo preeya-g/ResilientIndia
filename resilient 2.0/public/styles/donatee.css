@@ -2,6 +2,8 @@
 
 body{
     background-image:linear-gradient(to bottom right, white ,#f89868,white);
+    font-family: 'Times New Roman', Times, serif;
+
 }
 #ms:hover {
     -webkit-transform: scale(1.05);

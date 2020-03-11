@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     });
 
-    $(".expleft .hazard").hover(function () {
+    $(".expright .hazard").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/hazard.webp' class='bandimages'> <br>School safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/hazard.webp' class='bandimages'> <br>Safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -101,7 +101,7 @@ $(document).ready(function () {
 
     $(".expright .crowd").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/crowd2.webp' class='bandimages'> <br> Safety is very important.<center> <a href='crowd.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/crowd2.webp' class='bandimages'> <br> Because we care.<center> <a href='crowd.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
     });

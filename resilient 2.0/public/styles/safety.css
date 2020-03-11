@@ -43,10 +43,11 @@
 
 
 
-    /*body{
-  font-family: 'Josefin Sans', sans-serif;
+    body{
+        font-family: 'Times New Roman', Times, serif;
+
 }
-        #sizee{
+/*        #sizee{
             font-size: 1.2rem;
             font-weight: 500;
             line-height: 1.2;

@@ -4,6 +4,8 @@ html{
 body{
 background-color: whitesmoke;
     overflow-y:auto;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 *{
     color:white;

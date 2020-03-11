@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    /*background-color: #fff;*/
     font-family: 'Times New Roman', Times, serif;
 
   }
@@ -18,12 +18,17 @@ body {
 
   .roadcontainer {
     background: linear-gradient(45deg,#faaa3a,#fff,#faaa3a);
+    
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.50) !important;
+
     padding: 30px;
     border-radius: 10px;
   }
 
   .roadcontainer2 {
     background: linear-gradient(45deg,#faaa3a,#fff,#faaa3a);
+ /*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.50) !important;*/
+
     padding: 30px;
     border-radius: 10px;
     margin-top: 7%;

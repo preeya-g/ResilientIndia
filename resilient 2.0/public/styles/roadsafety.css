@@ -17,27 +17,30 @@ body {
   }
 
   .roadcontainer {
-    background: linear-gradient(45deg,#faaa3a,white,#faaa3a);
+    background: linear-gradient(45deg,#faaa3a,#fff,#faaa3a);
     padding: 30px;
     border-radius: 10px;
   }
 
   .roadcontainer2 {
-    background: linear-gradient(45deg,#faaa3a,white,#faaa3a);
+    background: linear-gradient(45deg,#faaa3a,#fff,#faaa3a);
     padding: 30px;
     border-radius: 10px;
     margin-top: 7%;
     
   }
 .roadcontainer ul,.roadcontainer2 ul{
-font-size: 19px;
+font-size: 20px;
 }
 .roadcontainer p,.roadcontainer2 p{
-font-size: 23px;
+font-size: 24px;
+letter-spacing:1px;
+
 }
 
 .lead{
 color: black;
+
 }
   @media screen and (max-width: 473px) {
 

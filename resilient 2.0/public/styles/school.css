@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .up{
     background-image: url("assets/school/6.png");
 }
@@ -53,7 +56,14 @@
             -webkit-transform: scale(1.3);
             transform: scale(1.3);
         }
+   .hover02 figure img {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
 
+       
        
 
         .imagekaflex {
@@ -61,10 +71,7 @@
             margin-bottom: 50px;
         }
 
-        .imagekaflex2{
-          margin: 50px 100px 50px 100px;
-          display: flex;
-        }
+      
         @media screen and (max-width: 561px) {
             
             
@@ -95,17 +102,7 @@
             width: 225px;
             height: 225px;
         }
-        .imagekaflex2{
-            
-            display: inline;
-            align-content: center;
-            
-        }
-        .imagekaflex2 img{
-            align-items: center;
-            width: 500px;
-            height: 225px;
-        }
+     
     }
     
         #sizee{

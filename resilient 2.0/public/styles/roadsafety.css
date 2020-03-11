@@ -18,17 +18,12 @@ body {
 
   .roadcontainer {
     background: linear-gradient(45deg,#faaa3a,#fff,#faaa3a);
-    
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.50) !important;
-
     padding: 30px;
     border-radius: 10px;
   }
 
   .roadcontainer2 {
     background: linear-gradient(45deg,#faaa3a,#fff,#faaa3a);
- /*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.50) !important;*/
-
     padding: 30px;
     border-radius: 10px;
     margin-top: 7%;
@@ -36,10 +31,12 @@ body {
   }
 .roadcontainer ul,.roadcontainer2 ul{
 font-size: 20px;
+text-align: justify;
 }
 .roadcontainer p,.roadcontainer2 p{
 font-size: 24px;
 letter-spacing:1px;
+text-align: justify;
 
 }
 
@@ -58,10 +55,11 @@ color: black;
       font-size: 15px;
     }
 
-
-    .lead {
-      font-weight: bold;
-    }
+    .animated h1{
+      font-size: 25px;
+      text-align: center;
+  }
+    
     .roadcontainer ul,.roadcontainer2 ul{
       font-size: 13px;
       }
@@ -74,6 +72,6 @@ color: black;
       font-size: 16px;
       }
       .roadcontainer p,.roadcontainer2 p{
-      font-size: 17px;
+      font-size: 16px;
       }
   }

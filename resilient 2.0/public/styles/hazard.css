@@ -148,7 +148,7 @@ text-align: center;
     }
     
     .typewriter h4 {
-        font-size: 11px;
+        font-size: 13px !important;
     }
     .hazardimg img{
         height: 200px;

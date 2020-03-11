@@ -84,7 +84,7 @@ ul {
         overflow: hidden;
         transform: rotate(45deg) translateZ(0px);
         > div {
-          background: url("../assets/about/teams.png") no-repeat;
+          background: url("../assets/about/teama2.png") no-repeat;
           background-size: cover;
           background-position: 0px 0px; 
           position: absolute;
@@ -112,21 +112,23 @@ ul {
     background-position: 0px 0px !important;
   }
     &:nth-child(2) figure > div > div {
-    background-position: 0px 20% !important;
+    background-position: 0px 15% !important;
   }
     &:nth-child(3) figure > div > div {
-    background-position: 0px 40% !important;
+    background-position: 0px 30% !important;
   }
     &:nth-child(4) figure > div > div {
-    background-position: 0px 60% !important;
+    background-position: 10px 45% !important;
   }
     &:nth-child(5) figure > div > div {
-    background-position: 0px 80% !important;
+    background-position: 0px 60% !important;
   }
     &:nth-child(6) figure > div > div {
-    background-position: 0px 100% !important;
+    background-position: 0px 77% !important;
   }
-
+   &:nth-child(7) figure > div > div {
+    background-position: 0px 95% !important;
+  }
   }
 }
 

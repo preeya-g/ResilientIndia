@@ -41,7 +41,7 @@ $(document).ready(function () {
 
     $(".expright .hazard").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/hazard.webp' class='bandimages'> <br>Safety is very important.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/hazard.webp' class='bandimages'> <br>Safety is very important.<center><a href='hazard.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     $(".expleft .train").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/training.webp' class='bandimages'><br>Learning experiences are like journeys.<center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/training.webp' class='bandimages'><br>Learning experiences are like journeys.<center><a href='training.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     $(".expleft .women").hover(function () {
         $(".expcenter").html(
-            "<div class='quote'><img src='assets/webp/women.webp' class='bandimages'> <br>Never respect opinion which disrespect women.</center><center><a href=''><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
+            "<div class='quote'><img src='assets/webp/women.webp' class='bandimages'> <br>Never respect opinion which disrespect women.</center><center><a href='women.html'><button type='button' class='btn btn-outline-light' class='buttonposition'>Go There!</button> </a></center></div>"
         );
         $(".expcenter").show();
 

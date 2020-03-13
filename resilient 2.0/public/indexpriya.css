@@ -1394,7 +1394,9 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockqu
    text-align: center;
    max-width: 250px;
   }
-  
+  .fir-head{
+    margin-left: 50px;
+  }
   .priyahcontainer img {
     width: 100%;
     height: auto;

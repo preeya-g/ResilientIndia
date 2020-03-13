@@ -697,7 +697,9 @@ padding: 0px 15px;}
   text-align: center;
   
   }
-
+.fir-head{
+  margin-left: 0px !important;
+}
   #contact{
   margin-top: -20px;
   }

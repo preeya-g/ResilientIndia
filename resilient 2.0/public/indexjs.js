@@ -180,7 +180,7 @@ $.fn.jQuerySimpleCounter = function( options ) {
             hH = jQuery('.counter').outerHeight(),
             wH = jQuery('.counter').height();
             
-        if (jQuery(window).scrollTop() > hT+hH-wH-200) {
+        if (jQuery(window).scrollTop() > hT+hH-wH-350) {
             jQuery(window).off("scroll", startCounter);
             jQuery('.number').each(function () {
 

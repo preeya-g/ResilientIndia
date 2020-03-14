@@ -199,7 +199,7 @@ $.fn.jQuerySimpleCounter = function( options ) {
 };
 
 $('#number1').jQuerySimpleCounter({end: 20550,duration: 3000});
-$('#number2').jQuerySimpleCounter({end: 40900,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 40900,duration: 3100});
 $('#number3').jQuerySimpleCounter({end: 12480,duration: 3000});
 $('#number4').jQuerySimpleCounter({end: 15,duration: 3000});
 $('#number5').jQuerySimpleCounter({end: 5200,duration: 3000});
